@@ -1,9 +1,9 @@
-﻿Log file open, 04/11/17 20:47:23
+﻿Log file open, 04/11/17 21:49:22
 LogInit:Display: Running engine for game: Labyrinth
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-351594373) SRandInit(-351594373).
+LogInit:Display: RandInit(1322010685) SRandInit(1322010685).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.071101
+LogStats: Stats thread started at 0.072931
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,587 +143,154 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.12-02.47.23:527][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.12-02.47.23:527][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.12-02.47.23:533][  0]LogInit: Computer: MONSTERMACHINE
-[2017.04.12-02.47.23:533][  0]LogInit: User: Branden
-[2017.04.12-02.47.23:533][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.12-02.47.23:533][  0]LogInit: High frequency timer resolution =3.914058 MHz
-[2017.04.12-02.47.23:533][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2017.04.12-02.47.23:533][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.12-02.47.23:533][  0]LogMemory: Process Physical Memory: 264.17 MB used, 264.17 MB peak
-[2017.04.12-02.47.23:533][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
-[2017.04.12-02.47.23:533][  0]LogMemory: Physical Memory: 10980.71 MB used,  21736.25 MB free, 32716.96 MB total
-[2017.04.12-02.47.23:533][  0]LogMemory: Virtual Memory: 662.19 MB used,  21736.25 MB free, 134217728.00 MB total
-[2017.04.12-02.47.23:559][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.12-02.47.24:044][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.12-02.47.24:084][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.04.12-02.47.24:084][  0]LogD3D11RHI:       8119/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.12-02.47.24:085][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.12-02.47.24:085][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.12-02.47.24:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.12-02.47.24:089][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.12-02.47.24:089][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.12-02.47.24:089][  0]LogWindows: EnumDisplayDevices:
-[2017.04.12-02.47.24:089][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.04.12-02.47.24:089][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.12-02.47.24:089][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.12-02.47.24:090][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.12-02.47.24:090][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.12-02.47.24:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.04.12-02.47.24:090][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
-[2017.04.12-02.47.24:090][  0]LogD3D11RHI:      Driver Date: 3-31-2017
-[2017.04.12-02.47.24:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.12-02.47.24:106][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.12-02.47.24:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.12-02.47.24:116][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/13860/).
-[2017.04.12-02.47.24:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Branden/AppData/Local/Temp/UnrealShaderWorkingDir/FDBC5D9E446CED405BFED28289969824/'.
-[2017.04.12-02.47.24:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.12-02.47.25:201][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.12-02.47.25:249][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.12-02.47.25:297][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.12-02.47.25:358][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.12-02.47.25:407][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.12-02.47.25:455][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.12-02.47.25:503][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.12-02.47.25:551][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.12-02.47.25:592][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.12-02.47.25:639][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.12-02.47.25:691][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.12-02.47.25:738][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.12-02.47.25:784][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.12-02.47.25:832][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.12-02.47.25:879][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.12-02.47.25:977][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.12-02.47.25:977][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.12-02.47.26:013][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.12-02.47.26:094][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.12-02.47.26:128][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.12-02.47.26:175][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.12-02.47.26:221][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.12-02.47.26:268][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.12-02.47.26:315][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.12-02.47.26:315][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.12-02.47.26:650][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.12-02.47.26:692][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.12-02.47.26:709][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.12-02.47.26:720][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Branden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.12-02.47.26:885][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.12-02.47.26:887][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.12-02.47.27:060][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.12-02.47.27:101][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.12-02.47.27:144][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.12-02.47.27:144][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.12-02.47.27:144][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.12-02.47.27:550][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
-[2017.04.12-02.47.27:598][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2017.04.12-02.47.27:631][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013619 seconds
-[2017.04.12-02.47.27:635][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.12-02.47.27:635][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.04.12-02.47.27:635][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.12-02.47.27:684][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.12-02.47.28:355][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.12-02.47.28:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.12-02.47.28:355][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.12-02.47.29:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.12-02.47.29:136][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.12-02.47.29:426][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.12-02.47.29:773][  0]SourceControl: Info Source control is disabled
-[2017.04.12-02.47.29:774][  0]SourceControl: Info Source control is disabled
-[2017.04.12-02.47.29:818][  0]SourceControl: Info Source control is disabled
-[2017.04.12-02.47.29:860][  0]SourceControl: Info Source control is disabled
-[2017.04.12-02.47.31:033][  0]LogEngine: Initializing Engine...
-[2017.04.12-02.47.31:033][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.12-02.47.31:240][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.12-02.47.31:251][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.12-02.47.31:261][  0]LogInit: FAudioDevice initialized.
-[2017.04.12-02.47.31:279][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.12-02.47.31:282][  0]LogInit: Texture streaming: Enabled
-[2017.04.12-02.47.31:438][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.12-02.47.31:438][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.12-02.47.31:686][  0]LogInit: Transaction tracking system initialized
-[2017.04.12-02.47.32:023][  0]BlueprintLog: New page: Editor Load
-[2017.04.12-02.47.32:895][  0]LocalizationService: Info Localization service is disabled
-[2017.04.12-02.47.33:602][  0]LogConsoleResponse:Display: 
-[2017.04.12-02.47.33:733][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.12-02.47.33:733][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.12-02.47.33:946][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/' took 0.01s
-[2017.04.12-02.47.34:662][  0]SourceControl: Info Source control is disabled
-[2017.04.12-02.47.34:662][  0]Cmd: MAP LOAD FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.12-02.47.34:662][  0]LightingResults: New page: Lighting Build
-[2017.04.12-02.47.34:707][  0]MapCheck: New page: Map Check
-[2017.04.12-02.47.34:707][  0]LightingResults: New page: Lighting Build
-[2017.04.12-02.47.35:050][  0]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.12-02.47.35:059][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.12-02.47.35:060][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.12-02.47.35:121][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.338ms to complete.
-[2017.04.12-02.47.35:121][  0]LogFileHelpers: Loading map 'Labyrinth' took 0.459
-[2017.04.12-02.47.35:233][  0]LogCollectionManager: Loaded 0 collections in 0.001372 seconds
-[2017.04.12-02.47.35:311][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
-[2017.04.12-02.47.35:311][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Developers/Branden/Collections/' took 0.01s
-[2017.04.12-02.47.35:311][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
-[2017.04.12-02.47.35:311][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.04.12-02.47.35:317][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2190 classes and 428 folders.
-[2017.04.12-02.47.35:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.12-02.47.35:356][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.12-02.47.35:357][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
-[2017.04.12-02.47.35:414][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.04.12-02.47.35:452][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.04.12-02.47.35:491][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.04.12-02.47.35:521][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.12-02.47.35:526][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.12-02.47.35:588][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2017.04.12-02.47.35:588][  0]LogLoad: (Engine Initialization) Total time: 13.30 seconds
-[2017.04.12-02.47.35:588][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
-[2017.04.12-02.47.35:588][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.04.12-02.47.35:598][  0]LogOcInput: OculusInput pre-init called
-[2017.04.12-02.47.35:617][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.12-02.47.35:754][  0]LogRenderer: Reallocating scene render targets to support 1672x780 NumSamples 1 (Frame:2).
-[2017.04.12-02.47.35:821][  1]LogAssetRegistry: Asset discovery search completed in 8.2448 seconds
-[2017.04.12-02.47.35:821][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.12-02.47.35:821][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
-[2017.04.12-02.49.56:920][976]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
-
-
-[2017.04.12-02.53.57:159][388]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/Creature_MB_Animation_seq_02.fbx)
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: Model, ItemCount : 84
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: NodeAttribute, ItemCount : 84
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: AnimationCurveNode, ItemCount : 252
-[2017.04.12-02.53.57:172][388]LogFbx: ItemName: AnimationCurve, ItemCount : 564
-[2017.04.12-02.53.57:175][388]LogFbx: Loading FBX Scene from G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/Creature_MB_Animation_seq_02.fbx
-[2017.04.12-02.53.57:225][388]LogFbx: FBX Scene Loaded Succesfully
-[2017.04.12-02.54.14:263][388]LogFbx: Loading FBX Scene from G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/Creature_MB_Animation_seq_02.fbx
-[2017.04.12-02.54.14:309][388]LogFbx: FBX Scene Loaded Succesfully
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(0) Hips
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(1) Spine
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(2) Spine1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(3) Spine2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(4) RightShoulder
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(5) RightArm
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(6) RightForeArm
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(7) RightHand
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(8) RightHandThumb1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(9) RightHandThumb2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(10) RightHandThumb3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(11) RightHandThumb4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(12) RightHandIndex1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(13) RightHandIndex2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(14) RightHandIndex3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(15) RightHandIndex4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(16) RightHandMiddle1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(17) RightHandMiddle2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(18) RightHandMiddle3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(19) RightHandMiddle4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(20) RightHandRing1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(21) RightHandRing2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(22) RightHandRing3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(23) RightHandRing4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(24) RightHandPinky1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(25) RightHandPinky2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(26) RightHandPinky3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(27) RightHandPinky4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(28) Neck
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(29) Head
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(30) HeadTop_End
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(31) LeftShoulder
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(32) LeftArm
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(33) LeftForeArm
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(34) LeftHand
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(35) LeftHandThumb1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(36) LeftHandThumb2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(37) LeftHandThumb3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(38) LeftHandThumb4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(39) LeftHandIndex1
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(40) LeftHandIndex2
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(41) LeftHandIndex3
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(42) LeftHandIndex4
-[2017.04.12-02.54.14:313][388]LogFbx: SortedLinks :(43) LeftHandMiddle1
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(44) LeftHandMiddle2
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(45) LeftHandMiddle3
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(46) LeftHandMiddle4
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(47) LeftHandRing1
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(48) LeftHandRing2
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(49) LeftHandRing3
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(50) LeftHandRing4
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(51) LeftHandPinky1
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(52) LeftHandPinky2
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(53) LeftHandPinky3
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(54) LeftHandPinky4
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(55) LeftUpLeg
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(56) LeftLeg
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(57) LeftFoot
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(58) LeftToeBase
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(59) LeftToe_End
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(60) RightUpLeg
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(61) RightLeg
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(62) RightFoot
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(63) RightToeBase
-[2017.04.12-02.54.14:314][388]LogFbx: SortedLinks :(64) RightToe_End
-[2017.04.12-02.54.14:314][388]LogFbx: Parsing AnimStack Creature_Aniamtion_Seq_01
-[2017.04.12-02.54.14:399][388]LogLinker: Can't find file '/Game/Creature_MB_Animation_seq_02'
-[2017.04.12-02.54.14:399][388]LogLinker: Can't find file '/Game/Creature_MB_Animation_seq_02'
-[2017.04.12-02.54.32:861][388]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Creature_MB_Animation_seq_02.Creature_MB_Animation_seq_02
-[2017.04.12-02.54.39:528][105]LogSavePackage: Save=44.92ms
-[2017.04.12-02.54.39:528][105]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Creature_MB_Animation_seq_02974A8ED14E6629C9FBE87197FF5478C1.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Creature_Animation/Creature_MB_Animation_seq_02.uasset'
-[2017.04.12-02.54.39:529][105]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Creature_Animation/Creature_MB_Animation_seq_02.uasset
-[2017.04.12-02.57.42:873][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.006
-[2017.04.12-02.57.42:874][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CameraSequence] ([1] browsable assets)...
-[2017.04.12-02.57.42:874][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/CameraSequence]
-[2017.04.12-02.57.42:941][415]LogSavePackage: Save=63.30ms
-[2017.04.12-02.57.42:941][415]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequence_Auto1429DACC744D3ECD597A058BB7C3AE4FF.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto1.uasset'
-[2017.04.12-02.57.42:942][415]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto1.uasset
-[2017.04.12-02.57.42:943][415]LogSavePackage: Save=0.51ms
-[2017.04.12-02.57.42:943][415]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Creature_MB_Animation_seq_02_Auto185C7E3FF4F02C4566A835F8592989251.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/Creature_MB_Animation_seq_02_Auto1.uasset'
-[2017.04.12-02.57.42:944][415]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/Creature_MB_Animation_seq_02_Auto1.uasset
-[2017.04.12-02.57.42:944][415]LogFileHelpers: Auto-saving content packages took 0.070
-[2017.04.12-02.58.05:447][807]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2017.04.12-02.58.05:564][807]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2017.04.12-02.59.59:802][748]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Creature)
-[2017.04.12-03.00.24:723][657]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Creature)
-[2017.04.12-03.01.29:119][ 46]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Creature)
-[2017.04.12-03.04.09:133][218]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (Creature)
-[2017.04.12-03.06.17:264][310]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.12-03.07.59:229][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.013
-[2017.04.12-03.07.59:230][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CameraSequence] ([1] browsable assets)...
-[2017.04.12-03.07.59:230][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/CameraSequence]
-[2017.04.12-03.07.59:292][565]LogSavePackage: Save=59.26ms
-[2017.04.12-03.07.59:292][565]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequence_Auto28BBF018B40FD5388536733A6C4D6EC3A.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto2.uasset'
-[2017.04.12-03.07.59:293][565]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto2.uasset
-[2017.04.12-03.07.59:293][565]LogFileHelpers: Auto-saving content packages took 0.064
-[2017.04.12-03.08.38:189][907]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.12-03.09.34:676][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.12-03.09.47:499][115]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Creature)
-[2017.04.12-03.10.03:846][900]Cmd: TRANSACTION UNDO
-[2017.04.12-03.10.03:846][900]LogEditorTransaction: Undo Animatable Property Changed
-[2017.04.12-03.18.20:625][156]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.12-03.18.29:847][238]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.12-03.19.51:439][157]LogSavePackage: Save=71.11ms
-[2017.04.12-03.19.51:439][157]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Labyrinth_Auto332C253334D034B9BF765AC8BC1721267.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto3.umap'
-[2017.04.12-03.19.51:439][157]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto3.umap
-[2017.04.12-03.19.51:448][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.102
-[2017.04.12-03.19.51:448][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
-[2017.04.12-03.19.51:450][157]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CameraSequence] ([1] browsable assets)...
-[2017.04.12-03.19.51:450][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/CameraSequence]
-[2017.04.12-03.19.51:508][157]LogSavePackage: Save=56.11ms
-[2017.04.12-03.19.51:508][157]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequence_Auto36327987D4BC5D20BC561A99597C6819D.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto3.uasset'
-[2017.04.12-03.19.51:509][157]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto3.uasset
-[2017.04.12-03.19.51:509][157]LogFileHelpers: Auto-saving content packages took 0.061
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: request failed, libcurl error: 7 (Couldn't connect to server)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 0 (Connection 14 seems to be dead!)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 1 (Closing connection 14)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 3 (  Trying 34.192.111.22...)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 4 (connect to 34.192.111.22 port 443 failed: Timed out)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 5 (  Trying 52.44.156.214...)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 6 (connect to 52.44.156.214 port 443 failed: Timed out)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
-[2017.04.12-03.22.17:994][598]LogHttp:Warning: 000001D4875BF280: libcurl info message cache 8 (Closing connection 15)
-[2017.04.12-03.23.35:660][831]LogHttp:Warning: 000001D4875BEF80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2017.04.12-03.23.35:660][831]LogHttp:Warning: 000001D4875BEF80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2017.04.12-03.23.35:660][831]LogHttp:Warning: 000001D4875BEF80: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
-[2017.04.12-03.23.35:660][831]LogHttp:Warning: 000001D4875BEF80: libcurl info message cache 2 (Closing connection 16)
-[2017.04.12-03.27.43:866][690]LogSavePackage: Save=58.01ms
-[2017.04.12-03.27.43:866][690]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/LabyrinthE2899419457AAB34E9F3D69040D26B2F.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.12-03.27.43:867][690]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.12-03.27.50:563][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
-[2017.04.12-03.27.50:622][451]LogSavePackage: Save=55.89ms
-[2017.04.12-03.27.50:622][451]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequenceFA64CE754DEDB00E2FD58DB33AF6DF1C.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
-[2017.04.12-03.27.50:623][451]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset
-[2017.04.12-03.28.09:940][524]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.12-03.28.23:774][151]LogSavePackage: Save=56.68ms
-[2017.04.12-03.28.23:774][151]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Labyrinth10DAB16F45BEF875F2945BB2405B5C67.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.12-03.28.23:775][151]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.12-03.28.28:694][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
-[2017.04.12-03.28.28:753][716]LogSavePackage: Save=57.58ms
-[2017.04.12-03.28.28:753][716]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequenceC0DA5FF74F0FDF00A4D38C8151C9ED6B.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
-[2017.04.12-03.28.28:755][716]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset
-[2017.04.12-03.32.29:396][121]LogSavePackage: Save=56.87ms
-[2017.04.12-03.32.29:396][121]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/LabyrinthD159A08A49AA96A7A359629CCAFBF917.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.12-03.32.29:397][121]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.12-03.32.32:436][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
-[2017.04.12-03.32.32:493][457]LogSavePackage: Save=54.54ms
-[2017.04.12-03.32.32:493][457]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequenceCC73E16441C41D92CC4643ACDAF3A498.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
-[2017.04.12-03.32.32:494][457]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset
-[2017.04.12-03.42.08:730][ 41]LogSavePackage: Save=57.52ms
-[2017.04.12-03.42.08:730][ 41]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Labyrinth77D467074176C3C75A4CCE8FC5027968.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.12-03.42.08:731][ 41]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.12-03.42.11:649][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
-[2017.04.12-03.42.11:706][371]LogSavePackage: Save=54.52ms
-[2017.04.12-03.42.11:706][371]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/CameraSequenceDCDC0AD6450EB1F074471084967C44D1.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
-[2017.04.12-03.42.11:707][371]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset
-[2017.04.12-03.42.19:044][616]LogSavePackage: Save=0.56ms
-[2017.04.12-03.42.19:044][616]LogSavePackage: Moving 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Creature_MB_Animation_seq_027D7097A340D508DE4610969A4E94935E.tmp' to 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Creature_MB_Animation_seq_02.uasset'
-[2017.04.12-03.42.19:045][616]LogSavePackage:Display: Finished SavePackage G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Creature_MB_Animation_seq_02.uasset
-[2017.04.12-03.42.20:584][617]Cmd: QUIT_EDITOR
-[2017.04.12-03.42.20:612][617]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.12-03.42.20:612][617]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.12-03.42.20:630][617]LogExit: Preparing to exit.
-[2017.04.12-03.42.21:271][617]LogExit: Editor shut down
-[2017.04.12-03.42.21:272][617]LogExit: Transaction tracking system shut down
-[2017.04.12-03.42.21:328][617]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.12-03.42.21:328][617]LogExit: Object subsystem successfully closed.
-[2017.04.12-03.42.21:340][617]LogD3D11RHI: Shutdown
-[2017.04.12-03.42.21:340][617]LogD3D11RHI: CleanupD3DDevice
-[2017.04.12-03.42.21:459][617]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.12-03.42.21:483][617]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.12-03.42.21:483][617]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDB97B936-4AEA-D134-8AEB-0CA06685105C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=42f01bf7423cd34a0aec9e988de3d619%7C70cf44d93edc425dbbe9a087f4dc5da7%7Ce49859d3-10d0-4217-b07d-4cfde58606f2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module SkeletonEditor (244)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module AnimationEditor (243)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module SequencerWidgets (242)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2017.04.12-03.42.21:500][617]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2017.04.12-03.42.21:500][617]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2017.04.12-03.42.21:501][617]LogDirectoryWatcher: A directory notification for 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Collections/' was aborted.
-[2017.04.12-03.42.21:501][617]LogDirectoryWatcher: A directory notification for 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Developers/Branden/Collections/' was aborted.
-[2017.04.12-03.42.21:501][617]LogDirectoryWatcher: A directory notification for 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module Media (215)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2017.04.12-03.42.21:501][617]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2017.04.12-03.42.22:356][617]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2017.04.12-03.42.22:357][617]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2017.04.12-03.42.22:409][617]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2017.04.12-03.42.22:410][617]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2017.04.12-03.42.22:500][617]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2017.04.12-03.42.22:501][617]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2017.04.12-03.42.22:501][617]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2017.04.12-03.42.22:501][617]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2017.04.12-03.42.22:502][617]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2017.04.12-03.42.22:502][617]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2017.04.12-03.42.22:602][617]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.04.12-03.42.22:703][617]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.04.12-03.42.22:704][617]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.04.12-03.42.22:715][617]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.04.12-03.42.22:715][617]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.12-03.42.22:716][617]LogDirectoryWatcher: A directory notification for 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/' was aborted.
-[2017.04.12-03.42.22:716][617]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.12-03.42.22:717][617]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.04.12-03.42.22:826][617]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.04.12-03.42.22:918][617]LogDerivedDataCache: Shutdown
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.04.12-03.42.22:918][617]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.12-03.42.22:919][617]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.12-03.42.22:919][617]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.12-03.42.22:921][617]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.12-03.42.22:923][617]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.12-03.42.22:926][617]LogExit: Exiting.
-[2017.04.12-03.42.22:941][617]Log file closed, 04/11/17 21:42:22
+[2017.04.12-03.49.23:107][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.12-03.49.23:107][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.12-03.49.23:113][  0]LogInit: Computer: MONSTERMACHINE
+[2017.04.12-03.49.23:113][  0]LogInit: User: Branden
+[2017.04.12-03.49.23:113][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.12-03.49.23:113][  0]LogInit: High frequency timer resolution =3.914058 MHz
+[2017.04.12-03.49.23:113][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.04.12-03.49.23:113][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.12-03.49.23:113][  0]LogMemory: Process Physical Memory: 264.19 MB used, 264.19 MB peak
+[2017.04.12-03.49.23:113][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2017.04.12-03.49.23:113][  0]LogMemory: Physical Memory: 11891.89 MB used,  20825.06 MB free, 32716.96 MB total
+[2017.04.12-03.49.23:113][  0]LogMemory: Virtual Memory: 662.19 MB used,  20825.06 MB free, 134217728.00 MB total
+[2017.04.12-03.49.23:139][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.12-03.49.23:649][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.12-03.49.23:689][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.04.12-03.49.23:689][  0]LogD3D11RHI:       8119/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.12-03.49.23:690][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.12-03.49.23:690][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.12-03.49.23:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.12-03.49.23:694][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.12-03.49.23:694][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.12-03.49.23:694][  0]LogWindows: EnumDisplayDevices:
+[2017.04.12-03.49.23:694][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.04.12-03.49.23:695][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.12-03.49.23:695][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.12-03.49.23:695][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.04.12-03.49.23:695][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.12-03.49.23:695][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.04.12-03.49.23:695][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.12-03.49.23:695][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.12-03.49.23:695][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.12-03.49.23:712][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.12-03.49.23:722][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.12-03.49.23:722][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/6748/).
+[2017.04.12-03.49.23:722][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Branden/AppData/Local/Temp/UnrealShaderWorkingDir/400A496C44DB148114CB0FB589D5129C/'.
+[2017.04.12-03.49.23:722][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.12-03.49.24:848][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.12-03.49.24:898][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.12-03.49.24:948][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.12-03.49.24:997][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.12-03.49.25:048][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.12-03.49.25:101][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.12-03.49.25:151][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.12-03.49.25:200][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.12-03.49.25:242][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.12-03.49.25:290][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.12-03.49.25:338][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.12-03.49.25:387][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.12-03.49.25:436][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.12-03.49.25:484][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.12-03.49.25:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.12-03.49.25:632][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.12-03.49.25:632][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.12-03.49.25:702][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.12-03.49.25:779][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.12-03.49.25:806][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.12-03.49.25:855][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.12-03.49.25:903][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.12-03.49.25:951][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.12-03.49.26:000][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.12-03.49.26:000][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.12-03.49.26:336][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.12-03.49.26:374][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.12-03.49.26:386][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.12-03.49.26:398][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Branden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.12-03.49.26:592][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.12-03.49.26:594][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.12-03.49.26:764][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.12-03.49.26:805][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.12-03.49.26:849][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.12-03.49.26:849][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.12-03.49.26:849][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.12-03.49.27:254][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
+[2017.04.12-03.49.27:325][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.04.12-03.49.27:356][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013912 seconds
+[2017.04.12-03.49.27:360][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.12-03.49.27:360][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.12-03.49.27:360][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.12-03.49.27:409][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.12-03.49.28:086][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.12-03.49.28:087][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.12-03.49.28:087][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.12-03.49.28:842][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.12-03.49.28:878][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.12-03.49.29:180][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.12-03.49.29:525][  0]SourceControl: Info Source control is disabled
+[2017.04.12-03.49.29:526][  0]SourceControl: Info Source control is disabled
+[2017.04.12-03.49.29:573][  0]SourceControl: Info Source control is disabled
+[2017.04.12-03.49.29:618][  0]SourceControl: Info Source control is disabled
+[2017.04.12-03.49.30:835][  0]LogEngine: Initializing Engine...
+[2017.04.12-03.49.30:835][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.12-03.49.31:070][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.12-03.49.31:082][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.12-03.49.31:092][  0]LogInit: FAudioDevice initialized.
+[2017.04.12-03.49.31:110][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Branden/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.12-03.49.31:113][  0]LogInit: Texture streaming: Enabled
+[2017.04.12-03.49.31:272][  0]LogInit: Transaction tracking system initialized
+[2017.04.12-03.49.31:596][  0]BlueprintLog: New page: Editor Load
+[2017.04.12-03.49.32:424][  0]LocalizationService: Info Localization service is disabled
+[2017.04.12-03.49.33:019][  0]LogConsoleResponse:Display: 
+[2017.04.12-03.49.33:134][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.12-03.49.33:134][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.12-03.49.33:958][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/' took 0.01s
+[2017.04.12-03.49.33:999][  0]SourceControl: Info Source control is disabled
+[2017.04.12-03.49.34:000][  0]Cmd: MAP LOAD FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.12-03.49.34:000][  0]LightingResults: New page: Lighting Build
+[2017.04.12-03.49.34:038][  0]MapCheck: New page: Map Check
+[2017.04.12-03.49.34:038][  0]LightingResults: New page: Lighting Build
+[2017.04.12-03.49.34:257][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.04.12-03.49.34:296][  0]LogMaterial: Missing cached shader map for material Fbx_Default_Material, compiling. 
+[2017.04.12-03.49.34:415][  0]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.12-03.49.34:421][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.12-03.49.34:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.12-03.49.34:487][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.118ms to complete.
+[2017.04.12-03.49.34:487][  0]LogFileHelpers: Loading map 'Labyrinth' took 0.488
+[2017.04.12-03.49.34:550][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.12-03.49.34:550][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.12-03.49.34:624][  0]LogCollectionManager: Loaded 0 collections in 0.001490 seconds
+[2017.04.12-03.49.34:720][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
+[2017.04.12-03.49.34:720][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Developers/Branden/Collections/' took 0.01s
+[2017.04.12-03.49.34:720][  0]LogFileCache: Scanning file cache for directory 'G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
+[2017.04.12-03.49.34:720][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.12-03.49.34:730][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2190 classes and 428 folders.
+[2017.04.12-03.49.34:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.12-03.49.34:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.12-03.49.34:794][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.04.12-03.49.34:890][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.12-03.49.34:952][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.12-03.49.35:020][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.12-03.49.35:066][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.12-03.49.35:071][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.12-03.49.35:162][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.12-03.49.35:162][  0]LogLoad: (Engine Initialization) Total time: 13.33 seconds
+[2017.04.12-03.49.35:162][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.04.12-03.49.35:162][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.12-03.49.35:171][  0]LogOcInput: OculusInput pre-init called
+[2017.04.12-03.49.35:191][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.12-03.49.35:387][  1]LogRenderer: Reallocating scene render targets to support 1016x736 NumSamples 1 (Frame:2).
+[2017.04.12-03.49.35:387][  1]LogAssetRegistry: Asset discovery search completed in 8.0829 seconds
+[2017.04.12-03.49.35:387][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.12-03.49.35:387][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.04.12-03.50.21:677][272]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.12-03.50.36:491][ 38]Cmd: TRANSACTION UNDO
+[2017.04.12-03.50.36:491][ 38]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.12-03.50.45:377][640]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.12-03.50.58:486][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="G:/U of U/.2017 Spring/EAE 3660 Interactive Machinima/Labyrinth Project/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
