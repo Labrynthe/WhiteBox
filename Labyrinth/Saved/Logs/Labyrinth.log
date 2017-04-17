@@ -1,9 +1,9 @@
-﻿Log file open, 04/16/17 21:11:53
+﻿Log file open, 04/16/17 21:48:26
 LogInit:Display: Running engine for game: Labyrinth
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1452416549) SRandInit(1452416549).
+LogInit:Display: RandInit(366059742) SRandInit(366059742).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.070963
+LogStats: Stats thread started at 0.068186
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -139,484 +139,1207 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.17-03.11.53:833][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.17-03.11.53:833][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.17-03.11.53:844][  0]LogInit: Computer: BOXTURRET
-[2017.04.17-03.11.53:844][  0]LogInit: User: Bacchus
-[2017.04.17-03.11.53:844][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.17-03.11.53:844][  0]LogInit: High frequency timer resolution =3.421972 MHz
-[2017.04.17-03.11.53:844][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.04.17-03.11.53:844][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.17-03.11.53:844][  0]LogMemory: Process Physical Memory: 264.21 MB used, 264.21 MB peak
-[2017.04.17-03.11.53:844][  0]LogMemory: Process Virtual Memory: 264.21 MB used, 264.21 MB peak
-[2017.04.17-03.11.53:844][  0]LogMemory: Physical Memory: 4310.33 MB used,  12033.97 MB free, 16344.30 MB total
-[2017.04.17-03.11.53:844][  0]LogMemory: Virtual Memory: 661.42 MB used,  12033.97 MB free, 8388608.00 MB total
-[2017.04.17-03.11.53:877][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.17-03.11.54:433][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.17-03.11.54:447][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.04.17-03.11.54:447][  0]LogD3D11RHI:       6045/0/7916 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.17-03.11.54:447][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.17-03.11.54:460][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.17-03.11.54:460][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.17-03.11.54:460][  0]LogWindows: EnumDisplayDevices:
-[2017.04.17-03.11.54:460][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.04.17-03.11.54:460][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.04.17-03.11.54:460][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.04.17-03.11.54:460][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.04.17-03.11.54:460][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
-[2017.04.17-03.11.54:460][  0]LogD3D11RHI:      Driver Date: 8-11-2016
-[2017.04.17-03.11.54:460][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.17-03.11.54:468][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.17-03.11.54:481][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.04.17-03.11.54:481][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/5288/).
-[2017.04.17-03.11.54:481][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bacchus/AppData/Local/Temp/UnrealShaderWorkingDir/B52A2F054B01BFB22F2A2DB8EE0C40ED/'.
-[2017.04.17-03.11.54:481][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.17-03.11.55:518][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.17-03.11.55:563][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.17-03.11.55:608][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.17-03.11.55:654][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.17-03.11.55:702][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.17-03.11.55:759][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.17-03.11.55:807][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.17-03.11.55:879][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.17-03.11.55:922][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.17-03.11.55:970][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.17-03.11.56:020][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.17-03.11.56:084][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.17-03.11.56:135][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.17-03.11.56:184][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.17-03.11.56:233][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.17-03.11.56:329][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.17-03.11.56:329][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.17-03.11.56:363][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.17-03.11.56:446][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.17-03.11.56:476][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.17-03.11.56:525][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.17-03.11.56:573][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.17-03.11.56:624][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.17-03.11.56:671][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.17-03.11.56:671][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.17-03.11.57:019][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.17-03.11.57:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.17-03.11.57:116][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.17-03.11.57:127][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bacchus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.17-03.11.57:330][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.17-03.11.57:333][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.17-03.11.57:553][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.17-03.11.57:595][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.17-03.11.57:637][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.17-03.11.57:637][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.17-03.11.57:637][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.17-03.11.58:115][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
-[2017.04.17-03.11.58:166][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2017.04.17-03.11.58:207][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.020798 seconds
-[2017.04.17-03.11.58:213][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.17-03.11.58:213][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.04.17-03.11.58:213][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.17-03.11.58:264][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.17-03.11.58:860][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.17-03.11.58:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.17-03.11.58:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.17-03.11.59:612][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.04.17-03.11.59:638][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.17-03.11.59:680][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.17-03.12.00:001][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.17-03.12.00:423][  0]SourceControl: Info Source control is disabled
-[2017.04.17-03.12.00:469][  0]SourceControl: Info Source control is disabled
-[2017.04.17-03.12.00:511][  0]SourceControl: Info Source control is disabled
-[2017.04.17-03.12.00:549][  0]SourceControl: Info Source control is disabled
-[2017.04.17-03.12.01:644][  0]LogEngine: Initializing Engine...
-[2017.04.17-03.12.01:644][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.17-03.12.01:853][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.17-03.12.01:860][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.17-03.12.01:870][  0]LogInit: FAudioDevice initialized.
-[2017.04.17-03.12.01:894][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.17-03.12.01:899][  0]LogInit: Texture streaming: Enabled
-[2017.04.17-03.12.02:077][  0]LogInit: Transaction tracking system initialized
-[2017.04.17-03.12.02:365][  0]BlueprintLog: New page: Editor Load
-[2017.04.17-03.12.03:265][  0]LocalizationService: Info Localization service is disabled
-[2017.04.17-03.12.03:858][  0]LogConsoleResponse:Display: 
-[2017.04.17-03.12.04:012][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.17-03.12.04:012][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.17-03.12.04:196][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' took 0.01s
-[2017.04.17-03.12.04:770][  0]SourceControl: Info Source control is disabled
-[2017.04.17-03.12.04:771][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.17-03.12.04:771][  0]LightingResults: New page: Lighting Build
-[2017.04.17-03.12.04:802][  0]MapCheck: New page: Map Check
-[2017.04.17-03.12.04:802][  0]LightingResults: New page: Lighting Build
-[2017.04.17-03.12.05:532][  0]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.17-03.12.05:543][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.17-03.12.05:543][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.17-03.12.05:594][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.902ms to complete.
-[2017.04.17-03.12.05:594][  0]LogFileHelpers: Loading map 'Labyrinth' took 0.824
-[2017.04.17-03.12.05:703][  0]LogCollectionManager: Loaded 0 collections in 0.001179 seconds
-[2017.04.17-03.12.05:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
-[2017.04.17-03.12.05:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' took 0.01s
-[2017.04.17-03.12.05:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
-[2017.04.17-03.12.05:768][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.04.17-03.12.05:775][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2204 classes and 434 folders.
-[2017.04.17-03.12.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.17-03.12.05:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.17-03.12.05:809][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
-[2017.04.17-03.12.05:861][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.04.17-03.12.05:906][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.04.17-03.12.05:943][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.04.17-03.12.05:980][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.17-03.12.05:990][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.17-03.12.06:084][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.04.17-03.12.06:084][  0]LogLoad: (Engine Initialization) Total time: 13.48 seconds
-[2017.04.17-03.12.06:084][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
-[2017.04.17-03.12.06:084][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.04.17-03.12.06:095][  0]LogOcInput: OculusInput pre-init called
-[2017.04.17-03.12.06:136][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.17-03.12.06:301][  0]LogRenderer: Reallocating scene render targets to support 1160x608 NumSamples 1 (Frame:2).
-[2017.04.17-03.12.06:460][  1]LogAssetRegistry: Asset discovery search completed in 8.3156 seconds
-[2017.04.17-03.12.06:460][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.17-03.12.06:460][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
-[2017.04.17-03.12.11:618][517]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.11:631][517]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.04.17-03.12.13:962][753]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.13:973][753]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.04.17-03.12.16:341][986]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.16:351][986]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.04.17-03.12.18:239][206]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.18:248][206]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2017.04.17-03.12.20:116][423]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.20:132][423]LogEditorActor: Deleted 1 Actors (0.016 secs)
-[2017.04.17-03.12.22:942][752]LogEditorActor: Deleted Actor: Brush
-[2017.04.17-03.12.22:952][752]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2017.04.17-03.12.24:054][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.17-03.12.24:108][880]LogSavePackage: Save=44.74ms
-[2017.04.17-03.12.24:108][880]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/LabyrinthAA0535CC4517F5D2270613A7C45C21D6.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.17-03.12.24:109][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.17-03.13.10:339][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fireplace_Textured)
-[2017.04.17-03.13.12:954][901]LogRenderer: Reallocating scene render targets to support 1160x660 NumSamples 1 (Frame:4499).
-[2017.04.17-03.13.27:503][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Fireplace_Textured" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset" SILENT=true
-[2017.04.17-03.13.27:611][273]LogSavePackage: Save=35.07ms
-[2017.04.17-03.13.27:611][273]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Fireplace_Textured1BFBA41243ACA097B566CBB3CDD35E78.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset'
-[2017.04.17-03.13.27:615][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset
-[2017.04.17-03.13.34:884][438]LogStaticMesh: Building static mesh Fireplace_Textured...
-[2017.04.17-03.13.37:448][438]LogStaticMesh: Built static mesh [2.56s] /Game/Meshes/Fireplace_Textured.Fireplace_Textured
-[2017.04.17-03.14.05:604][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Door" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset" SILENT=true
-[2017.04.17-03.14.05:622][144]LogSavePackage: Save=10.48ms
-[2017.04.17-03.14.05:622][144]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Door3DE868614F4FE3A4C4BDF3986A291F3A.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset'
-[2017.04.17-03.14.05:623][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset
-[2017.04.17-03.14.09:043][303]LogStaticMesh: Building static mesh Door...
-[2017.04.17-03.14.09:376][303]LogStaticMesh: Built static mesh [0.33s] /Game/Meshes/Door.Door
-[2017.04.17-03.14.09:412][303]LogStaticMesh:Warning: Door has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.04.17-03.14.19:092][325]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.17-03.14.22:156][675]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BaseRoom_WandF_Textured)
-[2017.04.17-03.14.26:196][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Hatch)
-[2017.04.17-03.14.41:484][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Hatch" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset" SILENT=true
-[2017.04.17-03.14.41:496][598]LogSavePackage: Save=8.83ms
-[2017.04.17-03.14.41:496][598]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/HatchB1D352BE40ADBF4196DA579AD1516BD3.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset'
-[2017.04.17-03.14.41:497][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset
-[2017.04.17-03.14.44:357][720]LogStaticMesh: Building static mesh Hatch...
-[2017.04.17-03.14.44:375][720]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Hatch.Hatch
-[2017.04.17-03.14.44:379][720]LogStaticMesh:Warning: Hatch has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2017.04.17-03.14.51:913][488]Cmd: SELECT NONE
-[2017.04.17-03.15.02:194][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_Overhangs_Textured)
-[2017.04.17-03.15.04:481][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_Overhangs_Textured)
-[2017.04.17-03.15.05:120][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_Overhangs_Textured)
-[2017.04.17-03.15.10:720][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_Overhangs_Textured)
-[2017.04.17-03.15.11:444][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillars)
-[2017.04.17-03.15.48:337][707]Cmd: SELECT NONE
-[2017.04.17-03.15.54:805][466]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pillars)
-[2017.04.17-03.16.27:558][972]Cmd: SELECT NONE
-[2017.04.17-03.18.00:506][239]Cmd: SELECT NONE
-[2017.04.17-03.18.09:515][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.17-03.18.09:568][286]LogSavePackage: Save=42.20ms
-[2017.04.17-03.18.09:568][286]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth4C83831848B1495707CFF794D43BD66D.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.17-03.18.09:570][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.17-03.18.13:014][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Door" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset" SILENT=true
-[2017.04.17-03.18.13:025][431]LogSavePackage: Save=9.35ms
-[2017.04.17-03.18.13:025][431]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/DoorA18213754383205D3164318A0A27AB35.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset'
-[2017.04.17-03.18.13:027][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Door.uasset
-[2017.04.17-03.18.13:041][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Fireplace_Textured" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset" SILENT=true
-[2017.04.17-03.18.13:058][431]LogSavePackage: Save=16.11ms
-[2017.04.17-03.18.13:058][431]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Fireplace_Textured98C5DC8A4E1125C98FB1D1AC5DAEEA87.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset'
-[2017.04.17-03.18.13:063][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Fireplace_Textured.uasset
-[2017.04.17-03.18.13:077][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Hatch" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset" SILENT=true
-[2017.04.17-03.18.13:086][431]LogSavePackage: Save=7.50ms
-[2017.04.17-03.18.13:086][431]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/HatchA329C8934BD1874AD3F672B9ADCB63CE.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset'
-[2017.04.17-03.18.13:088][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Meshes/Hatch.uasset
-[2017.04.17-03.18.13:310][432]Cmd: QUIT_EDITOR
-[2017.04.17-03.18.13:372][432]LogExit: Preparing to exit.
-[2017.04.17-03.18.13:829][432]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/', and we were unable to create a new request.
-[2017.04.17-03.18.13:841][432]LogExit: Editor shut down
-[2017.04.17-03.18.13:842][432]LogExit: Transaction tracking system shut down
-[2017.04.17-03.18.13:920][432]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.17-03.18.13:920][432]LogExit: Object subsystem successfully closed.
-[2017.04.17-03.18.13:934][432]LogD3D11RHI: Shutdown
-[2017.04.17-03.18.13:934][432]LogD3D11RHI: CleanupD3DDevice
-[2017.04.17-03.18.14:020][432]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.17-03.18.14:030][432]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.17-03.18.14:030][432]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F600517-43AE-4623-68C7-8B8871F25A70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=6470690345ac5613c2d7d6a976c3ee96%7C57685272a24a474889bdd810f0e25195%7C9a0d61a1-8400-4668-bc1f-9ffa6f3e88bd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (245)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (244)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
-[2017.04.17-03.18.14:037][432]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
-[2017.04.17-03.18.14:037][432]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' was aborted.
-[2017.04.17-03.18.14:037][432]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' was aborted.
-[2017.04.17-03.18.14:037][432]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
-[2017.04.17-03.18.14:037][432]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module BspMode (228)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module Media (217)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module SessionServices (210)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
-[2017.04.17-03.18.14:038][432]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module MergeActors (195)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module SizeMap (194)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module TreeMap (193)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module XmlParser (185)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module Blutility (184)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
-[2017.04.17-03.18.14:678][432]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AutomationController (174)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Layers (172)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Persona (167)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Kismet (166)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Toolbox (163)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module OutputLog (160)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module GammaUI (159)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Documentation (158)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module Niagara (157)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module PortalServices (154)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module AIModule (149)
-[2017.04.17-03.18.14:719][432]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module SteamVR (143)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module OculusInput (139)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module CableComponent (136)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
-[2017.04.17-03.18.14:871][432]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module SourceControl (116)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module HotReload (109)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module MainFrame (108)
-[2017.04.17-03.18.14:872][432]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
-[2017.04.17-03.18.14:873][432]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
-[2017.04.17-03.18.14:874][432]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
-[2017.04.17-03.18.14:874][432]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
-[2017.04.17-03.18.14:974][432]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.04.17-03.18.15:074][432]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.04.17-03.18.15:076][432]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.04.17-03.18.15:076][432]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.17-03.18.15:076][432]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' was aborted.
-[2017.04.17-03.18.15:077][432]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.17-03.18.15:077][432]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.04.17-03.18.15:208][432]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.04.17-03.18.15:209][432]LogDerivedDataCache: Shutdown
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.04.17-03.18.15:209][432]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.17-03.18.15:210][432]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.17-03.18.15:210][432]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.17-03.18.15:211][432]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.17-03.18.15:212][432]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.17-03.18.15:213][432]LogExit: Exiting.
-[2017.04.17-03.18.15:215][432]Log file closed, 04/16/17 21:18:15
+[2017.04.17-03.48.26:746][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.17-03.48.26:746][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.17-03.48.26:755][  0]LogInit: Computer: BOXTURRET
+[2017.04.17-03.48.26:755][  0]LogInit: User: Bacchus
+[2017.04.17-03.48.26:755][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.17-03.48.26:755][  0]LogInit: High frequency timer resolution =3.421972 MHz
+[2017.04.17-03.48.26:755][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.17-03.48.26:755][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.17-03.48.26:755][  0]LogMemory: Process Physical Memory: 264.23 MB used, 264.23 MB peak
+[2017.04.17-03.48.26:755][  0]LogMemory: Process Virtual Memory: 264.32 MB used, 264.32 MB peak
+[2017.04.17-03.48.26:755][  0]LogMemory: Physical Memory: 5407.78 MB used,  10936.52 MB free, 16344.30 MB total
+[2017.04.17-03.48.26:755][  0]LogMemory: Virtual Memory: 661.42 MB used,  10936.52 MB free, 8388608.00 MB total
+[2017.04.17-03.48.26:783][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.17-03.48.27:337][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.17-03.48.27:359][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.04.17-03.48.27:359][  0]LogD3D11RHI:       6045/0/7916 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.17-03.48.27:359][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.17-03.48.27:371][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.17-03.48.27:371][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.17-03.48.27:371][  0]LogWindows: EnumDisplayDevices:
+[2017.04.17-03.48.27:371][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.04.17-03.48.27:371][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.17-03.48.27:371][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.17-03.48.27:371][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.17-03.48.27:371][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.17-03.48.27:372][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.17-03.48.27:372][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.17-03.48.27:372][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.17-03.48.27:372][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.04.17-03.48.27:372][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.04.17-03.48.27:372][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.04.17-03.48.27:372][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.17-03.48.27:380][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.17-03.48.27:394][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.17-03.48.27:394][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/14676/).
+[2017.04.17-03.48.27:394][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bacchus/AppData/Local/Temp/UnrealShaderWorkingDir/8DFFF7A34752BA9BE9747E9A1CA82868/'.
+[2017.04.17-03.48.27:394][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.17-03.48.28:265][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.17-03.48.28:311][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.17-03.48.28:358][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.17-03.48.28:403][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.17-03.48.28:455][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.17-03.48.28:507][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.17-03.48.28:558][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.17-03.48.28:603][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.17-03.48.28:639][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.17-03.48.28:684][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.17-03.48.28:731][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.17-03.48.28:776][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.17-03.48.28:821][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.17-03.48.28:865][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.17-03.48.28:912][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.17-03.48.28:998][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.17-03.48.28:998][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.17-03.48.29:030][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.17-03.48.29:099][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.17-03.48.29:127][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.17-03.48.29:170][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.17-03.48.29:214][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.17-03.48.29:258][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.17-03.48.29:304][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.17-03.48.29:304][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.17-03.48.29:605][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.17-03.48.29:651][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.17-03.48.29:665][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.17-03.48.29:676][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bacchus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.17-03.48.29:859][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.17-03.48.29:863][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.17-03.48.30:041][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.17-03.48.30:075][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.17-03.48.30:110][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.17-03.48.30:110][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.17-03.48.30:110][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.17-03.48.30:537][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
+[2017.04.17-03.48.30:594][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.04.17-03.48.30:628][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018699 seconds
+[2017.04.17-03.48.30:633][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.17-03.48.30:633][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.17-03.48.30:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.17-03.48.30:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.17-03.48.31:263][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.17-03.48.31:264][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.17-03.48.31:264][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.17-03.48.31:960][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.17-03.48.31:985][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.17-03.48.32:019][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.17-03.48.32:273][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.17-03.48.32:590][  0]SourceControl: Info Source control is disabled
+[2017.04.17-03.48.32:621][  0]SourceControl: Info Source control is disabled
+[2017.04.17-03.48.32:657][  0]SourceControl: Info Source control is disabled
+[2017.04.17-03.48.32:692][  0]SourceControl: Info Source control is disabled
+[2017.04.17-03.48.33:705][  0]LogEngine: Initializing Engine...
+[2017.04.17-03.48.33:706][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.17-03.48.33:911][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.17-03.48.33:919][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.17-03.48.33:928][  0]LogInit: FAudioDevice initialized.
+[2017.04.17-03.48.33:948][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.17-03.48.33:953][  0]LogInit: Texture streaming: Enabled
+[2017.04.17-03.48.34:099][  0]LogInit: Transaction tracking system initialized
+[2017.04.17-03.48.34:368][  0]BlueprintLog: New page: Editor Load
+[2017.04.17-03.48.35:070][  0]LocalizationService: Info Localization service is disabled
+[2017.04.17-03.48.35:595][  0]LogConsoleResponse:Display: 
+[2017.04.17-03.48.35:724][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.17-03.48.35:724][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.17-03.48.36:243][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' took 0.02s
+[2017.04.17-03.48.36:488][  0]SourceControl: Info Source control is disabled
+[2017.04.17-03.48.36:488][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.17-03.48.36:488][  0]LightingResults: New page: Lighting Build
+[2017.04.17-03.48.36:522][  0]MapCheck: New page: Map Check
+[2017.04.17-03.48.36:522][  0]LightingResults: New page: Lighting Build
+[2017.04.17-03.48.37:225][  0]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.17-03.48.37:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.17-03.48.37:233][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.17-03.48.37:279][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.584ms to complete.
+[2017.04.17-03.48.37:279][  0]LogFileHelpers: Loading map 'Labyrinth' took 0.791
+[2017.04.17-03.48.37:395][  0]LogCollectionManager: Loaded 0 collections in 0.002717 seconds
+[2017.04.17-03.48.37:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
+[2017.04.17-03.48.37:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' took 0.01s
+[2017.04.17-03.48.37:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
+[2017.04.17-03.48.37:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.17-03.48.37:468][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2204 classes and 434 folders.
+[2017.04.17-03.48.37:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.17-03.48.37:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.17-03.48.37:502][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.04.17-03.48.37:552][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.17-03.48.37:585][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.04.17-03.48.37:621][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.17-03.48.37:649][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.17-03.48.37:655][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.17-03.48.37:710][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.17-03.48.37:710][  0]LogLoad: (Engine Initialization) Total time: 12.28 seconds
+[2017.04.17-03.48.37:710][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.04.17-03.48.37:710][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.17-03.48.37:719][  0]LogOcInput: OculusInput pre-init called
+[2017.04.17-03.48.37:738][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.17-03.48.37:867][  0]LogRenderer: Reallocating scene render targets to support 1160x608 NumSamples 1 (Frame:2).
+[2017.04.17-03.48.37:974][  1]LogAssetRegistry: Asset discovery search completed in 7.4091 seconds
+[2017.04.17-03.48.37:974][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.17-03.48.37:974][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.04.17-03.48.54:986][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ColorGradient'
+[2017.04.17-03.48.54:986][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ColorGradient' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:986][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/MF_ColorGradient
+[2017.04.17-03.48.54:986][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:986][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:987][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/MF_ShiftTangent
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:987][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/MF_StrandSpec
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:987][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:987][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/DiffuseTexture
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/GlitterTexture'
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/GlitterTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:987][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/GlitterTexture
+[2017.04.17-03.48.54:987][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ColorGradient'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ColorGradient' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:988][497]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1 : Can't find file for asset. /Game/HairMaterial/ShiftTexture
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.48.54:988][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:989][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/GlitterTexture'
+[2017.04.17-03.48.54:989][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/GlitterTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:989][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.48.54:989][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:993][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_ShiftTangent.MF_ShiftTangent Referenced by Mat_Hair_V1
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading NULL.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading NULL.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:993][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_StrandSpec.MF_StrandSpec Referenced by Mat_Hair_V1
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading NULL.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading NULL.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ColorGradient'
+[2017.04.17-03.48.54:993][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_ColorGradient.MF_ColorGradient Referenced by Mat_Hair_V1
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ColorGradient' while loading NULL.
+[2017.04.17-03.48.54:993][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.48.54:993][497]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by Mat_Hair_V1
+[2017.04.17-03.48.54:994][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading NULL.
+[2017.04.17-03.48.54:994][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.48.54:994][497]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by MaterialExpressionCollectionParameter_4
+[2017.04.17-03.48.54:994][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading NULL.
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:995][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_StrandSpec.MF_StrandSpec Referenced by MaterialExpressionMaterialFunctionCall_11
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading NULL.
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ColorGradient'
+[2017.04.17-03.48.54:995][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_ColorGradient.MF_ColorGradient Referenced by MaterialExpressionMaterialFunctionCall_2
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ColorGradient' while loading NULL.
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:995][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_ShiftTangent.MF_ShiftTangent Referenced by MaterialExpressionMaterialFunctionCall_22
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading NULL.
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_StrandSpec'
+[2017.04.17-03.48.54:995][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_StrandSpec.MF_StrandSpec Referenced by MaterialExpressionMaterialFunctionCall_23
+[2017.04.17-03.48.54:995][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_StrandSpec' while loading NULL.
+[2017.04.17-03.48.54:996][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/MF_ShiftTangent'
+[2017.04.17-03.48.54:996][497]LoadErrors: Info Failed to load /Game/HairMaterial/MF_ShiftTangent.MF_ShiftTangent Referenced by MaterialExpressionMaterialFunctionCall_7
+[2017.04.17-03.48.54:996][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MF_ShiftTangent' while loading NULL.
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/GlitterTexture'
+[2017.04.17-03.48.54:997][497]LoadErrors: Info Failed to load /Game/HairMaterial/GlitterTexture.GlitterTexture Referenced by MaterialExpressionTextureSample_1
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/GlitterTexture' while loading NULL.
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.48.54:997][497]LoadErrors: Info Failed to load /Game/HairMaterial/DiffuseTexture.DiffuseTexture Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading NULL.
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.48.54:997][497]LoadErrors: Info Failed to load /Game/HairMaterial/ShiftTexture.ShiftTexture Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2017.04.17-03.48.54:997][497]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading NULL.
+[2017.04.17-03.48.55:000][497]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.48.55:001][497]LogMaterial:Warning: Failed to compile Material /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.48.55:001][497]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.48.55:001][497]LogMaterial:Warning: 	Missing Material Function
+[2017.04.17-03.48.55:001][497]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.48.55:050][497]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.48.55:050][497]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.48.55:050][497]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.48.55:050][497]LogMaterial:Warning: 	Missing Material Function
+[2017.04.17-03.48.55:050][497]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.48.55:115][497]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.48.55:115][497]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.48.55:115][497]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.48.55:115][497]LogMaterial:Warning: 	Missing Material Function
+[2017.04.17-03.48.55:115][497]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.48.55:115][497]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.48.55:146][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2017.04.17-03.48.55:147][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.04.17-03.48.55:153][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-03.48.55:154][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-03.48.55:158][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.04.17-03.48.55:162][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.04.17-03.48.55:166][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.04.17-03.48.55:169][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.04.17-03.48.55:171][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.04.17-03.48.55:175][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.04.17-03.48.55:176][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.17-03.48.55:181][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.17-03.48.55:193][497]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.48.55:193][497]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2017.04.17-03.48.55:193][497]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.04:767][151]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: 	Missing Material Function
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: 	Function MF_ColorGradient: Missing function input 'Color A'
+[2017.04.17-03.50.04:767][151]LogMaterial:Warning: 	Function MF_ColorGradient: Missing function input 'Color B'
+[2017.04.17-03.50.04:768][151]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.50.04:774][151]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.04.17-03.50.04:782][151]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.04:782][151]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2017.04.17-03.50.04:782][151]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.04:782][151]MaterialEditorStats:Error: Error [SM5] Function MF_ColorGradient: Missing function input 'Color A'
+[2017.04.17-03.50.04:782][151]MaterialEditorStats:Error: Error [SM5] Function MF_ColorGradient: Missing function input 'Color B'
+[2017.04.17-03.50.10:754][724]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.50.10:755][724]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.50.10:755][724]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.10:755][724]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.10:755][724]LogMaterial:Warning: 	Function MF_ColorGradient: Missing function input 'Color A'
+[2017.04.17-03.50.10:755][724]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.50.10:778][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.17-03.50.10:781][724]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.10:781][724]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.10:782][724]MaterialEditorStats:Error: Error [SM5] Function MF_ColorGradient: Missing function input 'Color A'
+[2017.04.17-03.50.13:876][ 28]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.50.13:877][ 28]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.50.13:877][ 28]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.13:877][ 28]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.13:877][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.50.13:905][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.17-03.50.13:908][ 28]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.13:908][ 28]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.22:683][923]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.50.22:684][923]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.50.22:684][923]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.22:684][923]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.22:684][923]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.50.25:086][179]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.50.25:087][179]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.50.25:087][179]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.50.25:087][179]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.50.25:087][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.51.21:929][225]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.51.21:930][225]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.51.21:930][225]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.51.21:930][225]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.51.21:930][225]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.51.21:933][225]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.04.17-03.51.25:716][492]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.51.25:716][492]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.51.25:716][492]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.51.25:716][492]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.51.25:716][492]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.51.41:532][364]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.51.41:533][364]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.51.41:533][364]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.51.41:533][364]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.51.41:533][364]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.51.41:537][364]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.04.17-03.51.46:560][791]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.51.46:561][791]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.51.46:561][791]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.51.46:561][791]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.51.46:561][791]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.51.58:760][571]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.51.58:760][571]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.51.58:760][571]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.51.58:760][571]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.51.58:760][571]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.00:826][754]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.00:826][754]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.00:826][754]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.00:826][754]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.00:827][754]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.06:475][205]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.06:475][205]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.06:475][205]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.06:475][205]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.06:476][205]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.08:310][345]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.08:311][345]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.08:311][345]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.08:311][345]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.08:311][345]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.10:895][554]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'Tangent'
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.10:896][554]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.10:896][554]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.10:897][554]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.10:897][554]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'Tangent'
+[2017.04.17-03.52.10:897][554]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.10:897][554]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.10:897][554]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.14:865][870]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'Tangent'
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.14:865][870]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.14:865][870]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.40:691][628]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.40:691][628]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'Tangent'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.52.40:692][628]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.40:692][628]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'Tangent'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.52.40:693][628]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.43:900][921]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.43:901][921]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.52.43:901][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.52.43:901][921]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.52.43:901][921]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.52.43:901][921]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.52.43:901][921]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.52.43:901][921]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.52.43:902][921]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.52.43:902][921]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.10:430][873]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'LightVector'
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.53.10:431][873]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.10:431][873]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.53.16:689][439]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.16:690][439]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.53.16:690][439]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.16:691][439]MaterialEditorStats:Error: Error [SM5] Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.53.46:600][238]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.46:601][238]LogMaterial:Warning: 	Function MF_StrandSpec: Missing function input 'ViewVector'
+[2017.04.17-03.53.46:601][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.53.55:068][946]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.55:069][946]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.53.55:069][946]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.53.55:070][946]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.53.55:070][946]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.53.55:070][946]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.53.55:070][946]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.53.55:070][946]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.11:154][406]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Tangent'
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.54.11:154][406]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.11:155][406]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.15:305][771]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.15:306][771]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.15:306][771]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.15:306][771]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.15:306][771]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.54.15:306][771]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.15:306][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.15:307][771]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.15:307][771]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.15:307][771]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.54.15:307][771]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.23:825][511]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.23:826][511]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.23:826][511]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.23:826][511]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.23:826][511]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Normal'
+[2017.04.17-03.54.23:826][511]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.23:826][511]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.37:614][725]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.37:615][725]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.37:615][725]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.37:615][725]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.37:615][725]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.37:615][725]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.37:616][725]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.37:616][725]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.37:616][725]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.43:631][259]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.43:632][259]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.43:632][259]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.43:632][259]LogMaterial:Warning: 	Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.43:632][259]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.43:632][259]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.43:632][259]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.43:633][259]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.43:633][259]MaterialEditorStats:Error: Error [SM5] Function MF_ShiftTangent: Missing function input 'Shift'
+[2017.04.17-03.54.43:633][259]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.43:633][259]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.47:450][593]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.47:451][593]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.47:451][593]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.47:451][593]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.47:451][593]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.47:452][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.47:453][593]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.47:453][593]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.47:453][593]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.53:259][ 89]LogMaterialEditor: Applying material Mat_Hair_V1
+[2017.04.17-03.54.58:592][ 89]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.58:593][ 89]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.58:593][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.58:593][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.58:593][ 89]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.58:593][ 89]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.58:628][ 89]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.58:630][ 89]LogMaterial:Warning: Failed to compile Material /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.58:630][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.58:630][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.58:630][ 89]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.58:633][ 89]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.54.58:634][ 89]LogMaterial:Warning: Failed to compile Material /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.54.58:634][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Base Color Texture (Gray)> Requires Texture2D
+[2017.04.17-03.54.58:634][ 89]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.54.58:634][ 89]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.54.58:635][ 89]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.54.59:459][152]LogMaterialEditor: Saving and Compiling material Mat_Hair_V1
+[2017.04.17-03.55.06:868][152]LogSavePackage: Save=28.74ms
+[2017.04.17-03.55.06:868][152]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V16D278E6D4154AA02D7502D8404B65032.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset'
+[2017.04.17-03.55.06:870][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset
+[2017.04.17-03.55.08:052][239]LogMaterialEditor: Saving and Compiling material Mat_Hair_V1
+[2017.04.17-03.55.08:091][239]LogSavePackage: Save=17.40ms
+[2017.04.17-03.55.08:091][239]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V15F64856D46ECF9D86922B88EECEE787B.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset'
+[2017.04.17-03.55.08:092][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset
+[2017.04.17-03.56.20:034][781]LogTexture:Display: Building textures: DiffuseTexture (AutoDXT)
+[2017.04.17-03.56.20:265][781]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.56.20:266][781]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.56.20:266][781]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.56.20:266][781]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.56.20:266][781]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.56.20:293][781]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.04.17-03.56.20:300][781]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Shift Control Texture> Requires Texture2D
+[2017.04.17-03.56.20:300][781]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.56.52:207][588]LogTexture:Display: Building textures: ShiftTexture (AutoDXT)
+[2017.04.17-03.56.52:866][588]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.56.52:868][588]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-03.56.52:868][588]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.56.52:868][588]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.56.52:891][588]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.04.17-03.56.52:895][588]MaterialEditorStats:Error: Error [SM5] (Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.04.17-03.57.08:306][125]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.57.08:328][125]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.08:353][125]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2017.04.17-03.57.10:947][311]LogMaterialEditor: Applying material Mat_Hair_V1
+[2017.04.17-03.57.11:348][311]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.57.11:373][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.11:426][311]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.57.11:460][311]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.57.11:484][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.12:065][364]LogMaterialEditor: Saving and Compiling material Mat_Hair_V1
+[2017.04.17-03.57.15:892][364]LogSavePackage: Save=28.31ms
+[2017.04.17-03.57.15:892][364]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V1A348176B434458B0275E0781B1261DDE.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset'
+[2017.04.17-03.57.15:894][364]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset
+[2017.04.17-03.57.15:898][364]MaterialEditorStats: Info Base pass shader with static lighting: 187 instructions
+[2017.04.17-03.57.15:898][364]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 162 instructions
+[2017.04.17-03.57.15:898][364]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-03.57.15:898][364]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.17-03.57.17:318][503]LogMaterialEditor: Saving and Compiling material Mat_Hair_V1
+[2017.04.17-03.57.17:350][503]LogSavePackage: Save=17.18ms
+[2017.04.17-03.57.17:350][503]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V1AAFE61FE416F5E4BC44B76B8D70DABFD.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset'
+[2017.04.17-03.57.17:350][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset
+[2017.04.17-03.57.23:204][  6]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.17-03.57.23:272][  6]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.17-03.57.23:286][  6]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.23:317][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2017.04.17-03.57.23:321][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.04.17-03.57.23:324][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-03.57.23:326][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-03.57.23:329][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.04.17-03.57.23:333][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.04.17-03.57.23:337][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.04.17-03.57.23:341][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.04.17-03.57.23:344][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.04.17-03.57.23:348][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.04.17-03.57.23:352][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.17-03.57.23:356][  6]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.17-03.57.27:553][170]MaterialEditorStats: Info Base pass shader with static lighting: 161 instructions
+[2017.04.17-03.57.27:553][170]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 135 instructions
+[2017.04.17-03.57.27:553][170]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-03.57.27:553][170]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.17-03.57.39:313][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/Mat_Hair_V1'
+[2017.04.17-03.57.39:313][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/Mat_Hair_V1' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:313][152]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example : Can't find file for asset. /Game/HairMaterial/Mat_Hair_V1
+[2017.04.17-03.57.39:313][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.57.39:313][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:313][152]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example : Can't find file for asset. /Game/HairMaterial/DiffuseTexture
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/Mat_Hair_V1'
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/Mat_Hair_V1' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:314][152]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example : Can't find file for asset. /Game/HairMaterial/ShiftTexture
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:314][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.57.39:315][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset.
+[2017.04.17-03.57.39:315][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/Mat_Hair_V1'
+[2017.04.17-03.57.39:315][152]LoadErrors: Info Failed to load /Game/HairMaterial/Mat_Hair_V1.Mat_Hair_V1 Referenced by Mat_Hair_Example
+[2017.04.17-03.57.39:315][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/Mat_Hair_V1' while loading NULL.
+[2017.04.17-03.57.39:315][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/DiffuseTexture'
+[2017.04.17-03.57.39:316][152]LoadErrors: Info Failed to load /Game/HairMaterial/DiffuseTexture.DiffuseTexture Referenced by Mat_Hair_Example
+[2017.04.17-03.57.39:316][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/DiffuseTexture' while loading NULL.
+[2017.04.17-03.57.39:316][152]LogLinker:Warning: Can't find file '/Game/HairMaterial/ShiftTexture'
+[2017.04.17-03.57.39:316][152]LoadErrors: Info Failed to load /Game/HairMaterial/ShiftTexture.ShiftTexture Referenced by Mat_Hair_Example
+[2017.04.17-03.57.39:316][152]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/ShiftTexture' while loading NULL.
+[2017.04.17-03.57.41:851][445]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.41:930][445]LogRenderer: Reallocating scene render targets to support 1160x752 NumSamples 1 (Frame:45993).
+[2017.04.17-03.57.48:277][152]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.57.53:489][716]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.58.00:614][981]LogSavePackage: Save=12.09ms
+[2017.04.17-03.58.00:614][981]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_Example399944034A5337E7CAD928A347D753CA.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset'
+[2017.04.17-03.58.00:616][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset
+[2017.04.17-03.58.03:206][261]LogSavePackage: Save=1.35ms
+[2017.04.17-03.58.03:206][261]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_ExampleCA6EF0A24691E1CCF2179AA2D3BF5C97.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset'
+[2017.04.17-03.58.03:206][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset
+[2017.04.17-03.58.09:195][938]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-03.58.14:484][493]LogMaterial:Warning: Material /Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1.Mat_Hair_V1 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.17-03.58.14:487][493]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-03.58.14:530][493]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-03.58.17:068][751]Cmd: SELECT NONE
+[2017.04.17-03.58.21:497][170]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.58.21:497][170]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.17-03.58.21:497][170]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.17-03.58.21:497][170]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.58.21:498][170]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.17-03.58.21:498][170]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.58.21:499][170]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading NULL.
+[2017.04.17-03.58.21:499][170]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.58.21:499][170]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading NULL.
+[2017.04.17-03.58.21:503][170]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.17-03.58.21:503][170]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.17-03.58.21:503][170]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading NULL.
+[2017.04.17-03.58.21:516][170]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Engine/Transient.World_6:PersistentLevel.BP_LightControl_C_0
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:607][172]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:608][172]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:608][172]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:610][172]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:618][173]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:635][174]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:685][180]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:694][181]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:747][182]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:748][182]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:755][183]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:763][184]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:772][185]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:780][186]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:797][188]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:805][189]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.21:814][190]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.22:198][234]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.22:203][234]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.22:204][234]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:388][338]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:396][339]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:405][340]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:413][341]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:422][342]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:430][343]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:449][345]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:466][347]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:476][348]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:485][349]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:492][350]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:502][351]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:511][352]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.23:520][353]LogScript:Warning: Accessed None trying to read property Light
+	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
+	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
+[2017.04.17-03.58.40:236][190]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-03.58.45:813][694]LogRenderer: Reallocating scene render targets to support 1160x1024 NumSamples 1 (Frame:53385).
+[2017.04.17-03.58.48:602][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-03.58.50:727][162]Cmd: SELECT NONE
+[2017.04.17-04.06.12:597][377]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.06.12:641][377]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.06.15:912][632]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.06.18:951][864]LogSavePackage: Save=11.55ms
+[2017.04.17-04.06.18:951][864]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_Example788105534A3B70F06D31B5AF694C7436.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset'
+[2017.04.17-04.06.18:953][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset
+[2017.04.17-04.06.20:385][940]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.06.20:470][940]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.06.20:500][940]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.06.20:582][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_4, compiling. 
+[2017.04.17-04.06.20:585][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2017.04.17-04.06.20:589][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-04.06.20:590][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-04.06.20:594][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.04.17-04.06.20:598][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2017.04.17-04.06.20:601][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.04.17-04.06.20:605][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.04.17-04.06.20:609][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.04.17-04.06.20:613][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.04.17-04.06.20:617][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2017.04.17-04.06.20:621][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling. 
+[2017.04.17-04.06.34:921][762]MaterialEditorStats: Info Base pass shader with static lighting: 161 instructions
+[2017.04.17-04.06.34:921][762]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 135 instructions
+[2017.04.17-04.06.34:921][762]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-04.06.34:921][762]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.17-04.06.40:239][266]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.06.48:796][164]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.06.48:797][164]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.06.48:797][164]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.06.48:800][164]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.06.48:801][164]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.06.48:801][164]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.06.48:801][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.07.18:400][ 67]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.07.19:416][168]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.07.20:915][319]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.07.20:916][319]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.07.20:916][319]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.07.20:919][319]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.07.20:920][319]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.07.20:920][319]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.07.20:921][319]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.07.23:038][539]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.07.24:125][648]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.07.24:126][648]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.07.24:126][648]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.07.24:129][648]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.07.24:130][648]LogMaterial:Warning: Failed to compile Material Instance /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example with Base Mat_Hair_V1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.07.24:130][648]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.07.24:131][648]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.08.24:360][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.17-04.08.24:416][ 44]LogSavePackage: Save=51.66ms
+[2017.04.17-04.08.24:416][ 44]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth_Auto169A7919047B99B906FAC8AB8A753DF95.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap'
+[2017.04.17-04.08.24:417][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap
+[2017.04.17-04.08.24:419][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.079
+[2017.04.17-04.08.24:419][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.079
+[2017.04.17-04.08.24:426][ 44]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1] ([1] browsable assets)...
+[2017.04.17-04.08.24:426][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1]
+[2017.04.17-04.08.24:446][ 44]LogSavePackage: Save=17.58ms
+[2017.04.17-04.08.24:446][ 44]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V1_Auto1DD0043AD49A275A0F5D289B315017DB0.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1_Auto1.uasset'
+[2017.04.17-04.08.24:447][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/TexturesandMaterials/HairMaterial/Mat_Hair_V1_Auto1.uasset
+[2017.04.17-04.08.24:447][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example] ([1] browsable assets)...
+[2017.04.17-04.08.24:465][ 44]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example.Mat_Hair_Example]
+[2017.04.17-04.08.24:465][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example]
+[2017.04.17-04.08.24:478][ 44]LogSavePackage: Save=10.22ms
+[2017.04.17-04.08.24:478][ 44]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_Example_Auto15FCBC5C2412F48794FF2ADAB8FE95B27.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example_Auto1.uasset'
+[2017.04.17-04.08.24:479][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/TexturesandMaterials/HairMaterial/Mat_Hair_Example_Auto1.uasset
+[2017.04.17-04.08.24:479][ 44]LogFileHelpers: Auto-saving content packages took 0.054
+[2017.04.17-04.10.23:213][367]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.10.23:241][367]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.10.32:460][116]MaterialEditorStats: Info Base pass shader with static lighting: 161 instructions
+[2017.04.17-04.10.32:460][116]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 135 instructions
+[2017.04.17-04.10.32:460][116]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-04.10.32:460][116]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.04.17-04.10.43:101][126]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.10.43:103][126]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.17-04.10.43:103][126]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.10.43:103][126]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.10.43:104][126]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2017.04.17-04.10.51:678][886]LogEditorTransaction: Undo Create Pin Link
+[2017.04.17-04.10.51:682][886]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.10.51:720][886]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.10.51:747][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.10.59:485][506]LogTexture:Display: Building textures: GlitterTexture (AutoDXT)
+[2017.04.17-04.10.59:787][506]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.10.59:817][506]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.10.59:898][506]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-04.11.04:960][819]LogMaterialEditor: Applying material Mat_Hair_V1
+[2017.04.17-04.11.05:424][819]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.04.17-04.11.05:465][819]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.11.05:501][819]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.11.05:560][819]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.11.05:613][819]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.11.05:659][819]LogMaterial: 0.05 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.11.06:692][879]LogMaterialEditor: Saving and Compiling material Mat_Hair_V1
+[2017.04.17-04.11.16:883][879]LogSavePackage: Save=28.16ms
+[2017.04.17-04.11.16:883][879]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_V1CA58D2634F36676FEDE9A08CD0048BDE.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset'
+[2017.04.17-04.11.18:393][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_V1.uasset
+[2017.04.17-04.11.18:403][879]MaterialEditorStats: Info Base pass shader with static lighting: 187 instructions
+[2017.04.17-04.11.18:403][879]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 162 instructions
+[2017.04.17-04.11.18:403][879]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-04.11.18:403][879]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.17-04.11.23:787][158]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.11.25:591][313]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.11.25:635][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.11.26:912][393]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.17-04.11.26:958][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.17-04.12.00:417][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.17-04.12.00:467][254]LogSavePackage: Save=38.00ms
+[2017.04.17-04.12.00:467][254]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth0F8974F840E3BD26037C61975A97072E.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.17-04.12.00:468][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.17-04.13.10:870][781]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-04.13.19:418][714]Cmd: SELECT NONE
+[2017.04.17-04.13.23:992][248]Cmd: TRANSACTION UNDO
+[2017.04.17-04.13.23:992][248]LogEditorTransaction: Undo Select None
+[2017.04.17-04.13.26:978][569]Cmd: TRANSACTION UNDO
+[2017.04.17-04.13.26:978][569]LogEditorTransaction: Undo Replace component used material
+[2017.04.17-04.13.29:529][847]LogMaterial: Missing cached shader map for material EyelashesMat, compiling. 
+[2017.04.17-04.13.29:634][847]LogMaterial: Missing cached shader map for material EyelashesMat, compiling. 
+[2017.04.17-04.13.29:671][847]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.13.29:696][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-04.13.29:699][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-04.13.39:085][509]Cmd: SELECT NONE
+[2017.04.17-04.13.43:803][ 12]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-04.13.50:203][719]Cmd: SELECT NONE
+[2017.04.17-04.14.00:262][898]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-04.14.03:143][202]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.03:232][202]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.03:269][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.03:306][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-04.14.03:310][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.04.17-04.14.20:361][705]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.20:395][705]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.20:396][705]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-04.14.28:903][307]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.28:939][307]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.28:966][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-04.14.39:329][219]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.39:364][219]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.39:462][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-04.14.41:598][408]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.41:634][408]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.41:744][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.04.17-04.14.43:571][539]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.43:607][539]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.46:093][692]LogMaterialEditor: Applying material EyelashesMat
+[2017.04.17-04.14.46:634][692]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.14.46:686][692]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.46:793][692]LogMaterial: Missing cached shader map for material EyelashesMat, compiling. 
+[2017.04.17-04.14.46:858][692]LogMaterial: Missing cached shader map for material EyelashesMat, compiling. 
+[2017.04.17-04.14.46:926][692]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.14.55:441][ 26]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pillars)
+[2017.04.17-04.15.07:471][669]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2017.04.17-04.15.07:472][669]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 89 instructions
+[2017.04.17-04.15.07:472][669]MaterialEditorStats: Info Vertex shader: 66 instructions
+[2017.04.17-04.15.07:472][669]MaterialEditorStats: Info Texture samplers: 6/16
+[2017.04.17-04.15.08:598][766]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.04.17-04.15.08:624][766]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.15.08:658][766]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.15.10:872][885]Cmd: TRANSACTION UNDO
+[2017.04.17-04.15.10:872][885]LogEditorTransaction: Undo Create Pin Link
+[2017.04.17-04.15.10:877][885]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.15.10:915][885]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2017.04.17-04.15.10:950][885]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-04.15.21:985][429]Cmd: SELECT NONE
+[2017.04.17-04.17.50:848][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-04.17.52:088][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.04.17-04.17.59:488][978]Cmd: SELECT NONE
+[2017.04.17-04.18.05:114][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Hatch)
+[2017.04.17-04.18.19:746][149]Cmd: SELECT NONE
+[2017.04.17-04.18.21:408][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Hatch)
+[2017.04.17-04.18.23:965][642]Cmd: SELECT NONE
+[2017.04.17-04.18.41:890][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2017.04.17-04.18.55:498][257]Cmd: SELECT NONE
+[2017.04.17-04.19.14:292][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-04.20.33:011][409]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.04.17-04.20.54:755][839]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-04.21.32:421][205]Cmd: SELECT NONE
+[2017.04.17-04.21.58:541][203]Cmd: TRANSACTION UNDO
+[2017.04.17-04.21.58:541][203]LogEditorTransaction: Undo Scale Actors
+[2017.04.17-04.22.29:579][777]Cmd: SELECT NONE
+[2017.04.17-04.23.28:845][706]Cmd: SELECT NONE
+[2017.04.17-04.24.12:597][841]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2017.04.17-04.24.36:298][619]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2017.04.17-04.25.01:580][570]Cmd: SELECT NONE
+[2017.04.17-04.25.59:438][250]Cmd: TRANSACTION UNDO
+[2017.04.17-04.25.59:438][250]LogEditorTransaction: Undo Move Actors
+[2017.04.17-04.25.59:440][250]LogActorComponent: ~FComponentReregisterContext: (/Game/Labyrinth.Labyrinth:PersistentLevel.SphereBrush.BrushComponent0) Component already registered.
+[2017.04.17-04.26.01:505][454]Cmd: SELECT NONE
+[2017.04.17-04.26.53:995][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.17-04.26.54:070][638]LogSavePackage: Save=60.99ms
+[2017.04.17-04.26.54:070][638]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth7B2CD2A9429734C14E7B8A88CF1FAA7D.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.17-04.26.54:071][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.17-04.27.03:549][876]LogSavePackage: Save=11.54ms
+[2017.04.17-04.27.03:549][876]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Mat_Hair_Example5BBCBEB948909592CB68C2BC06BF1937.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset'
+[2017.04.17-04.27.03:550][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/Mat_Hair_Example.uasset
+[2017.04.17-04.27.03:750][877]Cmd: QUIT_EDITOR
+[2017.04.17-04.27.03:791][877]LogExit: Preparing to exit.
+[2017.04.17-04.27.04:791][877]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/', and we were unable to create a new request.
+[2017.04.17-04.27.04:805][877]LogExit: Editor shut down
+[2017.04.17-04.27.04:805][877]LogExit: Transaction tracking system shut down
+[2017.04.17-04.27.04:875][877]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.17-04.27.04:875][877]LogExit: Object subsystem successfully closed.
+[2017.04.17-04.27.04:893][877]LogD3D11RHI: Shutdown
+[2017.04.17-04.27.04:893][877]LogD3D11RHI: CleanupD3DDevice
+[2017.04.17-04.27.05:015][877]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.17-04.27.05:024][877]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.17-04.27.05:024][877]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5CBB350-465D-B5D1-9EF4-C09A58C7A031%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=6470690345ac5613c2d7d6a976c3ee96%7C57685272a24a474889bdd810f0e25195%7C9a0d61a1-8400-4668-bc1f-9ffa6f3e88bd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (245)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module MaterialEditor (244)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
+[2017.04.17-04.27.05:057][877]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
+[2017.04.17-04.27.05:057][877]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
+[2017.04.17-04.27.05:058][877]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' was aborted.
+[2017.04.17-04.27.05:058][877]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' was aborted.
+[2017.04.17-04.27.05:058][877]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module BspMode (228)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module Media (217)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module SessionServices (210)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
+[2017.04.17-04.27.05:058][877]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module MergeActors (195)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module SizeMap (194)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module TreeMap (193)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module XmlParser (185)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module Blutility (184)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
+[2017.04.17-04.27.05:831][877]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
+[2017.04.17-04.27.05:832][877]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AutomationController (174)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Layers (172)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Persona (167)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Kismet (166)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Toolbox (163)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module OutputLog (160)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module GammaUI (159)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Documentation (158)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module Niagara (157)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module PortalServices (154)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2017.04.17-04.27.05:872][877]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.04.17-04.27.05:974][877]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.04.17-04.27.05:975][877]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.04.17-04.27.05:975][877]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.04.17-04.27.05:975][877]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.04.17-04.27.05:976][877]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.04.17-04.27.05:977][877]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.04.17-04.27.05:977][877]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.04.17-04.27.06:077][877]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.04.17-04.27.06:177][877]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.04.17-04.27.06:179][877]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.04.17-04.27.06:179][877]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.17-04.27.06:180][877]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' was aborted.
+[2017.04.17-04.27.06:180][877]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.17-04.27.06:180][877]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.04.17-04.27.06:279][877]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.04.17-04.27.06:283][877]LogDerivedDataCache: Shutdown
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.04.17-04.27.06:283][877]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.17-04.27.06:284][877]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.17-04.27.06:284][877]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.17-04.27.06:285][877]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.17-04.27.06:287][877]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.17-04.27.06:288][877]LogExit: Exiting.
+[2017.04.17-04.27.06:298][877]Log file closed, 04/16/17 22:27:06
