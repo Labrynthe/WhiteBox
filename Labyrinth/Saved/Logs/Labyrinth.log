@@ -471,3 +471,99 @@ LogInit: Object subsystem initialized
 [2017.04.17-18.12.31:374][944]LogActorFactory: Actor Factory created Box_02
 [2017.04.17-18.12.41:003][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_3)
 [2017.04.17-18.13.30:469][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.17-18.13.30:542][627]LogSavePackage: Save=56.03ms
+[2017.04.17-18.13.30:542][627]LogSavePackage: Moving '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/LabyrinthAF4CE28D4782976445D977BCAE7BA242.tmp' to '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.17-18.13.30:546][627]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.17-18.13.30:589][627]LogFileHelpers: Saving map 'Labyrinth' took 1.203
+[2017.04.17-18.14.37:221][  8]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-18.14.39:248][237]LogTemp: Repeting last play command: Simulate
+[2017.04.17-18.14.39:264][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.17-18.14.39:264][237]PIE: New page: SIE session: Labyrinth (Apr 17, 2017, 6:14:39 AM)
+[2017.04.17-18.14.39:264][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
+[2017.04.17-18.14.39:282][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018194s)
+[2017.04.17-18.14.39:283][237]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.17-18.14.39:283][237]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.04.17-18.14.39:283][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.018940s)
+[2017.04.17-18.14.39:295][237]LogInit: XAudio2 using 'DELL UZ2315H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.17-18.14.39:301][237]LogInit: FAudioDevice initialized.
+[2017.04.17-18.14.39:333][237]LogLoad: Game class is 'GameModeBase'
+[2017.04.17-18.14.39:336][237]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.17-12.14.39
+[2017.04.17-18.14.39:336][237]LogWorld: Bringing up level for play took: 0.002650
+[2017.04.17-18.14.39:337][237]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth -0.396
+[2017.04.17-18.14.40:422][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.16.29:351][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.17.38:461][217]Cmd: ACTOR HIDE SELECTED
+[2017.04.17-18.21.13:693][839]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
+[2017.04.17-18.21.14:384][910]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Creature)
+[2017.04.17-18.21.36:442][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.04.17-18.21.40:345][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.17-18.21.41:967][986]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-18.21.45:654][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.17-18.21.51:209][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.21.53:420][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.17-18.22.04:865][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.22.09:828][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.17-18.22.17:831][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.22.33:900][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
+[2017.04.17-18.22.39:942][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_01)
+[2017.04.17-18.22.55:438][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
+[2017.04.17-18.23.04:707][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.04.17-18.23.09:367][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.23.23:669][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.04.17-18.23.32:414][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.17-18.23.35:509][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.17-18.24.33:025][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.17-18.24.33:086][ 84]LogSavePackage: Save=44.12ms
+[2017.04.17-18.24.33:086][ 84]LogSavePackage: Moving '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Labyrinth_Auto1E7157ADD427CE957ADFACA9468856515.tmp' to '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap'
+[2017.04.17-18.24.33:087][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap
+[2017.04.17-18.24.33:101][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.088
+[2017.04.17-18.24.33:101][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2017.04.17-18.27.01:436][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.17-18.27.32:113][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.17-18.27.35:100][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_01)
+[2017.04.17-18.27.47:619][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured2)
+[2017.04.17-18.27.53:461][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured)
+[2017.04.17-18.28.30:259][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_02)
+[2017.04.17-18.28.35:703][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll4)
+[2017.04.17-18.29.16:873][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_01)
+[2017.04.17-18.29.19:289][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_02)
+[2017.04.17-18.29.21:554][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll4)
+[2017.04.17-18.29.24:897][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook3)
+[2017.04.17-18.29.27:829][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook5)
+[2017.04.17-18.29.30:560][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook4)
+[2017.04.17-18.29.34:328][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
+[2017.04.17-18.29.42:483][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_01)
+[2017.04.17-18.29.48:125][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
+[2017.04.17-18.30.18:587][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_01)
+[2017.04.17-18.30.21:623][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_02)
+[2017.04.17-18.30.23:653][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_01)
+[2017.04.17-18.30.26:622][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook4)
+[2017.04.17-18.30.29:435][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook3)
+[2017.04.17-18.30.33:379][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook5)
+[2017.04.17-18.31.02:345][595]LogActorFactory: Actor Factory created Box_02
+[2017.04.17-18.31.03:592][728]LogActorFactory: Actor Factory created Box_02
+[2017.04.17-18.31.54:283][638]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-18.32.20:723][709]Cmd: DELETE
+[2017.04.17-18.32.20:723][709]Cmd: ACTOR DELETE
+[2017.04.17-18.32.20:723][709]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.17-18.32.20:734][709]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.04.17-18.32.22:462][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_4)
+[2017.04.17-18.32.34:598][329]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-18.33.02:541][582]LogActorFactory: Actor Factory created Box_01
+[2017.04.17-18.33.03:747][713]LogActorFactory: Actor Factory created Box_01
+[2017.04.17-18.33.33:605][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_2)
+[2017.04.17-18.34.44:216][183]LogActorFactory: Actor Factory created CandyJar_M_03
+[2017.04.17-18.34.46:361][409]LogActorFactory: Actor Factory created CandyJar_M_03
+[2017.04.17-18.35.04:001][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_4)
+[2017.04.17-18.35.07:300][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_2)
+[2017.04.17-18.35.12:629][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_4)
+[2017.04.17-18.35.15:442][774]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-18.35.31:240][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_4)
+[2017.04.17-18.35.31:911][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_4)
+[2017.04.17-18.35.33:656][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_2)
+[2017.04.17-18.35.35:728][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_4)
+[2017.04.17-18.35.37:443][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_2)
+[2017.04.17-18.35.42:430][905]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.17-18.36.13:048][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_4)
+[2017.04.17-18.36.40:177][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_4)
+[2017.04.17-18.37.36:968][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
