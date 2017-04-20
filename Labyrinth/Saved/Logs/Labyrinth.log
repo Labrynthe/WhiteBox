@@ -1,107 +1,106 @@
-﻿Log file open, 04/19/17 11:46:40
+﻿Log file open, 04/19/17 18:39:25
 LogInit:Display: Running engine for game: Labyrinth
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-383372425) SRandInit(-383372424).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.556772
-LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
-LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
-LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
-LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
-LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
-LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
-LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
-LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
-LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
-LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
-LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
-LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
-LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
-LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
-LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
-LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
-LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
-LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
-LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
-LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
-LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
-LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
-LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
-LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
-LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
-LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
-LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
-LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
-LogPluginManager: Loaded Plugin Substance, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
-LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
-LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
-LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
-LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
-LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
-LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
-LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
-LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
-LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
-LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
-LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
-LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
-LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
-LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
-LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
-LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
-LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
-LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
-LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
-LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
-LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
-LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
-LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
-LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
-LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
-LogPluginManager: Loaded Plugin HoudiniEngine, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/HoudiniEngine/HoudiniEngine.uplugin
-LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
-LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
-LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
-LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
-LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
-LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
-LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
-LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
-LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
-LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
-LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
-LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
-LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
-LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
-LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
-LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
-LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
-LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
-LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
-LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
-LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
-LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
-LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
-LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit:Display: RandInit(1169352270) SRandInit(1169352270).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063632
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -118,8 +117,8 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogInit: Build: ++UE4+Release-4.14-CL-3224400
-LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
 LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
 LogInit: Net CL: 3195953
 LogDevObjectVersion: Number of dev versions registered: 13
@@ -136,599 +135,301 @@ LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
 LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
 LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
 LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
-LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.19-17.46.40:780][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.19-17.46.40:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.19-17.46.40:805][  0]LogInit: Computer: eae-d-028
-[2017.04.19-17.46.40:805][  0]LogInit: User: u0832250
-[2017.04.19-17.46.40:805][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.19-17.46.40:805][  0]LogInit: High frequency timer resolution =3.513592 MHz
-[2017.04.19-17.46.40:806][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.04.19-17.46.40:806][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.19-17.46.40:806][  0]LogMemory: Process Physical Memory: 264.54 MB used, 264.54 MB peak
-[2017.04.19-17.46.40:806][  0]LogMemory: Process Virtual Memory: 262.83 MB used, 262.83 MB peak
-[2017.04.19-17.46.40:806][  0]LogMemory: Physical Memory: 5991.02 MB used,  26653.63 MB free, 32644.64 MB total
-[2017.04.19-17.46.40:806][  0]LogMemory: Virtual Memory: 676.62 MB used,  26653.63 MB free, 134217728.00 MB total
-[2017.04.19-17.46.41:072][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.19-17.46.42:926][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.19-17.46.42:963][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.04.19-17.46.42:963][  0]LogD3D11RHI:       8119/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.19-17.46.42:969][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.04.19-17.46.42:969][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.04.19-17.46.42:970][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.19-17.46.42:970][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.19-17.46.42:970][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.19-17.46.42:977][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.19-17.46.42:977][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.19-17.46.42:977][  0]LogWindows: EnumDisplayDevices:
-[2017.04.19-17.46.42:977][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.04.19-17.46.42:978][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.04.19-17.46.42:978][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.04.19-17.46.42:978][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.04.19-17.46.42:978][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
-[2017.04.19-17.46.42:978][  0]LogD3D11RHI:      Driver Date: 3-16-2017
-[2017.04.19-17.46.42:979][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.19-17.46.42:991][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.19-17.46.43:033][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.19-17.46.43:043][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/20264/).
-[2017.04.19-17.46.43:043][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u0832250/AppData/Local/Temp/UnrealShaderWorkingDir/C1A6FFE74F25480966FFF3836E7E7EAC/'.
-[2017.04.19-17.46.43:044][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.19-17.46.44:918][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.19-17.46.44:963][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.19-17.46.45:007][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.19-17.46.45:051][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.19-17.46.45:099][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.19-17.46.45:144][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.19-17.46.45:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.19-17.46.45:233][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.19-17.46.45:269][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.19-17.46.45:316][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.19-17.46.45:361][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.19-17.46.45:406][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.19-17.46.45:449][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.19-17.46.45:494][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.19-17.46.45:538][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.19-17.46.45:627][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.19-17.46.45:627][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.19-17.46.45:657][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.19-17.46.45:753][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.19-17.46.45:781][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.19-17.46.45:824][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.19-17.46.45:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.19-17.46.45:912][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.19-17.46.45:959][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.19-17.46.45:959][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.19-17.46.46:527][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache: Loaded boot cache 0.18s 50MB C:/Users/u0832250/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0832250/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.19-17.46.46:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.19-17.46.46:732][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.19-17.46.46:746][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0832250/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.19-17.46.49:232][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.19-17.46.49:244][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.19-17.46.49:506][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.19-17.46.49:555][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.19-17.46.49:595][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.19-17.46.49:595][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.19-17.46.49:595][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.19-17.46.50:858][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
-[2017.04.19-17.46.50:936][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2017.04.19-17.46.51:004][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.036996 seconds
-[2017.04.19-17.46.51:010][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.19-17.46.51:010][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
-[2017.04.19-17.46.51:010][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.19-17.46.51:067][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.19-17.46.51:883][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.19-17.46.51:895][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.19-17.46.51:895][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.19-17.46.53:952][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.04.19-17.46.53:987][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.19-17.46.54:029][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.19-17.46.54:394][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.19-17.46.54:777][  0]SourceControl: Info Source control is disabled
-[2017.04.19-17.46.54:814][  0]SourceControl: Info Source control is disabled
-[2017.04.19-17.46.54:863][  0]SourceControl: Info Source control is disabled
-[2017.04.19-17.46.54:906][  0]SourceControl: Info Source control is disabled
-[2017.04.19-17.46.55:772][  0]LogHoudiniEngine: Starting the Houdini Engine module.
-[2017.04.19-17.46.55:781][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path C:\Program Files\Side Effects Software\Houdini 16.0.450/bin
-[2017.04.19-17.46.55:785][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.19-17.46.55:792][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.19-17.46.55:800][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2017.04.19-17.46.58:604][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
-[2017.04.19-17.46.59:150][  0]LogEngine: Initializing Engine...
-[2017.04.19-17.46.59:153][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.19-17.46.59:434][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.19-17.46.59:472][  0]LogInit: XAudio2 using 'DELL UZ2315H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.19-17.46.59:506][  0]LogInit: FAudioDevice initialized.
-[2017.04.19-17.46.59:530][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/u0832250/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.19-17.46.59:538][  0]LogInit: Texture streaming: Enabled
-[2017.04.19-17.46.59:722][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.19-17.46.59:803][  0]LogInit: Transaction tracking system initialized
-[2017.04.19-17.47.00:143][  0]BlueprintLog: New page: Editor Load
-[2017.04.19-17.47.01:069][  0]LocalizationService: Info Localization service is disabled
-[2017.04.19-17.47.01:777][  0]LogConsoleResponse:Display: 
-[2017.04.19-17.47.02:040][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.19-17.47.02:040][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.19-17.47.02:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/' took 0.02s
-[2017.04.19-17.47.02:673][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
-[2017.04.19-17.47.03:124][  0]SourceControl: Info Source control is disabled
-[2017.04.19-17.47.03:128][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.19-17.47.03:132][  0]LightingResults: New page: Lighting Build
-[2017.04.19-17.47.03:184][  0]MapCheck: New page: Map Check
-[2017.04.19-17.47.03:184][  0]LightingResults: New page: Lighting Build
-[2017.04.19-17.47.03:238][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.19-17.47.03:238][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.19-17.47.03:238][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.19-17.47.03:238][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.19-17.47.03:238][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.19-17.47.03:238][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.19-17.47.03:239][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.19-17.47.03:239][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.19-17.47.03:239][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.19-17.47.03:239][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.19-17.47.03:239][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.19-17.47.03:239][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.19-17.47.03:249][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.19-17.47.03:250][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.19-17.47.03:250][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.19-17.47.03:250][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.19-17.47.03:250][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.19-17.47.03:707][  0]LogTexture:Display: Building textures: n11 (BGRA8)
-[2017.04.19-17.47.04:166][  0]LogStaticMesh: Building static mesh newchair...
-[2017.04.19-17.47.16:228][  0]LogStaticMesh: Built static mesh [12.06s] /Game/Meshes/newchair.newchair
-[2017.04.19-17.47.17:029][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.19-17.47.19:479][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.04.19-17.47.19:717][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.04.19-17.47.19:971][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2017.04.19-17.47.19:997][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2017.04.19-17.47.20:166][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2017.04.19-17.47.20:312][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.04.19-17.47.20:418][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2017.04.19-17.47.20:441][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2017.04.19-17.47.20:577][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
-[2017.04.19-17.47.20:679][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
-[2017.04.19-17.47.20:695][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
-[2017.04.19-17.47.20:720][  0]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.19-17.47.20:891][  0]LogMaterial:Warning: Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass needed to have new flag set bUsedWithStaticLighting !
-[2017.04.19-17.47.20:894][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.19-17.47.20:930][  0]MapCheck:Warning: Warning Base_Glass Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.04.19-17.47.20:934][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.19-17.47.20:950][  0]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.04.19-17.47.20:959][  0]LogScript:Warning: Accessed None trying to read property Light
-	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
-	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
-[2017.04.19-17.47.20:971][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2017.04.19-17.47.20:980][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.19-17.47.21:054][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 72.605ms to complete.
-[2017.04.19-17.47.21:089][  0]LogFileHelpers: Loading map 'Labyrinth' took 17.963
-[2017.04.19-17.47.21:444][  0]LogCollectionManager: Loaded 0 collections in 0.002648 seconds
-[2017.04.19-17.47.21:586][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
-[2017.04.19-17.47.21:586][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Developers/u0832250/Collections/' took 0.01s
-[2017.04.19-17.47.21:586][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
-[2017.04.19-17.47.21:586][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.04.19-17.47.21:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2238 classes and 439 folders.
-[2017.04.19-17.47.21:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.19-17.47.21:680][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
-[2017.04.19-17.47.21:682][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
-[2017.04.19-17.47.21:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.04.19-17.47.22:269][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.04.19-17.47.22:355][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.04.19-17.47.22:486][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.19-17.47.22:516][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.19-17.47.22:626][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.04.19-17.47.22:626][  0]LogLoad: (Engine Initialization) Total time: 44.86 seconds
-[2017.04.19-17.47.22:626][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
-[2017.04.19-17.47.22:627][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.19-17.47.22:627][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.19-17.47.22:642][  0]LogOcInput: OculusInput pre-init called
-[2017.04.19-17.47.22:676][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.19-17.47.23:045][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:2).
-[2017.04.19-17.47.23:291][  2]LogAssetRegistry: Asset discovery search completed in 32.3781 seconds
-[2017.04.19-17.47.23:291][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.04.19-17.47.23:291][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2017.04.19-17.47.33:310][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
-[2017.04.19-17.47.33:428][974]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.19-17.47.35:685][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.47.36:437][297]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.47.53:586][351]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2017.04.19-17.47.54:500][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-17.47.57:130][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured2)
-[2017.04.19-17.48.46:793][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
-[2017.04.19-17.48.47:490][685]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.49.04:278][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.53.20:638][570]Cmd: TRANSACTION UNDO
-[2017.04.19-17.53.20:638][570]LogEditorTransaction: Undo Move Actors
-[2017.04.19-17.53.35:347][313]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.54.07:346][100]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-17.54.08:480][220]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-17.54.18:802][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_04)
-[2017.04.19-17.54.22:703][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_5)
-[2017.04.19-17.54.23:428][980]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.54.31:501][933]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-17.54.32:693][ 68]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-17.54.46:619][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_04)
-[2017.04.19-17.54.50:632][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.54.51:138][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_2)
-[2017.04.19-17.55.04:298][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_5)
-[2017.04.19-17.55.10:004][464]Cmd: TRANSACTION UNDO
-[2017.04.19-17.55.10:004][464]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-17.55.16:116][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPlane2)
-[2017.04.19-17.55.19:623][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPlane2)
-[2017.04.19-17.55.22:641][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTrain2)
-[2017.04.19-17.55.24:932][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_5)
-[2017.04.19-17.55.28:788][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_04)
-[2017.04.19-17.55.30:379][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_2)
-[2017.04.19-17.55.31:849][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_5)
-[2017.04.19-17.55.34:807][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_2)
-[2017.04.19-17.55.42:636][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_04)
-[2017.04.19-17.55.58:749][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_5)
-[2017.04.19-17.56.06:363][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook2)
-[2017.04.19-17.56.10:797][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.56.18:431][484]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-17.56.19:803][639]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-17.56.25:160][268]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.56.31:839][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.56.33:540][243]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-17.56.35:244][431]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-17.56.41:293][134]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-17.56.42:987][328]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-17.56.43:739][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
-[2017.04.19-17.56.54:202][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_4)
-[2017.04.19-17.56.55:076][744]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.57.02:925][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_3)
-[2017.04.19-17.57.11:579][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.57.14:711][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_3)
-[2017.04.19-17.57.16:854][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
-[2017.04.19-17.57.21:646][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_3)
-[2017.04.19-17.57.26:823][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTrain2)
-[2017.04.19-17.57.46:140][711]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.58.08:254][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_02)
-[2017.04.19-17.58.38:697][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-17.58.39:984][971]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-17.58.48:033][907]LogActorFactory: Actor Factory created Box_01
-[2017.04.19-17.58.48:965][  5]LogActorFactory: Actor Factory created Box_01
-[2017.04.19-17.58.55:407][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.00.00:710][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.04.19-18.00.00:768][417]LogSavePackage: Save=51.97ms
-[2017.04.19-18.00.00:768][417]LogSavePackage: Moving '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Labyrinth_Auto1A7F1A2664FF32454940511AF713D6019.tmp' to '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap'
-[2017.04.19-18.00.00:770][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap
-[2017.04.19-18.00.00:775][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.076
-[2017.04.19-18.00.00:775][417]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
-[2017.04.19-18.00.02:931][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.00.04:095][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.00.05:477][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ItsaBook2)
-[2017.04.19-18.01.15:929][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.01.16:740][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_03)
-[2017.04.19-18.01.23:582][166]Cmd: TRANSACTION UNDO
-[2017.04.19-18.01.23:582][166]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.01.25:501][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.01.27:461][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.01.27:486][611]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.04.19-18.01.28:216][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_03)
-[2017.04.19-18.01.31:967][131]Cmd: TRANSACTION UNDO
-[2017.04.19-18.01.31:967][131]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.02.06:330][153]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.02.07:308][258]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.02.12:501][862]Cmd: TRANSACTION UNDO
-[2017.04.19-18.02.12:501][862]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.02.33:813][331]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.02.34:464][399]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.02.45:953][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.02.46:734][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured)
-[2017.04.19-18.02.48:642][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.02.53:069][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured4)
-[2017.04.19-18.02.55:078][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured)
-[2017.04.19-18.02.59:084][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured4)
-[2017.04.19-18.03.00:814][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.03.10:562][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll2)
-[2017.04.19-18.03.22:647][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.03.55:640][643]LogActorFactory: Actor Factory created ToyPlane
-[2017.04.19-18.03.57:298][832]LogActorFactory: Actor Factory created ToyPlane
-[2017.04.19-18.04.02:358][423]Cmd: TRANSACTION UNDO
-[2017.04.19-18.04.02:358][423]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.04.06:445][890]Cmd: TRANSACTION UNDO
-[2017.04.19-18.04.06:445][890]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.04.23:320][857]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.04.27:291][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.04.30:679][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPlane3)
-[2017.04.19-18.04.33:412][ 35]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.04.44:691][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.05.22:186][561]LogActorFactory: Actor Factory created ToyTrain
-[2017.04.19-18.05.23:493][701]LogActorFactory: Actor Factory created ToyTrain
-[2017.04.19-18.05.49:054][696]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.06.21:081][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.06.30:076][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll2)
-[2017.04.19-18.06.36:116][214]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.06.37:540][368]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.06.40:975][769]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.06.51:083][967]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.07.39:908][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.07.41:381][862]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll5)
-[2017.04.19-18.07.46:047][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.08.03:206][211]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.08.04:844][390]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.08.05:577][469]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.08.19:633][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_03)
-[2017.04.19-18.08.20:322][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_6)
-[2017.04.19-18.08.30:539][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.08.31:943][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_03)
-[2017.04.19-18.08.38:451][297]LogActorFactory: Actor Factory created CandyJar_M_01
-[2017.04.19-18.08.39:148][369]LogActorFactory: Actor Factory created CandyJar_M_01
-[2017.04.19-18.09.20:483][168]LogActorFactory: Actor Factory created Box_02
-[2017.04.19-18.09.21:195][244]LogActorFactory: Actor Factory created Box_02
-[2017.04.19-18.09.30:311][311]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.09.45:974][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.09.59:547][724]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.10.00:798][861]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.10.02:068][  4]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.10.34:938][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.10.37:948][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_7)
-[2017.04.19-18.10.44:174][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.11.12:698][ 70]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.11.13:480][144]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.11.19:015][790]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.11.41:524][448]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.11.57:602][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.12.13:078][ 90]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.12.14:055][194]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.12.26:826][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.12.29:875][ 29]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.12.30:642][114]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.12.33:110][393]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-18.12.33:989][488]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-18.12.34:655][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.12.41:143][305]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.12.42:507][457]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.12.45:296][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.12.46:718][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_03)
-[2017.04.19-18.12.51:620][513]Cmd: TRANSACTION UNDO
-[2017.04.19-18.12.51:620][513]LogEditorTransaction: Undo Move Actors
-[2017.04.19-18.12.53:770][749]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.13.03:603][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_8)
-[2017.04.19-18.13.15:585][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_8)
-[2017.04.19-18.13.18:490][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.13.19:815][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_6)
-[2017.04.19-18.13.29:830][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_03)
-[2017.04.19-18.13.31:154][915]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.13.50:136][611]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.13.51:829][780]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.13.53:043][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.01:453][836]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.14.03:083][ 20]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.14.04:202][131]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.14.05:384][263]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.14.06:335][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.07:921][524]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.14.08:705][610]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.14.16:582][495]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.14.38:128][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_3)
-[2017.04.19-18.14.41:069][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_3)
-[2017.04.19-18.14.41:883][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.42:613][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_11)
-[2017.04.19-18.14.49:144][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_12)
-[2017.04.19-18.14.49:943][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.54:939][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.55:600][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.56:191][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.14.58:820][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_3)
-[2017.04.19-18.15.05:989][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.15.09:579][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_3)
-[2017.04.19-18.15.11:803][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.15.13:929][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_3)
-[2017.04.19-18.15.18:000][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.15.32:656][ 50]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.15.33:488][138]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.15.34:557][258]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.16.00:535][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.16.04:644][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.16.12:925][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.16.16:611][951]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.16.17:925][ 89]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.16.20:122][312]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.16.21:155][423]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.16.21:864][495]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.16.25:386][867]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.16.45:063][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.16.55:498][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.16.56:231][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
-[2017.04.19-18.16.56:988][541]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.17.04:821][189]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.17.05:897][282]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.17.11:650][776]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.17.12:567][855]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.17.26:614][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured6)
-[2017.04.19-18.17.29:217][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.17.32:103][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Candle_Textured7)
-[2017.04.19-18.17.32:466][666]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.17.40:555][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.17.57:367][895]LogActorFactory: Actor Factory created ToyTrain
-[2017.04.19-18.17.58:337][975]LogActorFactory: Actor Factory created ToyTrain
-[2017.04.19-18.18.00:235][133]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.18.05:472][713]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.18.12:286][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.18.18:049][ 15]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.18.31:764][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.18.43:717][152]LogStaticMesh: Building static mesh CandyJar_L...
-[2017.04.19-18.18.46:432][152]LogStaticMesh: Built static mesh [2.71s] /Game/Meshes/CandyJar_L.CandyJar_L
-[2017.04.19-18.18.46:971][152]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.18.46:994][152]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.18.53:616][707]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.18.57:995][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.19.03:054][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.19.04:356][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_L)
-[2017.04.19-18.19.20:003][375]LogActorFactory: Actor Factory created Box_02
-[2017.04.19-18.19.21:095][495]LogActorFactory: Actor Factory created Box_02
-[2017.04.19-18.19.33:227][909]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.20.05:922][650]LogActorFactory: Actor Factory created Box_01
-[2017.04.19-18.20.07:401][814]LogActorFactory: Actor Factory created Box_01
-[2017.04.19-18.20.07:954][873]LogActorFactory: Actor Factory created Box_01
-[2017.04.19-18.20.25:822][883]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.20.36:751][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.20.44:476][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.20.49:915][496]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.20.50:693][576]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.20.54:036][927]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.21.12:931][620]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.21.14:280][727]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.21.18:194][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.21.20:337][201]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.21.21:660][308]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.21.24:143][530]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.21.25:703][685]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.21.32:486][346]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.21.55:310][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.22.03:022][440]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.22.04:460][574]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.22.09:662][123]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.22.23:131][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.22.33:853][642]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.22.34:771][736]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.22.45:865][ 21]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.22.49:259][411]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.22.50:513][550]LogActorFactory: Actor Factory created Candle_Textured
-[2017.04.19-18.22.55:560][133]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.23.08:237][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.23.10:268][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyPlane3)
-[2017.04.19-18.23.13:529][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.23.56:023][739]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.23.56:843][802]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.23.57:552][856]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.24.11:429][474]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.24.12:448][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_20)
-[2017.04.19-18.24.26:935][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.24.39:914][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
-[2017.04.19-18.24.40:270][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.24.49:887][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTrain3)
-[2017.04.19-18.24.52:059][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.24.53:136][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTrain3)
-[2017.04.19-18.24.54:985][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.24.56:124][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ToyTrain3)
-[2017.04.19-18.24.59:788][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.25.06:894][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.25.38:645][ 48]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.25.39:598][112]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.25.55:852][692]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.26.09:343][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.26.15:742][862]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.26.16:447][924]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.26.20:154][355]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.26.32:612][823]Cmd: TRANSACTION UNDO
-[2017.04.19-18.26.32:612][823]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.26.51:263][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.26.54:682][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll8)
-[2017.04.19-18.26.57:038][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
-[2017.04.19-18.27.06:638][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
-[2017.04.19-18.27.07:306][874]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.27.15:422][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.19-18.27.15:507][677]LogSavePackage: Save=61.95ms
-[2017.04.19-18.27.15:507][677]LogSavePackage: Moving '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Saved/LabyrinthB3D9BE2B4ED481702524D9A4AEFD0F5E.tmp' to '../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.19-18.27.15:512][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.19-18.27.15:543][677]LogFileHelpers: Saving map 'Labyrinth' took 0.176
-[2017.04.19-18.27.25:243][466]LogActorFactory: Actor Factory created CandyJar_M_01
-[2017.04.19-18.27.26:245][545]LogActorFactory: Actor Factory created CandyJar_M_01
-[2017.04.19-18.27.29:741][808]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.27.30:654][878]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.27.32:482][  8]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.27.33:215][ 62]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.27.39:013][557]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.27.41:015][735]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.27.49:823][471]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.27.51:125][582]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.28.04:266][721]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.28.06:523][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_L3)
-[2017.04.19-18.28.24:381][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.28.50:150][671]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.28.51:087][743]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.28.57:048][372]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.29.00:830][810]Cmd: TRANSACTION UNDO
-[2017.04.19-18.29.00:830][810]LogEditorTransaction: Undo Scale Actors
-[2017.04.19-18.29.12:360][142]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.29.23:607][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.29.44:946][972]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.30.39:545][395]LogActorFactory: Actor Factory created ToyPlane
-[2017.04.19-18.30.41:797][642]LogActorFactory: Actor Factory created ToyPlane
-[2017.04.19-18.30.43:687][846]LogActorFactory: Actor Factory created ToyPlane
-[2017.04.19-18.30.47:662][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.30.53:669][921]LogActorFactory: Actor Factory created Candle_Single
-[2017.04.19-18.30.54:772][ 41]LogActorFactory: Actor Factory created Candle_Single
-[2017.04.19-18.31.08:289][620]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.31.18:847][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.31.23:618][373]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.31.24:523][472]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.31.28:555][913]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.31.29:404][  3]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.31.41:018][308]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.31.41:618][365]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.31.45:005][705]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.31.46:630][869]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.31.48:746][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_8)
-[2017.04.19-18.31.49:502][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_26)
-[2017.04.19-18.31.51:187][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_8)
-[2017.04.19-18.31.58:612][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_26)
-[2017.04.19-18.31.59:331][171]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.32.08:712][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.32.14:157][769]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.32.15:619][916]LogActorFactory: Actor Factory created CandyJar_S_03
-[2017.04.19-18.32.22:748][586]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.32.23:662][645]LogActorFactory: Actor Factory created SillyDoll
-[2017.04.19-18.32.28:261][128]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.32.47:072][357]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.33.06:807][176]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.33.11:605][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll10)
-[2017.04.19-18.33.15:483][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse2)
-[2017.04.19-18.33.16:634][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll10)
-[2017.04.19-18.33.33:075][522]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.33.34:752][671]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.33.35:361][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
-[2017.04.19-18.33.37:707][907]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.33.39:085][ 26]LogActorFactory: Actor Factory created CandyJar_S_04
-[2017.04.19-18.33.40:742][167]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.33.44:439][484]Cmd: DELETE
-[2017.04.19-18.33.44:439][484]Cmd: ACTOR DELETE
-[2017.04.19-18.33.44:450][484]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.04.19-18.33.44:459][484]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.04.19-18.33.47:473][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
-[2017.04.19-18.33.49:676][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_29)
-[2017.04.19-18.34.01:620][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.34.06:196][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
-[2017.04.19-18.34.11:237][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
-[2017.04.19-18.34.13:574][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.34.21:519][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll8)
-[2017.04.19-18.34.22:277][ 71]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.34.35:274][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_14)
-[2017.04.19-18.34.36:120][588]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.34.40:593][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_01)
-[2017.04.19-18.34.47:149][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_14)
-[2017.04.19-18.34.53:124][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_15)
-[2017.04.19-18.34.54:788][725]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-18.34.56:034][861]LogActorFactory: Actor Factory created CandyJar_M_03
-[2017.04.19-18.35.14:255][596]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.35.15:763][759]LogActorFactory: Actor Factory created CandyJar_L
-[2017.04.19-18.35.33:969][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_L4)
-[2017.04.19-18.35.39:063][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.35.45:029][788]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.35.46:911][956]LogActorFactory: Actor Factory created CandyJar_S_01
-[2017.04.19-18.35.47:572][ 12]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.35.56:430][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.36.26:254][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2017.04.19-18.36.27:594][508]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.37.03:897][262]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.37.05:035][349]LogActorFactory: Actor Factory created CandyJar_M_02
-[2017.04.19-18.37.06:106][429]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.19-18.37.21:615][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/u0832250/Desktop/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.20-00.39.25:967][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-00.39.25:967][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.20-00.39.25:999][  0]LogInit: Computer: DANNYSSURFACEPR
+[2017.04.20-00.39.25:999][  0]LogInit: User: Danny
+[2017.04.20-00.39.25:999][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.04.20-00.39.25:999][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2017.04.20-00.39.26:002][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.20-00.39.26:002][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.20-00.39.26:002][  0]LogMemory: Process Physical Memory: 263.48 MB used, 263.48 MB peak
+[2017.04.20-00.39.26:002][  0]LogMemory: Process Virtual Memory: 262.01 MB used, 262.01 MB peak
+[2017.04.20-00.39.26:002][  0]LogMemory: Physical Memory: 5409.48 MB used,  2708.64 MB free, 8118.13 MB total
+[2017.04.20-00.39.26:002][  0]LogMemory: Virtual Memory: 674.32 MB used,  2708.64 MB free, 134217728.00 MB total
+[2017.04.20-00.39.26:444][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.20-00.39.29:330][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.20-00.39.29:510][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.04.20-00.39.29:510][  0]LogD3D11RHI:       128/0/4059 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.04.20-00.39.29:512][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.20-00.39.29:512][  0]LogD3D11RHI:       0/0/4059 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.20-00.39.29:512][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.20-00.39.29:522][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.20-00.39.29:522][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.20-00.39.29:522][  0]LogWindows: EnumDisplayDevices:
+[2017.04.20-00.39.29:522][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.04.20-00.39.29:522][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.04.20-00.39.29:523][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.04.20-00.39.29:523][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.04.20-00.39.29:523][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.04.20-00.39.29:523][  0]LogD3D11RHI:   Driver Version: 20.19.15.4463 (internal:20.19.15.4463, unified:20.19.15.4463)
+[2017.04.20-00.39.29:523][  0]LogD3D11RHI:      Driver Date: 7-6-2016
+[2017.04.20-00.39.29:523][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.20-00.39.29:543][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.20-00.39.29:592][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.04.20-00.39.29:604][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/1140/).
+[2017.04.20-00.39.29:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Danny/AppData/Local/Temp/UnrealShaderWorkingDir/FC606C8D424DF3878F8CABB21215A277/'.
+[2017.04.20-00.39.29:605][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.20-00.39.36:937][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.20-00.39.36:997][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.20-00.39.37:056][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.20-00.39.37:116][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.20-00.39.37:183][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.20-00.39.37:243][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.20-00.39.37:302][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.20-00.39.37:360][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.20-00.39.37:412][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.20-00.39.37:477][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.20-00.39.37:537][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.20-00.39.37:595][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.20-00.39.37:654][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.20-00.39.37:714][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.20-00.39.37:773][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.20-00.39.37:892][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.20-00.39.37:892][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.20-00.39.37:939][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.20-00.39.38:065][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.20-00.39.38:104][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.20-00.39.38:161][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.20-00.39.38:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.20-00.39.38:277][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.20-00.39.38:364][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.20-00.39.38:364][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.20-00.39.39:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache: Loaded boot cache 0.21s 50MB C:/Users/Danny/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Danny/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.20-00.39.39:436][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.20-00.39.39:472][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.20-00.39.39:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Danny/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.20-00.39.43:856][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.20-00.39.43:876][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.20-00.39.44:264][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.20-00.39.44:332][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.20-00.39.44:389][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.20-00.39.44:389][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.20-00.39.44:389][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.20-00.39.46:432][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
+[2017.04.20-00.39.46:550][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.04.20-00.39.46:635][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.047362 seconds
+[2017.04.20-00.39.46:644][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.20-00.39.46:644][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.04.20-00.39.46:644][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.20-00.39.46:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.20-00.39.48:182][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.20-00.39.48:219][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-00.39.48:219][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.20-00.39.52:335][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.20-00.39.52:377][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.20-00.39.52:427][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.20-00.39.52:979][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.20-00.39.53:557][  0]SourceControl: Info Source control is disabled
+[2017.04.20-00.39.53:559][  0]SourceControl: Info Source control is disabled
+[2017.04.20-00.39.53:630][  0]SourceControl: Info Source control is disabled
+[2017.04.20-00.39.53:698][  0]SourceControl: Info Source control is disabled
+[2017.04.20-00.39.55:705][  0]LogEngine: Initializing Engine...
+[2017.04.20-00.39.55:709][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.20-00.39.56:138][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.20-00.39.56:225][  0]LogInit: XAudio2 using 'Headphones (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.20-00.39.56:265][  0]LogInit: FAudioDevice initialized.
+[2017.04.20-00.39.56:310][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Danny/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.20-00.39.56:317][  0]LogInit: Texture streaming: Enabled
+[2017.04.20-00.39.56:613][  0]LogInit: Transaction tracking system initialized
+[2017.04.20-00.39.57:132][  0]BlueprintLog: New page: Editor Load
+[2017.04.20-00.39.58:510][  0]LocalizationService: Info Localization service is disabled
+[2017.04.20-00.39.59:421][  0]LogConsoleResponse:Display: 
+[2017.04.20-00.39.59:831][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.20-00.39.59:832][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.20-00.40.00:318][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/' took 0.02s
+[2017.04.20-00.40.01:141][  0]SourceControl: Info Source control is disabled
+[2017.04.20-00.40.01:147][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.20-00.40.01:153][  0]LightingResults: New page: Lighting Build
+[2017.04.20-00.40.01:225][  0]MapCheck: New page: Map Check
+[2017.04.20-00.40.01:225][  0]LightingResults: New page: Lighting Build
+[2017.04.20-00.40.01:330][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.20-00.40.01:330][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.20-00.40.01:331][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.20-00.40.01:331][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.20-00.40.01:331][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.20-00.40.01:331][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.20-00.40.01:332][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.20-00.40.01:332][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.20-00.40.01:332][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.20-00.40.01:332][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.20-00.40.01:332][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.20-00.40.01:332][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.20-00.40.01:345][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.20-00.40.01:346][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.20-00.40.01:346][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Danny/Desktop/Github FUCK/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.20-00.40.01:346][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.20-00.40.01:346][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.20-00.40.01:845][  0]LogTexture:Display: Building textures: GlitterTexture (AutoDXT)
+[2017.04.20-00.40.02:328][  0]LogTexture:Display: Building textures: DiffuseTexture (AutoDXT)
+[2017.04.20-00.40.02:658][  0]LogTexture:Display: Building textures: ShiftTexture (AutoDXT)
+[2017.04.20-00.40.03:587][  0]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.20-00.40.03:695][  0]LogMaterial: Missing cached shader map for material Mat_Hair_V1, compiling. 
+[2017.04.20-00.40.03:801][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.04.20-00.40.04:679][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.04.20-00.40.05:738][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.04.20-00.40.05:794][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.04.20-00.40.06:532][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.04.20-00.40.07:081][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.04.20-00.40.07:472][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.04.20-00.40.07:512][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.04.20-00.40.07:984][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2017.04.20-00.40.08:164][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2017.04.20-00.40.08:193][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2017.04.20-00.40.08:235][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.04.20-00.40.08:520][  0]LogTexture:Display: Building textures: parasiteZombie_diffuse (AutoDXT)
+[2017.04.20-00.40.15:278][  0]LogTexture:Display: Building textures: parasiteZombie_specular (AutoDXT)
+[2017.04.20-00.40.20:954][  0]LogTexture:Display: Building textures: parasiteZombie_normal (BC5)
+[2017.04.20-00.40.22:041][  0]LogMaterial: Missing cached shader map for material parasitezombie_Material, compiling. 
+[2017.04.20-00.40.22:212][  0]LogTexture:Display: Building textures: Floor_2_Normal (BC5)
+[2017.04.20-00.40.22:569][  0]LogTexture:Display: Building textures: Grungy_NormalDeets (BC5)
+[2017.04.20-00.40.22:905][  0]LogTexture:Display: Building textures: Wood_Wavey_Contrast (BGRA8)
+[2017.04.20-00.40.23:075][  0]LogMaterial: Missing cached shader map for material BaseMat2, compiling. 
+[2017.04.20-00.40.23:177][  0]LogTexture:Display: Building textures: WhiteWall_Contrast (AutoDXT)
+[2017.04.20-00.40.24:464][  0]LogTexture:Display: Building textures: Wood_Detail (AutoDXT)
+[2017.04.20-00.40.26:891][  0]LogTexture:Display: Building textures: Wood_Detail_Normal (BC5)
+[2017.04.20-00.40.27:269][  0]LogTexture:Display: Building textures: Floor_1 (AutoDXT)
+[2017.04.20-00.40.29:669][  0]LogTexture:Display: Building textures: Wood_Rough_Contrast__1_ (AutoDXT)
+[2017.04.20-00.40.30:984][  0]LogTexture:Display: Building textures: RH2 (BGRA8)
+[2017.04.20-00.40.31:040][  0]LogMaterial: Missing cached shader map for material BaseMaterialParent, compiling. 
+[2017.04.20-00.40.31:138][  0]LogTexture:Display: Building textures: WhiteWornWalls (AutoDXT)
+[2017.04.20-00.40.33:613][  0]LogTexture:Display: Building textures: WhiteWalls_Normal (BC5)
+[2017.04.20-00.40.34:123][  0]LogTexture:Display: Building textures: ToyPlane_Dark_Normal (BC5)
+[2017.04.20-00.40.34:662][  0]LogTexture:Display: Building textures: ToyPlane_Dark (AutoDXT)
+[2017.04.20-00.40.37:678][  0]LogTexture:Display: Building textures: n11 (BGRA8)
+[2017.04.20-00.40.37:988][  0]LogTexture:Display: Building textures: Carpet_Normal (AutoDXT)
+[2017.04.20-00.40.40:611][  0]LogTexture:Display: Building textures: Carpet_BW (AutoDXT)
+[2017.04.20-00.40.41:979][  0]LogTexture:Display: Building textures: WoodPlank_Normal (BC5)
+[2017.04.20-00.40.42:370][  0]LogTexture:Display: Building textures: WoodPlank_Ceiling (AutoDXT)
+[2017.04.20-00.40.44:850][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Young_Girl_Character_Animation/AnimationSequence_03.AnimationSequence_03
+[2017.04.20-00.40.45:255][  0]LogStaticMesh: Building static mesh BaseRoom_Ceiling_Textured...
+[2017.04.20-00.40.45:332][  0]LogStaticMesh: Built static mesh [0.08s] /Game/LabyrinthMeshes/BaseRoom_Ceiling_Textured.BaseRoom_Ceiling_Textured
+[2017.04.20-00.40.45:332][  0]LogStaticMesh: Building static mesh BaseRoom_Overhangs_Textured...
+[2017.04.20-00.40.45:403][  0]LogStaticMesh: Built static mesh [0.07s] /Game/LabyrinthMeshes/BaseRoom_Overhangs_Textured.BaseRoom_Overhangs_Textured
+[2017.04.20-00.40.45:403][  0]LogStaticMesh: Building static mesh BaseRoom_WandF_Textured...
+[2017.04.20-00.40.45:566][  0]LogStaticMesh: Built static mesh [0.16s] /Game/LabyrinthMeshes/BaseRoom_WandF_Textured.BaseRoom_WandF_Textured
+[2017.04.20-00.40.45:591][  0]LogStaticMesh: Building static mesh Bedroom_C2...
+[2017.04.20-00.40.45:592][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.20-00.40.45:603][  0]LogStaticMesh: Built static mesh [0.04s] /Game/OtherRoomsMeshes/Bedroom/Bedroom_C2.Bedroom_C2
+[2017.04.20-00.40.45:604][  0]LogStaticMesh: Building static mesh Bedroom_C...
+[2017.04.20-00.40.45:604][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.20-00.40.45:608][  0]LogStaticMesh: Built static mesh [0.01s] /Game/OtherRoomsMeshes/Bedroom/Bedroom_C.Bedroom_C
+[2017.04.20-00.40.45:609][  0]LogStaticMesh: Building static mesh Bedroom_F...
+[2017.04.20-00.40.45:620][  0]LogStaticMesh: Built static mesh [0.01s] /Game/OtherRoomsMeshes/Bedroom/Bedroom_F.Bedroom_F
+[2017.04.20-00.40.45:620][  0]LogStaticMesh: Building static mesh Bedroom_W2...
+[2017.04.20-00.40.45:624][  0]LogStaticMesh: Built static mesh [0.00s] /Game/OtherRoomsMeshes/Bedroom/Bedroom_W2.Bedroom_W2
+[2017.04.20-00.40.45:624][  0]LogStaticMesh: Building static mesh Bedroom_W...
+[2017.04.20-00.40.45:625][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.20-00.40.45:645][  0]LogStaticMesh: Built static mesh [0.02s] /Game/OtherRoomsMeshes/Bedroom/Bedroom_W.Bedroom_W
+[2017.04.20-00.40.45:645][  0]LogStaticMesh: Building static mesh Box_01...
+[2017.04.20-00.40.46:151][  0]LogStaticMesh: Built static mesh [0.51s] /Game/Meshes/Box_01.Box_01
+[2017.04.20-00.40.46:152][  0]LogStaticMesh: Building static mesh Box_02...
+[2017.04.20-00.40.48:215][  0]LogStaticMesh: Built static mesh [2.06s] /Game/Meshes/Box_02.Box_02
+[2017.04.20-00.40.48:218][  0]LogStaticMesh: Building static mesh Candle_Single...
+[2017.04.20-00.40.48:398][  0]LogStaticMesh: Built static mesh [0.18s] /Game/Meshes/Candle_Single.Candle_Single
+[2017.04.20-00.40.48:424][  0]LogStaticMesh: Building static mesh Candle_Textured...
+[2017.04.20-00.40.48:551][  0]LogStaticMesh: Built static mesh [0.15s] /Game/Meshes/Candle_Textured.Candle_Textured
+[2017.04.20-00.40.48:552][  0]LogStaticMesh: Building static mesh CandyJar_L...
+[2017.04.20-00.40.53:352][  0]LogStaticMesh: Built static mesh [4.80s] /Game/Meshes/CandyJar_L.CandyJar_L
+[2017.04.20-00.40.53:356][  0]LogStaticMesh: Building static mesh CandyJar_M_01...
+[2017.04.20-00.40.59:346][  0]LogStaticMesh: Built static mesh [5.99s] /Game/Meshes/CandyJar_M_01.CandyJar_M_01
+[2017.04.20-00.40.59:348][  0]LogStaticMesh: Building static mesh CandyJar_M_02...
+[2017.04.20-00.43.43:871][  0]LogStaticMesh: Built static mesh [164.52s] /Game/Meshes/CandyJar_M_02.CandyJar_M_02
+[2017.04.20-00.43.43:911][  0]LogStaticMesh: Building static mesh CandyJar_M_03...
+[2017.04.20-00.43.45:397][  0]LogStaticMesh: Built static mesh [1.49s] /Game/Meshes/CandyJar_M_03.CandyJar_M_03
+[2017.04.20-00.43.45:398][  0]LogStaticMesh: Building static mesh CandyJar_S_01...
+[2017.04.20-00.43.52:838][  0]LogStaticMesh: Built static mesh [7.44s] /Game/Meshes/CandyJar_S_01.CandyJar_S_01
+[2017.04.20-00.43.52:843][  0]LogStaticMesh: Building static mesh CandyJar_S_02...
+[2017.04.20-00.44.01:210][  0]LogStaticMesh: Built static mesh [8.37s] /Game/Meshes/CandyJar_S_02.CandyJar_S_02
+[2017.04.20-00.44.01:213][  0]LogStaticMesh: Building static mesh CandyJar_S_03...
+[2017.04.20-00.48.32:806][  0]LogStaticMesh: Built static mesh [271.59s] /Game/Meshes/CandyJar_S_03.CandyJar_S_03
+[2017.04.20-00.48.32:847][  0]LogStaticMesh: Building static mesh CandyJar_S_04...
+[2017.04.20-00.49.35:712][  0]LogStaticMesh: Built static mesh [62.87s] /Game/Meshes/CandyJar_S_04.CandyJar_S_04
+[2017.04.20-00.49.35:719][  0]LogStaticMesh: Building static mesh Carpet_Textured...
+[2017.04.20-00.49.35:722][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/Carpet_Textured.Carpet_Textured
+[2017.04.20-00.49.35:748][  0]LogStaticMesh: Building static mesh Chandelier...
+[2017.04.20-00.49.53:266][  0]LogStaticMesh: Built static mesh [17.54s] /Game/Meshes/Chandelier.Chandelier
+[2017.04.20-00.49.53:300][  0]LogStaticMesh: Building static mesh ClosedRoom_F...
+[2017.04.20-00.49.53:301][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.20-00.49.53:306][  0]LogStaticMesh: Built static mesh [0.03s] /Game/OtherRoomsMeshes/ClosedRoom/ClosedRoom_F.ClosedRoom_F
+[2017.04.20-00.49.53:306][  0]LogStaticMesh: Building static mesh ClosedRoom_W...
+[2017.04.20-00.49.53:383][  0]LogStaticMesh: Built static mesh [0.08s] /Game/OtherRoomsMeshes/ClosedRoom/ClosedRoom_W.ClosedRoom_W
+[2017.04.20-00.49.53:384][  0]LogStaticMesh: Building static mesh Door...
+[2017.04.20-00.49.54:144][  0]LogStaticMesh: Built static mesh [0.76s] /Game/Meshes/Door.Door
+[2017.04.20-00.49.54:146][  0]LogStaticMesh: Building static mesh Fireplace_Textured...
+[2017.04.20-00.49.57:999][  0]LogStaticMesh: Built static mesh [3.85s] /Game/Meshes/Fireplace_Textured.Fireplace_Textured
+[2017.04.20-00.49.58:006][  0]LogStaticMesh: Building static mesh Hatch...
+[2017.04.20-00.49.58:053][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Meshes/Hatch.Hatch
+[2017.04.20-00.49.58:053][  0]LogStaticMesh: Building static mesh ItsaBook...
+[2017.04.20-00.49.58:180][  0]LogStaticMesh: Built static mesh [0.13s] /Game/Meshes/ItsaBook.ItsaBook
+[2017.04.20-00.49.58:182][  0]LogStaticMesh: Building static mesh newchair...
+[2017.04.20-00.50.36:914][  0]LogStaticMesh: Built static mesh [38.73s] /Game/Meshes/newchair.newchair
+[2017.04.20-00.50.36:920][  0]LogStaticMesh: Building static mesh Pillars...
+[2017.04.20-00.50.36:922][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.20-00.50.37:122][  0]LogStaticMesh: Built static mesh [0.20s] /Game/LabyrinthMeshes/Pillars.Pillars
+[2017.04.20-00.50.37:123][  0]LogStaticMesh: Building static mesh RockHorse...
+[2017.04.20-00.50.37:308][  0]LogStaticMesh: Built static mesh [0.19s] /Game/LabyrinthMeshes/Untextured/RockHorse.RockHorse
+[2017.04.20-00.50.37:310][  0]LogStaticMesh: Building static mesh Sconce...
+[2017.04.20-00.50.40:589][  0]LogStaticMesh: Built static mesh [3.28s] /Game/Meshes/Sconce.Sconce
+[2017.04.20-00.50.40:591][  0]LogStaticMesh: Building static mesh SillyDoll...
+[2017.04.20-00.50.41:843][  0]LogStaticMesh: Built static mesh [1.25s] /Game/Meshes/SillyDoll.SillyDoll
+[2017.04.20-00.50.41:845][  0]LogStaticMesh: Building static mesh Stool_Textured...
+[2017.04.20-00.50.43:744][  0]LogStaticMesh: Built static mesh [1.90s] /Game/Meshes/Stool_Textured.Stool_Textured
+[2017.04.20-00.50.43:745][  0]LogStaticMesh: Building static mesh Table...
+[2017.04.20-00.50.45:760][  0]LogStaticMesh: Built static mesh [2.02s] /Game/LabyrinthMeshes/Untextured/Table.Table
+[2017.04.20-00.50.45:762][  0]LogStaticMesh: Building static mesh ToyPlane...
+[2017.04.20-00.50.45:855][  0]LogStaticMesh: Built static mesh [0.09s] /Game/Meshes/ToyPlane.ToyPlane
+[2017.04.20-00.50.45:856][  0]LogStaticMesh: Building static mesh ToyTrain...
+[2017.04.20-00.50.54:343][  0]LogStaticMesh: Built static mesh [8.49s] /Game/Meshes/ToyTrain.ToyTrain
+[2017.04.20-00.50.54:890][  0]LogTexture:Display: Building textures: T_Concrete_Poured_N (BC5)
+[2017.04.20-00.50.56:092][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
+[2017.04.20-00.50.56:277][  0]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2017.04.20-00.50.58:324][  0]LogTexture:Display: Building textures: T_Rock_Slate_D (AutoDXT)
+[2017.04.20-00.51.09:153][  0]LogMaterial: Missing cached shader map for material WoodObjectTableVersion, compiling. 
+[2017.04.20-00.51.09:201][  0]LogMaterial: Missing cached shader map for material WhiteWalls, compiling. 
+[2017.04.20-00.51.09:228][  0]LogMaterial: Missing cached shader map for material ShinyBorder, compiling. 
+[2017.04.20-00.51.09:268][  0]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2017.04.20-00.51.09:295][  0]LogMaterial: Missing cached shader map for material black, compiling. 
+[2017.04.20-00.51.09:378][  0]LogTexture:Display: Building textures: Floor_2 (AutoDXT)
+[2017.04.20-00.51.12:089][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Top_Specular (AutoDXT)
+[2017.04.20-00.51.12:284][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Top_Normal (BC5)
+[2017.04.20-00.51.12:515][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Top_Diffuse (AutoDXT)
+[2017.04.20-00.51.13:251][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2017.04.20-00.51.13:402][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Shoes_Specular (AutoDXT)
+[2017.04.20-00.51.13:880][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Shoes_Normal (BC5)
+[2017.04.20-00.51.14:664][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Shoes_Diffuse (AutoDXT)
+[2017.04.20-00.51.17:335][  0]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2017.04.20-00.51.17:480][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Hair_Specular (AutoDXT)
+[2017.04.20-00.51.18:091][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Hair_Opacity (AutoDXT)
+[2017.04.20-00.51.18:787][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Hair_Normal (BC5)
+[2017.04.20-00.51.19:132][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Hair_Diffuse (AutoDXT)
+[2017.04.20-00.51.20:295][  0]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2017.04.20-00.51.20:838][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Body_Diffuse (AutoDXT)
+[2017.04.20-00.51.26:074][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Body_Normal (BC5)
+[2017.04.20-00.51.27:447][  0]LogMaterial: Missing cached shader map for material EyesMat, compiling. 
+[2017.04.20-00.51.27:649][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Body_Opacity (AutoDXT)
+[2017.04.20-00.51.29:043][  0]LogMaterial: Missing cached shader map for material EyelashesMat, compiling. 
+[2017.04.20-00.51.29:271][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Bottom_Specular (AutoDXT)
+[2017.04.20-00.51.29:655][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Bottom_Normal (BC5)
+[2017.04.20-00.51.30:116][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Bottom_Diffuse (AutoDXT)
+[2017.04.20-00.51.31:986][  0]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2017.04.20-00.51.32:270][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Body_Specular (AutoDXT)
+[2017.04.20-00.51.34:854][  0]LogTexture:Display: Building textures: Young_Girl_3_w_Dress_Body_Gloss (AutoDXT)
+[2017.04.20-00.51.38:007][  0]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2017.04.20-00.51.38:290][  0]LogMaterial: Missing cached shader map for material Fbx_Default_Material, compiling. 
+[2017.04.20-00.51.40:625][  0]LogTexture:Display: Building textures: ToyPlane_Light_Normal (BC5)
+[2017.04.20-00.51.48:134][  0]LogTexture:Display: Building textures: ToyPlane_Light (AutoDXT)
