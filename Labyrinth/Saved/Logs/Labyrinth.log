@@ -1,9 +1,9 @@
-﻿Log file open, 04/22/17 01:51:03
+﻿Log file open, 04/22/17 14:49:16
 LogInit:Display: Running engine for game: Labyrinth
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1883043966) SRandInit(-1883043966).
+LogInit:Display: RandInit(360960982) SRandInit(360960982).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.069955
+LogStats: Stats thread started at 0.069522
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -117,8 +117,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
-OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 375546) feature version = 0. Client runs version (prod = 1).1.14.0(build = 375546) feature version = 0
 LogInit: Build: ++UE4+Release-4.14-CL-3249277
 LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
 LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
@@ -141,661 +139,1064 @@ LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.14
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.22-07.51.04:292][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.22-07.51.04:292][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.22-07.51.04:315][  0]LogInit: Computer: DESKTOP-S8DRTNQ
-[2017.04.22-07.51.04:315][  0]LogInit: User: dan
-[2017.04.22-07.51.04:315][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.22-07.51.04:315][  0]LogInit: High frequency timer resolution =3.415989 MHz
-[2017.04.22-07.51.04:315][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.04.22-07.51.04:315][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.22-07.51.04:315][  0]LogMemory: Process Physical Memory: 268.52 MB used, 268.52 MB peak
-[2017.04.22-07.51.04:315][  0]LogMemory: Process Virtual Memory: 265.73 MB used, 265.73 MB peak
-[2017.04.22-07.51.04:315][  0]LogMemory: Physical Memory: 4071.66 MB used,  4059.30 MB free, 8130.96 MB total
-[2017.04.22-07.51.04:315][  0]LogMemory: Virtual Memory: 712.79 MB used,  4059.30 MB free, 134217728.00 MB total
-[2017.04.22-07.51.04:440][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.22-07.51.06:622][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.22-07.51.07:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.04.22-07.51.07:105][  0]LogD3D11RHI:       6084/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.22-07.51.07:106][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.22-07.51.07:107][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.22-07.51.07:107][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.22-07.51.07:112][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.22-07.51.07:112][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.22-07.51.07:112][  0]LogWindows: EnumDisplayDevices:
-[2017.04.22-07.51.07:112][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.04.22-07.51.07:113][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.22-07.51.07:113][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.22-07.51.07:113][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.22-07.51.07:113][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.22-07.51.07:113][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.04.22-07.51.07:113][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
-[2017.04.22-07.51.07:113][  0]LogD3D11RHI:      Driver Date: 2-23-2017
-[2017.04.22-07.51.07:113][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.22-07.51.07:573][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.22-07.51.07:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.22-07.51.07:651][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/1356/).
-[2017.04.22-07.51.07:651][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dan/AppData/Local/Temp/UnrealShaderWorkingDir/92DBED834642B3776A84AEADD6677FFF/'.
-[2017.04.22-07.51.07:651][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.22-07.51.10:192][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.22-07.51.10:240][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.22-07.51.10:288][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.22-07.51.10:339][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.22-07.51.10:390][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.22-07.51.10:436][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.22-07.51.10:481][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.22-07.51.10:528][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.22-07.51.10:567][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.22-07.51.10:615][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.22-07.51.10:661][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.22-07.51.10:711][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.22-07.51.10:756][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.22-07.51.10:803][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.22-07.51.10:848][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.22-07.51.10:939][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.22-07.51.10:939][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.22-07.51.10:971][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.22-07.51.11:053][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.22-07.51.11:084][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.22-07.51.11:131][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.22-07.51.11:178][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.22-07.51.11:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.22-07.51.11:274][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.22-07.51.11:274][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.22-07.51.11:661][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache: Loaded boot cache 0.19s 50MB C:/Users/dan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.22-07.51.11:856][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.22-07.51.11:871][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.22-07.51.11:883][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.22-07.51.13:229][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.22-07.51.13:234][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.22-07.51.13:443][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.22-07.51.13:488][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.22-07.51.13:530][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.22-07.51.13:530][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.22-07.51.13:530][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.22-07.51.14:145][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
-[2017.04.22-07.51.14:206][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
-[2017.04.22-07.51.14:264][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.035157 seconds
-[2017.04.22-07.51.14:270][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.22-07.51.14:270][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.04.22-07.51.14:270][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.22-07.51.14:339][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.22-07.51.15:185][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.22-07.51.15:198][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.22-07.51.15:198][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.22-07.51.17:273][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.04.22-07.51.17:303][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.22-07.51.17:341][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.22-07.51.17:727][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.22-07.51.18:112][  0]SourceControl: Info Source control is disabled
-[2017.04.22-07.51.18:114][  0]SourceControl: Info Source control is disabled
-[2017.04.22-07.51.18:161][  0]SourceControl: Info Source control is disabled
-[2017.04.22-07.51.18:207][  0]SourceControl: Info Source control is disabled
-[2017.04.22-07.51.19:530][  0]LogEngine: Initializing Engine...
-[2017.04.22-07.51.20:696][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.04.22-07.51.20:702][  0]LogHMD: Oculus plugin initialized. Version: 4.14.3-3249277+++UE4+Release-4.14, LibOVR: 1.14.0, SDK: 1.8.0, built Jan  6 2017, 10:50:26
-[2017.04.22-07.51.20:966][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.22-07.51.20:981][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.22-07.51.20:993][  0]LogInit: FAudioDevice initialized.
-[2017.04.22-07.51.21:023][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/dan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.22-07.51.21:032][  0]LogInit: Texture streaming: Enabled
-[2017.04.22-07.51.21:213][  0]LogInit: Transaction tracking system initialized
-[2017.04.22-07.51.21:534][  0]OCULUS: Debug: [Client] Disconnected
-[2017.04.22-07.51.21:534][  0]BlueprintLog: New page: Editor Load
-[2017.04.22-07.51.22:423][  0]LocalizationService: Info Localization service is disabled
-[2017.04.22-07.51.23:284][  0]LogConsoleResponse:Display: 
-[2017.04.22-07.51.23:516][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.22-07.51.23:516][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.22-07.51.23:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/' took 0.01s
-[2017.04.22-07.51.24:475][  0]SourceControl: Info Source control is disabled
-[2017.04.22-07.51.24:476][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.22-07.51.24:477][  0]LightingResults: New page: Lighting Build
-[2017.04.22-07.51.24:515][  0]MapCheck: New page: Map Check
-[2017.04.22-07.51.24:515][  0]LightingResults: New page: Lighting Build
-[2017.04.22-07.51.24:529][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.22-07.51.24:529][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.22-07.51.24:529][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.22-07.51.24:529][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.22-07.51.24:529][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.22-07.51.24:529][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.22-07.51.24:530][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.22-07.51.24:530][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.22-07.51.24:530][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.22-07.51.24:530][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.22-07.51.24:530][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.22-07.51.24:530][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.22-07.51.24:536][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.22-07.51.24:536][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.22-07.51.24:536][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.22-07.51.24:536][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.22-07.51.24:536][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.22-07.51.28:767][  0]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.22-07.51.28:887][  0]LogMaterial:Warning: Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass needed to have new flag set bUsedWithStaticLighting !
-[2017.04.22-07.51.28:890][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.22-07.51.28:943][  0]MapCheck:Warning: Warning Base_Glass Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.04.22-07.51.28:945][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.22-07.51.28:971][  0]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.04.22-07.51.28:978][  0]LogScript:Warning: Accessed None trying to read property Light
+[2017.04.22-20.49.17:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-20.49.17:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.22-20.49.17:047][  0]LogInit: Computer: BOXTURRET
+[2017.04.22-20.49.17:047][  0]LogInit: User: Bacchus
+[2017.04.22-20.49.17:047][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.22-20.49.17:047][  0]LogInit: High frequency timer resolution =3.422011 MHz
+[2017.04.22-20.49.17:047][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.22-20.49.17:047][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.22-20.49.17:047][  0]LogMemory: Process Physical Memory: 263.78 MB used, 263.78 MB peak
+[2017.04.22-20.49.17:047][  0]LogMemory: Process Virtual Memory: 264.29 MB used, 264.29 MB peak
+[2017.04.22-20.49.17:047][  0]LogMemory: Physical Memory: 4182.79 MB used,  12161.52 MB free, 16344.30 MB total
+[2017.04.22-20.49.17:047][  0]LogMemory: Virtual Memory: 661.42 MB used,  12161.52 MB free, 8388608.00 MB total
+[2017.04.22-20.49.17:074][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.22-20.49.17:580][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.22-20.49.17:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.04.22-20.49.17:600][  0]LogD3D11RHI:       6045/0/7916 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.22-20.49.17:600][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.22-20.49.17:607][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.22-20.49.17:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.22-20.49.17:607][  0]LogWindows: EnumDisplayDevices:
+[2017.04.22-20.49.17:607][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.04.22-20.49.17:607][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.22-20.49.17:607][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.22-20.49.17:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.04.22-20.49.17:607][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.04.22-20.49.17:607][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.04.22-20.49.17:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.22-20.49.17:615][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.22-20.49.17:629][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.22-20.49.17:629][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/6620/).
+[2017.04.22-20.49.17:629][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bacchus/AppData/Local/Temp/UnrealShaderWorkingDir/56DA8D4941296D285E8404AD7A5CECCC/'.
+[2017.04.22-20.49.17:629][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.22-20.49.18:503][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.22-20.49.18:552][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.22-20.49.18:597][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.22-20.49.18:658][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.22-20.49.18:712][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.22-20.49.18:754][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.22-20.49.18:798][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.22-20.49.18:843][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.22-20.49.18:879][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.22-20.49.18:921][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.22-20.49.18:963][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.22-20.49.19:005][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.22-20.49.19:048][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.22-20.49.19:092][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.22-20.49.19:134][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.22-20.49.19:221][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.22-20.49.19:221][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.22-20.49.19:250][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.22-20.49.19:319][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.22-20.49.19:346][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.22-20.49.19:389][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.22-20.49.19:432][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.22-20.49.19:476][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.22-20.49.19:519][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.22-20.49.19:519][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.22-20.49.19:899][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.22-20.49.19:945][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.22-20.49.19:960][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.22-20.49.19:971][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bacchus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.22-20.49.20:160][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.22-20.49.20:162][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.22-20.49.20:339][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.22-20.49.20:372][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.22-20.49.20:405][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.22-20.49.20:405][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.22-20.49.20:405][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.22-20.49.20:833][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
+[2017.04.22-20.49.20:882][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2017.04.22-20.49.20:921][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021984 seconds
+[2017.04.22-20.49.20:927][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.22-20.49.20:927][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.22-20.49.20:927][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.22-20.49.20:971][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.22-20.49.21:557][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.22-20.49.21:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-20.49.21:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.22-20.49.22:296][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.22-20.49.22:316][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.22-20.49.22:346][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.22-20.49.22:606][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.22-20.49.22:911][  0]SourceControl: Info Source control is disabled
+[2017.04.22-20.49.22:941][  0]SourceControl: Info Source control is disabled
+[2017.04.22-20.49.22:976][  0]SourceControl: Info Source control is disabled
+[2017.04.22-20.49.23:010][  0]SourceControl: Info Source control is disabled
+[2017.04.22-20.49.24:070][  0]LogEngine: Initializing Engine...
+[2017.04.22-20.49.24:070][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.22-20.49.24:283][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.22-20.49.24:291][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-20.49.24:314][  0]LogInit: FAudioDevice initialized.
+[2017.04.22-20.49.24:337][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.22-20.49.24:342][  0]LogInit: Texture streaming: Enabled
+[2017.04.22-20.49.24:482][  0]LogInit: Transaction tracking system initialized
+[2017.04.22-20.49.24:746][  0]BlueprintLog: New page: Editor Load
+[2017.04.22-20.49.25:415][  0]LocalizationService: Info Localization service is disabled
+[2017.04.22-20.49.26:144][  0]LogConsoleResponse:Display: 
+[2017.04.22-20.49.26:274][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.22-20.49.26:274][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.22-20.49.26:581][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' took 0.01s
+[2017.04.22-20.49.27:028][  0]SourceControl: Info Source control is disabled
+[2017.04.22-20.49.27:028][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.22-20.49.27:028][  0]LightingResults: New page: Lighting Build
+[2017.04.22-20.49.27:059][  0]MapCheck: New page: Map Check
+[2017.04.22-20.49.27:059][  0]LightingResults: New page: Lighting Build
+[2017.04.22-20.49.27:077][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.22-20.49.27:077][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.22-20.49.27:077][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.22-20.49.27:077][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.22-20.49.27:078][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.22-20.49.27:078][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.22-20.49.27:078][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.22-20.49.27:078][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.22-20.49.27:078][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.22-20.49.27:079][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.22-20.49.27:079][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.22-20.49.27:079][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.22-20.49.27:082][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.22-20.49.27:082][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.22-20.49.27:082][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.22-20.49.27:082][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.22-20.49.27:082][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.22-20.49.27:455][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE
+[2017.04.22-20.49.30:673][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.04.22-20.49.31:249][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.04.22-20.49.31:821][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.04.22-20.49.31:861][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.04.22-20.49.32:565][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.04.22-20.49.32:855][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.04.22-20.49.33:081][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.04.22-20.49.33:114][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.04.22-20.49.33:645][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.04.22-20.49.33:757][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.04.22-20.49.33:777][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2017.04.22-20.49.33:801][  0]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.22-20.49.33:818][  0]LogMaterial:Warning: Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass needed to have new flag set bUsedWithStaticLighting !
+[2017.04.22-20.49.33:822][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
+[2017.04.22-20.49.33:882][  0]MapCheck:Warning: Warning Base_Glass Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.04.22-20.49.33:887][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
+[2017.04.22-20.49.33:916][  0]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.22-20.49.33:921][  0]LogScript:Warning: Accessed None trying to read property Light
 	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
 	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
-[2017.04.22-07.51.28:987][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2017.04.22-07.51.28:989][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.22-07.51.29:057][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 67.609ms to complete.
-[2017.04.22-07.51.29:065][  0]LogFileHelpers: Loading map 'Labyrinth' took 4.590
-[2017.04.22-07.51.29:141][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.22-07.51.29:244][  0]LogCollectionManager: Loaded 0 collections in 0.001220 seconds
-[2017.04.22-07.51.29:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
-[2017.04.22-07.51.29:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Developers/dan/Collections/' took 0.01s
-[2017.04.22-07.51.29:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
-[2017.04.22-07.51.29:319][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.04.22-07.51.29:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2204 classes and 434 folders.
-[2017.04.22-07.51.29:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.22-07.51.29:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.22-07.51.29:370][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
-[2017.04.22-07.51.29:431][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.04.22-07.51.29:747][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.22-07.51.29:793][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.04.22-07.51.29:964][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.22-07.51.29:976][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.22-07.51.30:053][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.22-07.51.30:053][  0]LogLoad: (Engine Initialization) Total time: 27.82 seconds
-[2017.04.22-07.51.30:053][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.04.22-07.51.30:054][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.04.22-07.51.30:395][  0]LogOcInput: OculusInput pre-init called
-[2017.04.22-07.51.30:417][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.22-07.51.30:652][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.04.22-07.51.30:822][  1]LogAssetRegistry: Asset discovery search completed in 16.6382 seconds
-[2017.04.22-07.51.30:822][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.22-07.51.30:822][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
-[2017.04.22-07.52.08:832][161]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Creature_Animation/Creature_MB_Animation_seq_05.Creature_MB_Animation_seq_05
-[2017.04.22-07.52.16:449][770]LogTemp: Repeting last play command: Simulate
-[2017.04.22-07.52.16:478][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.22-07.52.16:479][770]PIE: New page: SIE session: Labyrinth (Apr 21, 2017, 7:52:16 PM)
-[2017.04.22-07.52.16:479][770]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
-[2017.04.22-07.52.16:488][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008968s)
-[2017.04.22-07.52.16:489][770]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.22-07.52.16:489][770]LogPlayLevel: PIE: World Init took: (0.000746s)
-[2017.04.22-07.52.16:489][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.009956s)
-[2017.04.22-07.52.16:507][770]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.22-07.52.16:517][770]LogInit: FAudioDevice initialized.
-[2017.04.22-07.52.16:562][770]LogLoad: Game class is 'GameModeBase'
-[2017.04.22-07.52.16:567][770]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-01.52.16
-[2017.04.22-07.52.16:570][770]LogWorld: Bringing up level for play took: 0.006575
-[2017.04.22-07.52.16:612][770]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.04.22-07.52.16:614][770]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth 0.038
-[2017.04.22-07.52.52:659][338]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_1' or package '/Game/Labyrinth'.
-[2017.04.22-07.53.35:540][289]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/dan/OneDrive/EAE 3660/SelectionSavedForImport/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.fbx)
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Model, ItemCount : 74
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Geometry, ItemCount : 157
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Deformer, ItemCount : 263
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: NodeAttribute, ItemCount : 67
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Material, ItemCount : 7
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Texture, ItemCount : 23
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: Video, ItemCount : 23
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: AnimationCurveNode, ItemCount : 251
-[2017.04.22-07.53.35:711][289]LogFbx: ItemName: AnimationCurve, ItemCount : 653
-[2017.04.22-07.53.35:720][289]LogFbx: Loading FBX Scene from ../../../../../../Users/dan/OneDrive/EAE 3660/SelectionSavedForImport/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.fbx
-[2017.04.22-07.53.36:943][289]LogFbx: FBX Scene Loaded Succesfully
-[2017.04.22-07.53.44:435][289]LogFbx: Loading FBX Scene from ../../../../../../Users/dan/OneDrive/EAE 3660/SelectionSavedForImport/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.fbx
-[2017.04.22-07.53.45:669][289]LogFbx: FBX Scene Loaded Succesfully
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: Dumping Node START [Eyelashes] 
-[2017.04.22-07.53.45:679][289]LogFbx: 	Total Deformer Count 237625536.
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node 1] Facial_Blends_Eyelashes (Type BlendShape).
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node 2] 1 (Type Skin).
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
-[2017.04.22-07.53.45:679][289]LogFbx: Dumping Node END [Eyelashes]
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: Dumping Node START [default1] 
-[2017.04.22-07.53.45:679][289]LogFbx: 	Total Deformer Count 511338088.
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node 1] Facial_Blends_Default (Type BlendShape).
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node 2] 2 (Type Skin).
-[2017.04.22-07.53.45:679][289]LogFbx: =================================================
-[2017.04.22-07.53.45:679][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:679][289]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
-[2017.04.22-07.53.45:679][289]LogFbx: Dumping Node END [default1]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Body] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745984.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] Facial_Blends_Face (Type BlendShape).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 2] 3 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Body]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Hair] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745984.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 4 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Hair]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Tops] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745984.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 5 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Tops]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Bottoms] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 511338088.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 6 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Bottoms]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Shoes] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745792.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 7 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Shoes]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Eyelashes] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 237626560.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] Facial_Blends_Eyelashes (Type BlendShape).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 2] 1 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Eyelashes (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Eyelashes]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [default1] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 511338032.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] Facial_Blends_Default (Type BlendShape).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 2] 2 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] default1 (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [default1]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Body] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745408.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] Facial_Blends_Face (Type BlendShape).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 2] 3 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Body (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Body]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Hair] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745408.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 4 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Hair]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Tops] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745408.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 5 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Tops (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Tops]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Bottoms] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 511338032.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 6 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Bottoms (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Bottoms]
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node START [Shoes] 
-[2017.04.22-07.53.45:680][289]LogFbx: 	Total Deformer Count 506745360.
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node 1] 7 (Type Skin).
-[2017.04.22-07.53.45:680][289]LogFbx: =================================================
-[2017.04.22-07.53.45:680][289]LogFbx: 	Attribute () Type (4).
-[2017.04.22-07.53.45:680][289]LogFbx: 		[Node Attribute Child 1] Shoes (Type Mesh).
-[2017.04.22-07.53.45:680][289]LogFbx: Dumping Node END [Shoes]
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(0) Hips
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(1) Spine
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(2) Spine1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(3) Spine2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(4) Neck
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(5) Head
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(6) RightEye
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(7) LeftEye
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(8) HeadTop_End
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(9) LeftShoulder
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(10) LeftArm
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(11) LeftForeArm
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(12) LeftHand
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(13) LeftHandThumb1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(14) LeftHandThumb2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(15) LeftHandThumb3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(16) LeftHandThumb4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(17) LeftHandIndex1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(18) LeftHandIndex2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(19) LeftHandIndex3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(20) LeftHandIndex4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(21) LeftHandMiddle1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(22) LeftHandMiddle2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(23) LeftHandMiddle3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(24) LeftHandMiddle4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(25) LeftHandRing1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(26) LeftHandRing2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(27) LeftHandRing3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(28) LeftHandRing4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(29) LeftHandPinky1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(30) LeftHandPinky2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(31) LeftHandPinky3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(32) LeftHandPinky4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(33) RightShoulder
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(34) RightArm
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(35) RightForeArm
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(36) RightHand
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(37) RightHandPinky1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(38) RightHandPinky2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(39) RightHandPinky3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(40) RightHandPinky4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(41) RightHandRing1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(42) RightHandRing2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(43) RightHandRing3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(44) RightHandRing4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(45) RightHandMiddle1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(46) RightHandMiddle2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(47) RightHandMiddle3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(48) RightHandMiddle4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(49) RightHandIndex1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(50) RightHandIndex2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(51) RightHandIndex3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(52) RightHandIndex4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(53) RightHandThumb1
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(54) RightHandThumb2
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(55) RightHandThumb3
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(56) RightHandThumb4
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(57) LeftUpLeg
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(58) LeftLeg
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(59) LeftFoot
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(60) LeftToeBase
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(61) LeftToe_End
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(62) RightUpLeg
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(63) RightLeg
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(64) RightFoot
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(65) RightToeBase
-[2017.04.22-07.53.45:683][289]LogFbx: SortedLinks :(66) RightToe_End
-[2017.04.22-07.53.45:685][289]LogFbx: Parsing AnimStack FullAnimationW/Faces_01
-[2017.04.22-07.53.45:957][289]LogLinker: Can't find file '/Game/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE'
-[2017.04.22-07.53.45:957][289]LogLinker: Can't find file '/Game/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE'
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsIn_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateZ_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Blink_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Blink_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsDown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsDown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsIn_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsIn_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsOuterLower_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsOuterLower_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsUp_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(BrowsUp_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(CheekPuff_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(CheekPuff_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(EyesWide_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(EyesWide_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Frown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Frown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateZ_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Down) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipDown_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipDown_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Midmouth_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Midmouth_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthDown) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthNarrow_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthOpen) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(NoseScrunch_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(NoseScrunch_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Smile_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Smile_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Squint_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(Squint_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.45:960][289]LogFbx:Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawBackward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawForeward) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawRotateY_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawRotateY_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawRotateZ_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:363][289]LogFbx:Warning: CurveName(JawRotateZ_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:384][289]LogFbx:Warning: CurveName(Jaw_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:384][289]LogFbx:Warning: CurveName(Jaw_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:384][289]LogFbx:Warning: CurveName(Jaw_Up) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:608][289]LogFbx:Warning: CurveName(LowerLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:608][289]LogFbx:Warning: CurveName(LowerLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:612][289]LogFbx:Warning: CurveName(MouthNarrow_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:617][289]LogFbx:Warning: CurveName(MouthUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:617][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:617][289]LogFbx:Warning: CurveName(MouthWhistle_NarrowAdjust_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:638][289]LogFbx:Warning: CurveName(TongueUp) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:639][289]LogFbx:Warning: CurveName(UpperLipIn) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:639][289]LogFbx:Warning: CurveName(UpperLipOut) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:639][289]LogFbx:Warning: CurveName(UpperLipUp_Left) is skipped because it only contains invalid values.
-[2017.04.22-07.53.46:639][289]LogFbx:Warning: CurveName(UpperLipUp_Right) is skipped because it only contains invalid values.
-[2017.04.22-07.54.08:109][289]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE
-[2017.04.22-07.54.18:108][313]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character)
-[2017.04.22-07.54.30:754][741]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2017.04.22-07.54.30:764][741]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.04.22-07.54.32:624][961]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character2)
-[2017.04.22-07.54.34:468][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.55.17:202][876]LogTemp: Repeting last play command: Simulate
-[2017.04.22-07.55.17:227][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.22-07.55.17:227][876]PIE: New page: SIE session: Labyrinth (Apr 21, 2017, 7:55:17 PM)
-[2017.04.22-07.55.17:227][876]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
-[2017.04.22-07.55.17:235][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007916s)
-[2017.04.22-07.55.17:235][876]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.22-07.55.17:235][876]LogPlayLevel: PIE: World Init took: (0.000550s)
-[2017.04.22-07.55.17:235][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.008702s)
-[2017.04.22-07.55.17:256][876]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.22-07.55.17:266][876]LogInit: FAudioDevice initialized.
-[2017.04.22-07.55.17:297][876]LogLoad: Game class is 'GameModeBase'
-[2017.04.22-07.55.17:302][876]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-01.55.17
-[2017.04.22-07.55.17:302][876]LogWorld: Bringing up level for play took: 0.004052
-[2017.04.22-07.55.17:303][876]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth 0.727
-[2017.04.22-07.56.03:987][955]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.07:220][237]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.09:688][469]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.09:853][483]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.09:985][496]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.10:972][555]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.11:110][571]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.11:244][587]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.11:371][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.56.26:457][845]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Young_Girl_Character2)
-[2017.04.22-07.57.01:627][767]LogTemp: Repeting last play command: Simulate
-[2017.04.22-07.57.01:651][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.22-07.57.01:651][767]PIE: New page: SIE session: Labyrinth (Apr 21, 2017, 7:57:01 PM)
-[2017.04.22-07.57.01:651][767]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
-[2017.04.22-07.57.01:658][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007674s)
-[2017.04.22-07.57.01:659][767]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.22-07.57.01:659][767]LogPlayLevel: PIE: World Init took: (0.000549s)
-[2017.04.22-07.57.01:659][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.008489s)
-[2017.04.22-07.57.01:679][767]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.04.22-07.57.01:688][767]LogInit: FAudioDevice initialized.
-[2017.04.22-07.57.01:718][767]LogLoad: Game class is 'GameModeBase'
-[2017.04.22-07.57.01:722][767]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-01.57.01
-[2017.04.22-07.57.01:723][767]LogWorld: Bringing up level for play took: 0.004135
-[2017.04.22-07.57.01:724][767]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth -0.852
-[2017.04.22-07.57.06:326][136]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
-[2017.04.22-07.57.20:735][946]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.21:491][  5]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.21:709][ 27]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.22:039][ 61]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.22:615][120]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.22:982][158]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.23:575][220]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.24:071][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.24:254][290]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.24:398][305]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.24:840][351]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:014][369]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:159][384]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:265][395]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:419][411]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:640][434]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:735][444]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:842][455]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.25:949][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.26:018][473]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.26:106][482]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.26:174][489]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.26:262][498]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.26:974][572]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:301][606]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:377][614]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:610][638]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:688][646]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:804][658]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:892][667]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.27:997][678]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:189][698]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:286][708]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:384][718]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:479][728]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:750][756]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:854][767]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.28:941][776]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.29:037][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.29:125][795]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.29:526][833]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.29:697][850]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.57.30:344][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ClosedRoom_F)
-[2017.04.22-07.57.31:341][969]LogEditorViewport: Clicking Background
-[2017.04.22-07.57.31:565][994]LogEditorViewport: Clicking Background
-[2017.04.22-07.58.03:581][290]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.03:581][290]Can't find target actor or component.
-[2017.04.22-07.58.04:092][347]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.04:092][347]Can't find target actor or component.
-[2017.04.22-07.58.04:277][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.04:277][362]Can't find target actor or component.
-[2017.04.22-07.58.05:977][545]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.10:742][859]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.13:573][ 95]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.13:714][107]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.13:838][120]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.13:978][133]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.14:167][146]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:254][214]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:378][224]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:520][237]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:657][248]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:799][261]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.15:958][275]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:085][286]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:222][298]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:320][307]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:482][322]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:622][335]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:745][347]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.16:856][358]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.17:003][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.17:138][387]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.17:292][403]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.17:438][418]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.20:819][754]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.23:854][ 19]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.04.22-07.58.31:741][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.22-07.58.31:838][730]LogSavePackage: Save=68.77ms
-[2017.04.22-07.58.31:838][730]LogSavePackage: Moving '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Saved/Labyrinth3868664F4DDEDAB9FFE50E9861536027.tmp' to '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.22-07.58.31:841][730]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.22-07.58.31:880][730]LogFileHelpers: Saving map 'Labyrinth' took 0.197
-[2017.04.22-07.58.31:892][730]LogSavePackage: Save=5.70ms
-[2017.04.22-07.58.31:892][730]LogSavePackage: Moving '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Saved/Young_Girl_Character_Skeleton3467036B4110509513716B802D016730.tmp' to '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Young_Girl_Character/Young_Girl_Character_Skeleton.uasset'
-[2017.04.22-07.58.31:895][730]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Young_Girl_Character/Young_Girl_Character_Skeleton.uasset
-[2017.04.22-07.58.32:034][730]LogSavePackage: Save=114.65ms
-[2017.04.22-07.58.32:034][730]LogSavePackage: Moving '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Saved/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONEF9D8AC1449A7C6E72D5F578683B6B2EF.tmp' to '../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.uasset'
-[2017.04.22-07.58.32:036][730]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.uasset
-[2017.04.22-07.58.32:037][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/dan/Desktop/Github suck fuck shit nigga/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-20.49.33:923][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.22-20.49.33:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.22-20.49.33:977][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 53.656ms to complete.
+[2017.04.22-20.49.33:983][  0]LogFileHelpers: Loading map 'Labyrinth' took 6.955
+[2017.04.22-20.49.34:118][  0]LogCollectionManager: Loaded 0 collections in 0.001674 seconds
+[2017.04.22-20.49.34:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
+[2017.04.22-20.49.34:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' took 0.01s
+[2017.04.22-20.49.34:236][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
+[2017.04.22-20.49.34:236][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.22-20.49.34:247][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2204 classes and 434 folders.
+[2017.04.22-20.49.34:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.22-20.49.34:339][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.22-20.49.34:342][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.04.22-20.49.34:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.22-20.49.34:538][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.22-20.49.34:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.22-20.49.35:050][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.22-20.49.35:070][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.22-20.49.35:188][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.22-20.49.35:188][  0]LogLoad: (Engine Initialization) Total time: 19.52 seconds
+[2017.04.22-20.49.35:188][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.04.22-20.49.35:188][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.22-20.49.35:538][  0]LogOcInput: OculusInput pre-init called
+[2017.04.22-20.49.35:557][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.22-20.49.35:961][  0]LogRenderer: Reallocating scene render targets to support 1160x608 NumSamples 1 (Frame:2).
+[2017.04.22-20.49.36:450][  2]LogAssetRegistry: Asset discovery search completed in 15.5875 seconds
+[2017.04.22-20.49.36:450][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.22-20.49.36:450][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.04.22-20.50.11:831][850]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.04.22-20.50.22:181][998]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Creature_Animation/Creature_MB_Animation_seq_05.Creature_MB_Animation_seq_05
+[2017.04.22-20.50.39:434][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newchair)
+[2017.04.22-20.52.07:291][248]Cmd: TRANSACTION UNDO
+[2017.04.22-20.52.07:291][248]LogEditorTransaction: Undo Move Keys
+[2017.04.22-20.52.59:347][266]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.53.05:243][875]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.53.26:528][129]Cmd: TRANSACTION UNDO
+[2017.04.22-20.53.26:529][129]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.53.44:965][805]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.54.34:715][ 39]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.54.35:236][ 78]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.54.44:818][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.22-20.55.41:276][959]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.55.46:924][568]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.55.48:443][717]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-20.58.56:787][  4]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.30:125][257]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.30:125][257]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.00.30:696][301]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.30:696][301]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.30:878][317]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.30:878][317]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.31:098][338]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.31:098][338]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.42:784][464]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.42:784][464]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.43:841][564]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.43:841][564]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.00.44:026][580]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:026][580]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.00.44:209][597]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:209][597]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.00.44:368][611]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:368][611]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.00.44:524][625]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:525][625]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.00.44:714][643]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:714][643]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.44:851][655]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.44:851][655]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.45:026][671]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:026][671]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.45:201][687]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:201][687]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.45:359][702]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:359][702]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.00.45:544][719]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:544][719]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.45:698][733]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:698][733]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.04.22-21.00.45:864][747]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.45:864][747]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.46:019][760]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:019][760]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.46:198][778]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:198][778]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.46:358][794]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:358][794]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.46:529][808]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:529][808]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.22-21.00.46:699][820]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:699][820]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.46:875][835]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.46:875][835]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.47:064][853]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:064][853]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.47:247][870]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:247][870]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.47:407][884]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:407][884]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.47:595][902]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:595][902]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.00.47:767][918]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:767][918]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.47:951][934]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.47:951][934]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.48:133][951]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.48:133][951]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.48:309][967]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.48:309][967]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.48:476][982]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.48:476][982]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.48:681][  0]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.48:681][  0]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.00.48:843][ 14]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.48:843][ 14]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.00.49:013][ 29]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.49:013][ 29]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.00.49:204][ 48]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.49:204][ 48]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.00.49:390][ 67]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.49:390][ 67]LogEditorTransaction: Undo Possess Object in Sequencer
+[2017.04.22-21.00.49:564][ 82]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.49:564][ 82]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.22-21.00.49:749][100]Cmd: TRANSACTION UNDO
+[2017.04.22-21.00.49:749][100]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.00.50:975][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newchair)
+[2017.04.22-21.01.04:699][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (newchair)
+[2017.04.22-21.03.00:928][548]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.03.01:260][576]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.04.22-21.03.01:613][606]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.04.22-21.03.01:923][639]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.04.22-21.03.02:254][675]LogEditorTransaction: Undo Select Interpolation Mode
+[2017.04.22-21.03.02:642][717]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.03.03:016][756]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.03.41:934][971]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.03.47:834][597]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.04.07:839][665]Cmd: TRANSACTION UNDO
+[2017.04.22-21.04.07:839][665]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.05.28:325][144]Cmd: TRANSACTION UNDO
+[2017.04.22-21.05.28:325][144]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.05.30:998][437]Cmd: TRANSACTION UNDO
+[2017.04.22-21.05.30:998][437]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.05.31:398][481]Cmd: TRANSACTION UNDO
+[2017.04.22-21.05.31:398][481]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.05.31:889][536]Cmd: TRANSACTION UNDO
+[2017.04.22-21.05.31:889][536]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.06.26:120][ 92]Cmd: TRANSACTION UNDO
+[2017.04.22-21.06.26:120][ 92]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.08.29:323][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.22-21.08.29:405][469]LogSavePackage: Save=61.22ms
+[2017.04.22-21.08.29:405][469]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth_Auto1A61142E0490B9D51246516B06D1D8530.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap'
+[2017.04.22-21.08.29:406][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap
+[2017.04.22-21.08.29:418][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.109
+[2017.04.22-21.08.29:418][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2017.04.22-21.08.29:420][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CameraSequence] ([1] browsable assets)...
+[2017.04.22-21.08.29:420][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/CameraSequence]
+[2017.04.22-21.08.29:420][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.22-21.08.29:487][469]LogSavePackage: Save=64.01ms
+[2017.04.22-21.08.29:487][469]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequence_Auto11E39436F43FB540316014399BD345A69.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto1.uasset'
+[2017.04.22-21.08.29:488][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto1.uasset
+[2017.04.22-21.08.29:488][469]LogFileHelpers: Auto-saving content packages took 0.069
+[2017.04.22-21.08.55:302][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_M_4)
+[2017.04.22-21.09.04:002][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RockHorse)
+[2017.04.22-21.09.26:299][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_24)
+[2017.04.22-21.09.54:974][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MonsterJar)
+[2017.04.22-21.11.12:117][235]Cmd: TRANSACTION UNDO
+[2017.04.22-21.11.12:117][235]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.11.20:763][167]Cmd: TRANSACTION UNDO
+[2017.04.22-21.11.20:763][167]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.12.00:538][465]Cmd: SELECT NONE
+[2017.04.22-21.15.20:468][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MonsterJar)
+[2017.04.22-21.15.25:630][ 95]Cmd: TRANSACTION UNDO
+[2017.04.22-21.15.25:630][ 95]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.22-21.15.27:861][341]Cmd: TRANSACTION UNDO
+[2017.04.22-21.15.27:861][341]LogEditorTransaction: Undo Select None
+[2017.04.22-21.15.28:891][450]Cmd: TRANSACTION UNDO
+[2017.04.22-21.15.28:891][450]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.18.39:509][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-21.18.39:580][ 16]LogSavePackage: Save=66.07ms
+[2017.04.22-21.18.39:580][ 16]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequence6F11B16649036D84EB7C2CB89160BF08.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.22-21.18.39:581][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.22-21.19.30:173][476]LogEditorTransaction: Undo Delete Key(s)
+[2017.04.22-21.19.32:249][700]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.19.32:765][757]LogEditorTransaction: Undo Move Actors
+[2017.04.22-21.19.44:674][154]LogEditorTransaction: Undo Add Key(s)
+[2017.04.22-21.22.18:085][126]Cmd: TRANSACTION UNDO
+[2017.04.22-21.22.18:085][126]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.22.18:412][154]Cmd: TRANSACTION UNDO
+[2017.04.22-21.22.18:412][154]LogEditorTransaction: Undo Select Actors
+[2017.04.22-21.22.19:706][293]Cmd: TRANSACTION UNDO
+[2017.04.22-21.22.19:706][293]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.23.24:385][535]Cmd: TRANSACTION UNDO
+[2017.04.22-21.23.24:385][535]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.22-21.25.30:017][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.04.22-21.25.30:107][231]LogSavePackage: Save=67.11ms
+[2017.04.22-21.25.30:107][231]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth_Auto2E04ED45B4245C22BB8AA0B81E23209C9.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto2.umap'
+[2017.04.22-21.25.30:108][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto2.umap
+[2017.04.22-21.25.30:122][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.115
+[2017.04.22-21.25.30:122][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2017.04.22-21.25.30:124][231]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CameraSequence] ([1] browsable assets)...
+[2017.04.22-21.25.30:124][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/CameraSequence]
+[2017.04.22-21.25.30:124][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.04.22-21.25.30:200][231]LogSavePackage: Save=72.35ms
+[2017.04.22-21.25.30:200][231]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequence_Auto2AAC0388B4A792ECBADF4DF8F6CAD0D66.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto2.uasset'
+[2017.04.22-21.25.30:200][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Autosaves/Game/CameraSequence_Auto2.uasset
+[2017.04.22-21.25.30:200][231]LogFileHelpers: Auto-saving content packages took 0.077
+[2017.04.22-21.27.03:240][643]LogEditorTransaction: Undo Mouse Drag
+[2017.04.22-21.28.50:673][  1]LogTemp: Repeting last play command: Simulate
+[2017.04.22-21.28.50:694][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-21.28.50:696][  1]PIE: New page: SIE session: Labyrinth (Apr 22, 2017, 9:28:50 AM)
+[2017.04.22-21.28.50:697][  1]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
+[2017.04.22-21.28.50:705][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008158s)
+[2017.04.22-21.28.50:706][  1]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.22-21.28.50:707][  1]LogPlayLevel: PIE: World Init took: (0.001913s)
+[2017.04.22-21.28.50:707][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.010298s)
+[2017.04.22-21.28.50:721][  1]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-21.28.50:728][  1]LogInit: FAudioDevice initialized.
+[2017.04.22-21.28.50:773][  1]LogLoad: Game class is 'GameModeBase'
+[2017.04.22-21.28.50:777][  1]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-15.28.50
+[2017.04.22-21.28.50:778][  1]LogWorld: Bringing up level for play took: 0.003896
+[2017.04.22-21.28.50:815][  1]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.04.22-21.28.50:816][  1]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth -0.564
+[2017.04.22-21.35.45:994][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-21.35.46:064][310]LogSavePackage: Save=66.13ms
+[2017.04.22-21.35.46:064][310]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequenceE8A8036543EF66698E4E879AA8FDFFEF.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.22-21.35.46:066][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.22-21.36.26:959][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-21.36.27:026][287]LogSavePackage: Save=64.67ms
+[2017.04.22-21.36.27:026][287]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequenceBDBDDD5F4034B651FA94E4A15F1B91B6.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.22-21.36.27:028][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.22-21.40.48:646][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.22-21.40.48:727][167]LogSavePackage: Save=61.12ms
+[2017.04.22-21.40.48:727][167]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth5AC6B0A44489CE9121D967AB5E5EEF4D.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.22-21.40.48:729][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.22-21.40.48:757][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth_BuiltData" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset" SILENT=true
+[2017.04.22-21.40.49:143][167]LogSavePackage: Save=376.37ms
+[2017.04.22-21.40.49:143][167]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth_BuiltData3B8952A0416D9488C682529B4FA5A86C.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset'
+[2017.04.22-21.40.49:145][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset
+[2017.04.22-21.41.19:438][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-21.41.19:507][611]LogSavePackage: Save=65.70ms
+[2017.04.22-21.41.19:507][611]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequence9615B20341F3102ADE3B19B97C12C3FE.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.22-21.41.19:509][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.22-21.42.45:862][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.43.29:656][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.22-21.43.31:856][642]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:856][642]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:856][642]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:856][642]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:878][643]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:878][643]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:878][643]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:878][643]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:898][644]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:898][644]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:898][644]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:898][644]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:918][645]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:918][645]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:918][645]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:918][645]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:939][646]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:939][646]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:939][646]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:939][646]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:959][647]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:959][647]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:959][647]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:959][647]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:979][648]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:979][648]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:979][648]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:979][648]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:999][649]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:999][649]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:999][649]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.31:999][649]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:018][650]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:018][650]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:018][650]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:018][650]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:039][651]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:039][651]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:040][651]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:040][651]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:060][652]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:060][652]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:060][652]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:060][652]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:079][653]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:079][653]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:079][653]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:080][653]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:099][654]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:099][654]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:099][654]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:099][654]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:121][655]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:121][655]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:121][655]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:121][655]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:142][656]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:142][656]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:143][656]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:143][656]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:162][657]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:162][657]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:163][657]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:163][657]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:240][661]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:241][661]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:241][661]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:241][661]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:260][662]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:260][662]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:261][662]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:261][662]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:281][663]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:281][663]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:282][663]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:282][663]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:302][664]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:302][664]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:302][664]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:302][664]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:324][665]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:324][665]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:325][665]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:325][665]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:345][666]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:345][666]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:345][666]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:345][666]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:366][667]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:366][667]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:366][667]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:366][667]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:385][668]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:385][668]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:386][668]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:386][668]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:615][680]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:615][680]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:616][680]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:616][680]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:636][681]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:636][681]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:636][681]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:636][681]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:657][682]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:657][682]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:657][682]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:657][682]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:677][683]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:677][683]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:677][683]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:677][683]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:697][684]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:697][684]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:697][684]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.32:697][684]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.34:393][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.22-21.43.36:353][951]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:353][951]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:354][951]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:354][951]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:377][952]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:377][952]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:377][952]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:377][952]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:398][953]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:398][953]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:399][953]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:399][953]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:419][954]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:419][954]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:419][954]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:419][954]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:439][955]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:439][955]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:439][955]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:439][955]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:460][956]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:460][956]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:460][956]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:460][956]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:480][957]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:480][957]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:481][957]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:481][957]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:501][958]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:501][958]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:501][958]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:502][958]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:521][959]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:521][959]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:522][959]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:522][959]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:543][960]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:543][960]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:543][960]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:543][960]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:564][961]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:564][961]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:564][961]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:564][961]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:585][962]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:585][962]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:585][962]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:585][962]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:605][963]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:606][963]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:606][963]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:606][963]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:627][964]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:627][964]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:627][964]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:627][964]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:647][965]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:647][965]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:647][965]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:647][965]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:667][966]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:667][966]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:667][966]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:667][966]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:686][967]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:686][967]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:686][967]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:686][967]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:706][968]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:706][968]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:706][968]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:706][968]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:725][969]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:725][969]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:726][969]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:726][969]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:746][970]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:746][970]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:746][970]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:746][970]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:766][971]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:766][971]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:767][971]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:767][971]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:786][972]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:786][972]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:786][972]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:786][972]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:805][973]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:805][973]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:806][973]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:806][973]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:865][976]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:865][976]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:866][976]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:866][976]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:922][979]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:922][979]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:922][979]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:922][979]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:941][980]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:941][980]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:942][980]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:942][980]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:961][981]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:961][981]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:961][981]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:962][981]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:980][982]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:981][982]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:981][982]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.36:981][982]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.37:000][983]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.37:000][983]PIE:Warning: Warning Mobility of Box_02_41 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.37:000][983]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.37:001][983]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.39:077][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BaseRoom_WandF_Textured)
+[2017.04.22-21.43.39:788][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CandyJar_S_29)
+[2017.04.22-21.43.40:835][273]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:835][273]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:855][274]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:855][274]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:874][275]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:874][275]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:894][276]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:894][276]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:915][277]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:915][277]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:935][278]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:935][278]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:955][279]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:955][279]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:975][280]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:975][280]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:996][281]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.40:996][281]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.41:017][282]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.41:017][282]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:269][483]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:269][483]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:289][484]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:289][484]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:308][485]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:308][485]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:328][486]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:328][486]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:347][487]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:347][487]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:367][488]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:367][488]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:386][489]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:386][489]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:407][490]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:407][490]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:427][491]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:427][491]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:447][492]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:447][492]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:467][493]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:467][493]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:488][494]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:488][494]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:508][495]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:508][495]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:527][496]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:527][496]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:547][497]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:547][497]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:567][498]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:567][498]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:587][499]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.43:588][499]PIE:Warning: Warning Mobility of CandyJar_S_188 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.43.44:686][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.22-21.44.35:786][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_02)
+[2017.04.22-21.44.49:395][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.45.27:839][ 52]LogTemp: Repeting last play command: Simulate
+[2017.04.22-21.45.27:860][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-21.45.27:860][ 52]PIE: New page: SIE session: Labyrinth (Apr 22, 2017, 9:45:27 AM)
+[2017.04.22-21.45.27:860][ 52]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
+[2017.04.22-21.45.27:868][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007786s)
+[2017.04.22-21.45.27:869][ 52]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.22-21.45.27:869][ 52]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.04.22-21.45.27:869][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.008545s)
+[2017.04.22-21.45.27:882][ 52]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-21.45.27:888][ 52]LogInit: FAudioDevice initialized.
+[2017.04.22-21.45.27:919][ 52]LogLoad: Game class is 'GameModeBase'
+[2017.04.22-21.45.27:923][ 52]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-15.45.27
+[2017.04.22-21.45.27:923][ 52]LogWorld: Bringing up level for play took: 0.003697
+[2017.04.22-21.45.27:924][ 52]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth 0.505
+[2017.04.22-21.45.46:758][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.45.48:530][400]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:530][400]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:559][401]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:559][401]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:587][402]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:587][402]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:612][403]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:613][403]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:637][404]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:637][404]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:664][405]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:664][405]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:687][406]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:687][406]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:715][407]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:715][407]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:740][408]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:740][408]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:764][409]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:764][409]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:787][410]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:787][410]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:810][411]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:810][411]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:834][412]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:834][412]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:925][416]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:925][416]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:949][417]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:949][417]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:973][418]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:973][418]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:998][419]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.48:998][419]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:022][420]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:022][420]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:069][422]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:069][422]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:094][423]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:094][423]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:141][425]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.49:141][425]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:200][605]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:200][605]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:224][606]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:224][606]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:249][607]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:249][607]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:274][608]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:274][608]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:299][609]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:299][609]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:323][610]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:323][610]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:558][620]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.52:558][620]PIE:Warning: Warning Mobility of SillyDoll_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2017.04.22-21.45.54:620][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.46.08:426][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.04.22-21.46.18:115][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.46.29:548][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.47.02:694][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.47.19:179][203]LogTemp: Repeting last play command: Simulate
+[2017.04.22-21.47.19:202][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.22-21.47.19:202][203]PIE: New page: SIE session: Labyrinth (Apr 22, 2017, 9:47:19 AM)
+[2017.04.22-21.47.19:203][203]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Labyrinth
+[2017.04.22-21.47.19:211][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008140s)
+[2017.04.22-21.47.19:211][203]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.22-21.47.19:211][203]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.04.22-21.47.19:212][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Labyrinth.Labyrinth to /Game/UEDPIE_0_Labyrinth.Labyrinth (0.008972s)
+[2017.04.22-21.47.19:225][203]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.22-21.47.19:233][203]LogInit: FAudioDevice initialized.
+[2017.04.22-21.47.19:260][203]LogLoad: Game class is 'GameModeBase'
+[2017.04.22-21.47.19:264][203]LogWorld: Bringing World /Game/UEDPIE_0_Labyrinth.Labyrinth up for play (max tick rate 0) at 2017.04.22-15.47.19
+[2017.04.22-21.47.19:264][203]LogWorld: Bringing up level for play took: 0.003806
+[2017.04.22-21.47.19:265][203]PIE: Info Play in editor start time for /Game/UEDPIE_0_Labyrinth -0.159
+[2017.04.22-21.47.27:936][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.47.45:482][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.49.45:759][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.22-21.50.40:782][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.22-21.50.40:855][835]LogSavePackage: Save=67.64ms
+[2017.04.22-21.50.40:855][835]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequenceCDD517774FE4B48DA66C2BB86D59DE71.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.22-21.50.40:857][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.22-21.50.44:911][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.22-21.50.44:997][ 68]LogSavePackage: Save=61.68ms
+[2017.04.22-21.50.44:997][ 68]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/LabyrinthE88C6CEF4D3278B263E0D69A8D804B71.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.22-21.50.44:999][ 68]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.22-21.50.45:028][ 68]LogFileHelpers: Saving map 'Labyrinth' took 0.175
+[2017.04.22-21.50.45:271][ 69]Cmd: QUIT_EDITOR
+[2017.04.22-21.50.45:361][ 69]LogExit: Preparing to exit.
+[2017.04.22-21.50.46:531][ 69]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/', and we were unable to create a new request.
+[2017.04.22-21.50.46:544][ 69]LogExit: Editor shut down
+[2017.04.22-21.50.46:545][ 69]LogExit: Transaction tracking system shut down
+[2017.04.22-21.50.46:692][ 69]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.22-21.50.46:692][ 69]LogExit: Object subsystem successfully closed.
+[2017.04.22-21.50.46:711][ 69]LogD3D11RHI: Shutdown
+[2017.04.22-21.50.46:711][ 69]LogD3D11RHI: CleanupD3DDevice
+[2017.04.22-21.50.46:817][ 69]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.22-21.50.46:826][ 69]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.22-21.50.46:826][ 69]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE63FBBAB-4C3F-884C-7061-FDAF82778803%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=6470690345ac5613c2d7d6a976c3ee96%7C57685272a24a474889bdd810f0e25195%7C9a0d61a1-8400-4668-bc1f-9ffa6f3e88bd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (245)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module SequencerWidgets (244)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
+[2017.04.22-21.50.46:852][ 69]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
+[2017.04.22-21.50.46:852][ 69]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
+[2017.04.22-21.50.46:853][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' was aborted.
+[2017.04.22-21.50.46:853][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' was aborted.
+[2017.04.22-21.50.46:853][ 69]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module BspMode (228)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module Media (217)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module SessionServices (210)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
+[2017.04.22-21.50.46:853][ 69]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module MergeActors (195)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module SizeMap (194)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module TreeMap (193)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module XmlParser (185)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module Blutility (184)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
+[2017.04.22-21.50.46:855][ 69]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AutomationController (174)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Layers (172)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Persona (167)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Kismet (166)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Toolbox (163)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module OutputLog (160)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module GammaUI (159)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Documentation (158)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module Niagara (157)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module PortalServices (154)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2017.04.22-21.50.46:895][ 69]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.04.22-21.50.46:957][ 69]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.04.22-21.50.46:958][ 69]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.04.22-21.50.46:958][ 69]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.04.22-21.50.46:958][ 69]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.04.22-21.50.46:959][ 69]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.04.22-21.50.46:959][ 69]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.04.22-21.50.47:059][ 69]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.04.22-21.50.47:363][ 69]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.04.22-21.50.47:364][ 69]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.04.22-21.50.47:365][ 69]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.04.22-21.50.47:365][ 69]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.22-21.50.47:365][ 69]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' was aborted.
+[2017.04.22-21.50.47:365][ 69]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.22-21.50.47:366][ 69]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.04.22-21.50.47:578][ 69]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.04.22-21.50.47:637][ 69]LogDerivedDataCache: Shutdown
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.22-21.50.47:637][ 69]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.22-21.50.47:638][ 69]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.22-21.50.47:638][ 69]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.04.22-21.50.47:638][ 69]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.04.22-21.50.47:638][ 69]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.22-21.50.47:638][ 69]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.22-21.50.47:638][ 69]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.22-21.50.47:639][ 69]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.22-21.50.47:641][ 69]LogExit: Exiting.
+[2017.04.22-21.50.47:651][ 69]Log file closed, 04/22/17 15:50:47
