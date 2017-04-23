@@ -1,9 +1,9 @@
-﻿Log file open, 04/22/17 19:39:11
+﻿Log file open, 04/22/17 21:44:00
 LogInit:Display: Running engine for game: Labyrinth
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(256803323) SRandInit(256803323).
+LogInit:Display: RandInit(-389327268) SRandInit(-389327268).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.083146
+LogStats: Stats thread started at 0.069583
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,953 +144,447 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.23-01.39.11:831][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.23-01.39.11:831][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.23-01.39.11:861][  0]LogInit: Computer: OWNER-PC
-[2017.04.23-01.39.11:861][  0]LogInit: User: Tristan
-[2017.04.23-01.39.11:861][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.23-01.39.11:861][  0]LogInit: High frequency timer resolution =3.515640 MHz
-[2017.04.23-01.39.11:861][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.04.23-01.39.11:861][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.23-01.39.11:861][  0]LogMemory: Process Physical Memory: 264.40 MB used, 264.40 MB peak
-[2017.04.23-01.39.11:861][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
-[2017.04.23-01.39.11:861][  0]LogMemory: Physical Memory: 4593.34 MB used,  11734.59 MB free, 16327.93 MB total
-[2017.04.23-01.39.11:861][  0]LogMemory: Virtual Memory: 676.63 MB used,  11734.59 MB free, 134217728.00 MB total
-[2017.04.23-01.39.11:887][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.04.23-01.39.12:633][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.23-01.39.12:653][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
-[2017.04.23-01.39.12:653][  0]LogD3D11RHI:       2017/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.04.23-01.39.12:655][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.23-01.39.12:655][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.23-01.39.12:655][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.23-01.39.12:658][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.23-01.39.12:658][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.23-01.39.12:658][  0]LogWindows: EnumDisplayDevices:
-[2017.04.23-01.39.12:659][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:0 D:1)
-[2017.04.23-01.39.12:659][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:1 D:1)
-[2017.04.23-01.39.12:659][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2017.04.23-01.39.12:659][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2017.04.23-01.39.12:659][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.23-01.39.12:659][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
-[2017.04.23-01.39.12:659][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.04.23-01.39.12:659][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.04.23-01.39.12:659][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.23-01.39.12:672][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.04.23-01.39.12:673][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.23-01.39.12:688][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.04.23-01.39.12:689][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/11664/).
-[2017.04.23-01.39.12:689][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tristan/AppData/Local/Temp/UnrealShaderWorkingDir/EFFFFB244D9CE468D1F62AA224C07ABF/'.
-[2017.04.23-01.39.12:689][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.23-01.39.13:827][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.23-01.39.13:910][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.23-01.39.13:995][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.23-01.39.14:080][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.23-01.39.14:162][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.23-01.39.14:244][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.23-01.39.14:329][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.23-01.39.14:412][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.23-01.39.14:491][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.23-01.39.14:573][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.23-01.39.14:657][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.23-01.39.14:740][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.23-01.39.14:821][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.23-01.39.14:903][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.23-01.39.14:987][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.23-01.39.15:157][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.23-01.39.15:157][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.23-01.39.15:230][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.23-01.39.15:364][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.23-01.39.15:412][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.23-01.39.15:501][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.23-01.39.15:582][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.23-01.39.15:664][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.23-01.39.15:748][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.23-01.39.15:748][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.23-01.39.16:423][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.23-01.39.16:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.23-01.39.16:483][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.23-01.39.16:495][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.23-01.39.16:707][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.23-01.39.16:710][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.23-01.39.17:015][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.23-01.39.17:094][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.23-01.39.17:172][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.23-01.39.17:172][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.23-01.39.17:172][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.23-01.39.17:726][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
-[2017.04.23-01.39.17:798][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
-[2017.04.23-01.39.17:882][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044626 seconds
-[2017.04.23-01.39.17:888][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.04.23-01.39.17:888][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.04.23-01.39.17:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.23-01.39.18:012][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.23-01.39.19:435][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.23-01.39.19:436][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.23-01.39.19:436][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.23-01.39.20:810][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.04.23-01.39.20:861][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.23-01.39.20:922][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.23-01.39.21:414][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.23-01.39.22:059][  0]SourceControl: Info Source control is disabled
-[2017.04.23-01.39.22:061][  0]SourceControl: Info Source control is disabled
-[2017.04.23-01.39.22:139][  0]SourceControl: Info Source control is disabled
-[2017.04.23-01.39.22:219][  0]SourceControl: Info Source control is disabled
-[2017.04.23-01.39.24:648][  0]LogEngine: Initializing Engine...
-[2017.04.23-01.39.24:658][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.04.23-01.39.25:040][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.23-01.39.25:055][  0]LogInit: XAudio2 using 'Headset (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.23-01.39.25:064][  0]LogInit: FAudioDevice initialized.
-[2017.04.23-01.39.25:093][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Tristan/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.04.23-01.39.25:097][  0]LogInit: Texture streaming: Enabled
-[2017.04.23-01.39.25:464][  0]LogInit: Transaction tracking system initialized
-[2017.04.23-01.39.26:151][  0]BlueprintLog: New page: Editor Load
-[2017.04.23-01.39.27:898][  0]LocalizationService: Info Localization service is disabled
-[2017.04.23-01.39.29:298][  0]LogConsoleResponse:Display: 
-[2017.04.23-01.39.29:490][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.23-01.39.29:490][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.23-01.39.29:954][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/' took 0.01s
-[2017.04.23-01.39.31:255][  0]SourceControl: Info Source control is disabled
-[2017.04.23-01.39.31:255][  0]Cmd: MAP LOAD FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.23-01.39.31:256][  0]LightingResults: New page: Lighting Build
-[2017.04.23-01.39.31:333][  0]MapCheck: New page: Map Check
-[2017.04.23-01.39.31:333][  0]LightingResults: New page: Lighting Build
-[2017.04.23-01.39.31:349][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.23-01.39.31:349][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.23-01.39.31:349][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.23-01.39.31:349][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.23-01.39.31:349][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
-[2017.04.23-01.39.31:349][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.23-01.39.31:350][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.23-01.39.31:350][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.23-01.39.31:350][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.23-01.39.31:350][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.23-01.39.31:350][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.23-01.39.31:350][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.23-01.39.31:354][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
-[2017.04.23-01.39.31:354][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.23-01.39.31:354][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap.
-[2017.04.23-01.39.31:354][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
-[2017.04.23-01.39.31:354][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
-[2017.04.23-01.39.32:650][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Young_Girl_Character_Animation/Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE.Labyrinth_Animation_EntireThing_Master_FULLBODYDONE_FACESDONE
-[2017.04.23-01.39.37:013][  0]LogAIModule: Creating AISystem for world Labyrinth
-[2017.04.23-01.39.37:025][  0]LogMaterial:Warning: Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass needed to have new flag set bUsedWithStaticLighting !
-[2017.04.23-01.39.37:029][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.23-01.39.37:076][  0]MapCheck:Warning: Warning Base_Glass Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2017.04.23-01.39.37:079][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
-[2017.04.23-01.39.37:108][  0]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
-[2017.04.23-01.39.37:120][  0]LogScript:Warning: Accessed None trying to read property Light
+[2017.04.23-03.44.00:651][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.23-03.44.00:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.23-03.44.00:660][  0]LogInit: Computer: BOXTURRET
+[2017.04.23-03.44.00:660][  0]LogInit: User: Bacchus
+[2017.04.23-03.44.00:660][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.23-03.44.00:660][  0]LogInit: High frequency timer resolution =3.422011 MHz
+[2017.04.23-03.44.00:660][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.04.23-03.44.00:660][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.23-03.44.00:660][  0]LogMemory: Process Physical Memory: 263.73 MB used, 263.73 MB peak
+[2017.04.23-03.44.00:660][  0]LogMemory: Process Virtual Memory: 264.27 MB used, 264.27 MB peak
+[2017.04.23-03.44.00:660][  0]LogMemory: Physical Memory: 4535.35 MB used,  11808.95 MB free, 16344.30 MB total
+[2017.04.23-03.44.00:660][  0]LogMemory: Virtual Memory: 661.42 MB used,  11808.95 MB free, 8388608.00 MB total
+[2017.04.23-03.44.00:688][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.23-03.44.01:214][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.23-03.44.01:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.04.23-03.44.01:235][  0]LogD3D11RHI:       6045/0/7916 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.23-03.44.01:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.23-03.44.01:243][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.23-03.44.01:243][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.23-03.44.01:243][  0]LogWindows: EnumDisplayDevices:
+[2017.04.23-03.44.01:243][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.04.23-03.44.01:243][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.23-03.44.01:243][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.23-03.44.01:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.04.23-03.44.01:243][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.04.23-03.44.01:243][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.04.23-03.44.01:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.23-03.44.01:250][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.23-03.44.01:264][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.23-03.44.01:264][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Intermediate/Shaders/WorkingDirectory/12340/).
+[2017.04.23-03.44.01:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bacchus/AppData/Local/Temp/UnrealShaderWorkingDir/77F45C404B2BC5A1D0724CAF5D7A0692/'.
+[2017.04.23-03.44.01:264][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.23-03.44.02:139][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.23-03.44.02:185][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.23-03.44.02:232][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.23-03.44.02:277][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.23-03.44.02:321][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.23-03.44.02:366][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.23-03.44.02:410][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.23-03.44.02:455][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.23-03.44.02:494][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.23-03.44.02:542][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.23-03.44.02:586][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.23-03.44.02:631][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.23-03.44.02:672][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.23-03.44.02:716][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.23-03.44.02:758][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.23-03.44.02:843][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.23-03.44.02:843][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.23-03.44.02:873][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.23-03.44.02:956][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.23-03.44.02:996][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.23-03.44.03:050][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.23-03.44.03:097][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.23-03.44.03:139][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.23-03.44.03:180][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.23-03.44.03:180][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.23-03.44.03:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.23-03.44.03:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.23-03.44.03:543][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.23-03.44.03:555][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bacchus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.23-03.44.03:746][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.23-03.44.03:749][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.23-03.44.03:933][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.23-03.44.03:966][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.23-03.44.04:002][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.23-03.44.04:002][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.23-03.44.04:002][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.23-03.44.04:451][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: labyrinth, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1399129483
+[2017.04.23-03.44.04:496][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2017.04.23-03.44.04:535][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.023420 seconds
+[2017.04.23-03.44.04:540][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.04.23-03.44.04:540][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.04.23-03.44.04:540][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.23-03.44.04:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.23-03.44.05:139][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.23-03.44.05:139][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.23-03.44.05:139][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.23-03.44.05:832][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.04.23-03.44.05:852][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.23-03.44.05:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.23-03.44.06:137][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.23-03.44.06:453][  0]SourceControl: Info Source control is disabled
+[2017.04.23-03.44.06:487][  0]SourceControl: Info Source control is disabled
+[2017.04.23-03.44.06:522][  0]SourceControl: Info Source control is disabled
+[2017.04.23-03.44.06:554][  0]SourceControl: Info Source control is disabled
+[2017.04.23-03.44.07:552][  0]LogEngine: Initializing Engine...
+[2017.04.23-03.44.07:552][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.23-03.44.07:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.23-03.44.07:771][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.23-03.44.07:780][  0]LogInit: FAudioDevice initialized.
+[2017.04.23-03.44.07:803][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Bacchus/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.04.23-03.44.07:808][  0]LogInit: Texture streaming: Enabled
+[2017.04.23-03.44.07:949][  0]LogInit: Transaction tracking system initialized
+[2017.04.23-03.44.08:220][  0]BlueprintLog: New page: Editor Load
+[2017.04.23-03.44.08:891][  0]LocalizationService: Info Localization service is disabled
+[2017.04.23-03.44.09:636][  0]LogConsoleResponse:Display: 
+[2017.04.23-03.44.09:765][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.23-03.44.09:765][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.23-03.44.10:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' took 0.01s
+[2017.04.23-03.44.10:486][  0]SourceControl: Info Source control is disabled
+[2017.04.23-03.44.10:486][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.23-03.44.10:488][  0]LightingResults: New page: Lighting Build
+[2017.04.23-03.44.10:520][  0]MapCheck: New page: Map Check
+[2017.04.23-03.44.10:520][  0]LightingResults: New page: Lighting Build
+[2017.04.23-03.44.10:534][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.23-03.44.10:534][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.23-03.44.10:534][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.23-03.44.10:534][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.23-03.44.10:534][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/TexturesandMaterials/HairMaterial/BP_LightControl.uasset.
+[2017.04.23-03.44.10:534][  0]LoadErrors:Error: Error /Game/TexturesandMaterials/HairMaterial/BP_LightControl : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.23-03.44.10:535][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.23-03.44.10:535][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.23-03.44.10:535][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.23-03.44.10:535][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.23-03.44.10:535][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.23-03.44.10:536][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.23-03.44.10:539][  0]LogLinker:Warning: Can't find file '/Game/HairMaterial/MPC_SunDirection'
+[2017.04.23-03.44.10:539][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.23-03.44.10:539][  0]LogLinker:Warning: Can't find file for asset '/Game/HairMaterial/MPC_SunDirection' while loading ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap.
+[2017.04.23-03.44.10:539][  0]LoadErrors: Info Failed to load /Game/HairMaterial/MPC_SunDirection.MPC_SunDirection Referenced by EdGraphPin_23836
+[2017.04.23-03.44.10:539][  0]LoadErrors:Error: Error /Game/Labyrinth : Can't find file for asset. /Game/HairMaterial/MPC_SunDirection
+[2017.04.23-03.44.12:433][  0]LogAIModule: Creating AISystem for world Labyrinth
+[2017.04.23-03.44.12:440][  0]LogMaterial:Warning: Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass needed to have new flag set bUsedWithStaticLighting !
+[2017.04.23-03.44.12:442][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
+[2017.04.23-03.44.12:490][  0]MapCheck:Warning: Warning Base_Glass Material /Game/TexturesandMaterials/Materials/Base_Glass.Base_Glass was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.04.23-03.44.12:493][  0]LogMaterial: Missing cached shader map for material Base_Glass, compiling. 
+[2017.04.23-03.44.12:517][  0]LogMaterial: 0.03 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.04.23-03.44.12:522][  0]LogScript:Warning: Accessed None trying to read property Light
 	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
 	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
-[2017.04.23-01.39.37:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.23-01.39.37:123][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.23-01.39.37:270][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 145.677ms to complete.
-[2017.04.23-01.39.37:290][  0]LogFileHelpers: Loading map 'Labyrinth' took 6.035
-[2017.04.23-01.39.37:360][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.23-01.39.37:545][  0]LogCollectionManager: Loaded 0 collections in 0.002214 seconds
-[2017.04.23-01.39.37:756][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
-[2017.04.23-01.39.37:756][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Developers/Tristan/Collections/' took 0.01s
-[2017.04.23-01.39.37:756][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Collections/' took 0.01s
-[2017.04.23-01.39.37:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.04.23-01.39.37:774][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2204 classes and 434 folders.
-[2017.04.23-01.39.37:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.23-01.39.37:911][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.23-01.39.37:912][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
-[2017.04.23-01.39.38:119][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.04.23-01.39.38:313][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.04.23-01.39.38:460][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.04.23-01.39.38:596][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.23-01.39.38:609][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.23-01.39.38:784][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.04.23-01.39.38:785][  0]LogLoad: (Engine Initialization) Total time: 28.82 seconds
-[2017.04.23-01.39.38:785][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
-[2017.04.23-01.39.38:785][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.23-01.39.38:785][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.23-01.39.38:795][  0]LogOcInput: OculusInput pre-init called
-[2017.04.23-01.39.38:814][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.23-01.39.39:087][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.04.23-01.39.39:367][  2]LogAssetRegistry: Asset discovery search completed in 21.5906 seconds
-[2017.04.23-01.39.39:368][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.04.23-01.39.39:368][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
-[2017.04.23-01.41.15:818][864]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2017.04.23-01.41.29:557][448]Cmd: DELETE
-[2017.04.23-01.41.29:557][448]Cmd: ACTOR DELETE
-[2017.04.23-01.41.29:559][448]LogEditorActor: Deleted Actor: SpotLight
-[2017.04.23-01.41.29:569][448]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2017.04.23-01.41.33:733][908]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2017.04.23-01.41.40:117][649]Cmd: DUPLICATE
-[2017.04.23-01.41.40:117][649]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.42.28:030][124]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2017.04.23-01.42.36:545][111]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2017.04.23-01.43.35:410][ 26]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2017.04.23-01.44.11:754][243]MapCheck: New page: Map Check
-[2017.04.23-01.44.11:773][243]Cmd: MAP REBUILD ALLVISIBLE
-[2017.04.23-01.44.11:773][243]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.04.23-01.44.11:808][243]LogScript:Warning: Accessed None trying to read property Light
-	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
-	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
-[2017.04.23-01.44.11:810][243]LightingResults: New page: Lighting Build - Apr 22, 2017, 1:44:11 PM
-[2017.04.23-01.44.11:853][243]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.04.23-01.44.11:905][243]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.04.23-01.44.11:930][243]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.04.23-01.44.12:443][243]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.04.23-01.44.12:443][243]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11664
-[2017.04.23-01.44.15:108][243]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.04.23-01.44.15:109][243]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.04.23-01.44.15:109][243]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.04.23-01.44.15:109][243]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.04.23-01.44.15:109][243]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.04.23-01.44.15:109][243]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.04.23-01.44.15:277][243]LogEditorBuildUtils: Build time 0:03
-[2017.04.23-01.44.15:286][243]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass_Fire, compiling. 
-[2017.04.23-01.44.15:292][243]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass_Fire, compiling. 
-[2017.04.23-01.44.15:330][244]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Gummy, compiling. 
-[2017.04.23-01.44.15:336][244]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Gummy, compiling. 
-[2017.04.23-01.44.45:783][561]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.44.45:783][561]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.44.57:121][595]LightingResults:Warning: Warning BaseRoom_Ceiling_Textured Object has overlapping UVs.
-[2017.04.23-01.44.57:121][595]LightingResults: Info BaseRoom_Ceiling_Textured Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.44.58:789][600]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.44.58:789][600]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.00:120][604]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.00:120][604]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.01:784][609]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.01:784][609]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.03:126][613]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.45.03:126][613]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.04:127][616]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.04:127][616]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.05:125][619]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.45.05:125][619]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.05:125][619]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.05:125][619]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.06:792][624]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.06:792][624]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.07:119][625]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.07:119][625]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.07:790][627]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.45.07:790][627]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.11:461][638]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.11:461][638]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.14:463][647]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.14:463][647]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.14:794][648]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.14:794][648]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.14:794][648]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.14:794][648]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.15:797][651]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.45.15:797][651]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.16:457][653]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.16:457][653]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.18:122][658]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.18:122][658]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.19:130][661]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.19:130][661]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.19:457][662]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.45.19:457][662]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.20:462][665]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.20:462][665]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.21:130][667]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.21:130][667]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.21:130][667]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.21:130][667]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.22:462][671]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.22:462][671]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.22:462][671]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.22:462][671]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.22:462][671]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.45.22:462][671]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.25:795][681]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.25:795][681]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.26:794][684]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.45.26:794][684]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.27:463][686]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.27:463][686]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.30:789][696]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.30:789][696]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.31:796][699]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.31:796][699]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.32:457][701]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.32:457][701]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.32:457][701]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.32:457][701]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.33:460][704]LightingResults:Warning: Warning ClosedRoom_W Object has overlapping UVs.
-[2017.04.23-01.45.33:460][704]LightingResults: Info ClosedRoom_W Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.34:460][707]LightingResults:Warning: Warning Door Object has overlapping UVs.
-[2017.04.23-01.45.34:460][707]LightingResults: Info Door Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.35:795][711]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.35:795][711]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.35:795][711]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.35:795][711]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.38:132][718]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.38:132][718]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.41:462][728]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.41:462][728]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.42:130][730]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.45.42:130][730]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.43:460][734]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.43:460][734]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.44:795][738]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.44:795][738]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.45:127][739]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.45.45:127][739]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.45:805][741]LightingResults:Warning: Warning RockHorse Object has overlapping UVs.
-[2017.04.23-01.45.45:805][741]LightingResults: Info RockHorse Lightmap UV are overlapping by 21.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.46:131][742]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.45.46:131][742]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.46:131][742]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.45.46:131][742]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.46:464][743]LightingResults:Warning: Warning RockHorse Object has overlapping UVs.
-[2017.04.23-01.45.46:464][743]LightingResults: Info RockHorse Lightmap UV are overlapping by 21.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.47:804][747]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.45.47:804][747]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.48:468][749]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.45.48:468][749]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.48:804][750]LightingResults:Warning: Warning Chandelier Object has overlapping UVs.
-[2017.04.23-01.45.48:804][750]LightingResults: Info Chandelier Lightmap UV are overlapping by 24.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.49:465][752]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.45.49:465][752]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.54:467][767]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.45.54:467][767]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.45.56:801][774]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.45.56:801][774]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.45.56:801][774]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.00:799][786]LightingResults:Warning: Warning CandyJar_S_02 Object has overlapping UVs.
-[2017.04.23-01.46.00:799][786]LightingResults: Info CandyJar_S_02 Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.01:135][787]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.46.01:135][787]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.02:800][792]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.46.02:800][792]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.05:132][799]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.46.05:132][799]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.07:804][807]LightingResults:Warning: Warning Table Object has overlapping UVs.
-[2017.04.23-01.46.07:804][807]LightingResults: Info Table Lightmap UV are overlapping by 44.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.08:139][808]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.46.08:139][808]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.12:799][822]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.46.12:799][822]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.19:135][841]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.46.19:135][841]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.19:806][843]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.46.19:806][843]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.20:799][846]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.46.20:799][846]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.27:468][866]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.46.27:468][866]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.28:800][870]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.46.28:800][870]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.31:803][879]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.46.31:803][879]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.31:803][879]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.46.31:803][879]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.32:800][882]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.46.32:800][882]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:139][883]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.46.33:139][883]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.46.33:139][883]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:466][884]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.46.33:466][884]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:466][884]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.46.33:466][884]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:806][885]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.33:806][885]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:806][885]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.33:806][885]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.33:806][885]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.46.33:806][885]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:142][886]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:142][886]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:142][886]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:142][886]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:142][886]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.46.34:142][886]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:142][886]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.46.34:142][886]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:468][887]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:468][887]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:468][887]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:468][887]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:468][887]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:468][887]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:803][888]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.34:803][888]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.34:803][888]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.46.34:803][888]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.35:138][889]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.46.35:138][889]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.35:473][890]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.46.35:473][890]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.35:473][890]LightingResults:Warning: Warning Stool_Textured Object has overlapping UVs.
-[2017.04.23-01.46.35:473][890]LightingResults: Info Stool_Textured Lightmap UV are overlapping by 93.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.36:138][892]LightingResults:Warning: Warning Fireplace_Textured Object has overlapping UVs.
-[2017.04.23-01.46.36:138][892]LightingResults: Info Fireplace_Textured Lightmap UV are overlapping by 95.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.44:133][916]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.46.44:133][916]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.46.44:133][916]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.46:471][923]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.46.46:471][923]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.46.46:471][923]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.48:465][929]Job is a success!
-[2017.04.23-01.46.48:468][929]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.46.48:468][929]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
-[2017.04.23-01.46.50:429][930]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
-[2017.04.23-01.46.51:065][930]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2017.04.23-01.46.51:065][930]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2017.04.23-01.46.51:065][930]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2017.04.23-01.46.51:119][930]Lightmass on OWNER-PC: 2:34 min total, 3.70 sec importing, 13.9 sec setup, 6.31 sec photons, 2:10 min processing, 0 ms extra exporting [191/191 mappings]. Threads: 15:12 min total, 11:47 min processing.
-[2017.04.23-01.46.51:141][930]LogStaticLightingSystem: Illumination: 2:38 min (1.34 sec encoding lightmaps, 657 ms encoding shadowmaps)
-[2017.04.23-01.46.51:141][930]LogStaticLightingSystem: Lightmap texture memory:  6.5 MB (6.0 MB streaming, 0.5 MB non-streaming), 8 textures
-[2017.04.23-01.46.51:141][930]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (13.3 MB streaming, 0.7 MB non-streaming), 3 textures
-[2017.04.23-01.46.51:188][930]DumpUnbuiltLightIteractions
-[2017.04.23-01.46.51:188][930]Lights with unbuilt interactions: 0
-[2017.04.23-01.46.51:188][930]
-[2017.04.23-01.46.51:188][930]Primitives with unbuilt interactions: 0
-[2017.04.23-01.46.51:207][931]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.04.23-01.46.51:207][931]MapCheck: New page: Labyrinth - Apr 22, 2017, 1:46:51 PM
-[2017.04.23-01.46.51:329][931]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.25ms to complete.
-[2017.04.23-01.48.03:306][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.23-01.48.03:477][210]LogSavePackage: Save=75.93ms
-[2017.04.23-01.48.03:477][210]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Labyrinth8AAD30BA46BC02CAD61437980E15E2F0.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.23-01.48.03:479][210]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.23-01.48.03:514][210]LogFileHelpers: Saving map 'Labyrinth' took 0.366
-[2017.04.23-01.48.03:517][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth_BuiltData" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset" SILENT=true
-[2017.04.23-01.48.03:953][210]LogSavePackage: Save=418.84ms
-[2017.04.23-01.48.03:953][210]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Labyrinth_BuiltDataBFE2A2E04F80C38BCC9B4FB5D6DE7113.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset'
-[2017.04.23-01.48.03:957][210]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset
-[2017.04.23-01.49.16:583][817]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2017.04.23-01.49.26:508][986]Cmd: DUPLICATE
-[2017.04.23-01.49.26:508][986]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.50.13:992][177]Cmd: DUPLICATE
-[2017.04.23-01.50.13:992][177]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.50.28:715][845]Cmd: DUPLICATE
-[2017.04.23-01.50.28:715][845]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.50.43:794][527]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
-[2017.04.23-01.50.49:598][211]Cmd: DUPLICATE
-[2017.04.23-01.50.49:598][211]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.51.10:350][526]Cmd: DUPLICATE
-[2017.04.23-01.51.10:350][526]Cmd: ACTOR DUPLICATE
-[2017.04.23-01.51.26:839][307]MapCheck: New page: Map Check
-[2017.04.23-01.51.26:854][307]Cmd: MAP REBUILD ALLVISIBLE
-[2017.04.23-01.51.26:854][307]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.04.23-01.51.26:878][307]LogScript:Warning: Accessed None trying to read property Light
-	BP_LightControl_C /Game/Labyrinth.Labyrinth:PersistentLevel.BP_LightControl_28
-	Function /Game/TexturesandMaterials/HairMaterial/BP_LightControl.BP_LightControl_C:UserConstructionScript:003C
-[2017.04.23-01.51.26:879][307]LightingResults: New page: Lighting Build - Apr 22, 2017, 1:51:26 PM
-[2017.04.23-01.51.26:889][307]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.04.23-01.51.26:890][307]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.04.23-01.51.26:890][307]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.04.23-01.51.26:891][307]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.04.23-01.51.26:891][307]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11664
-[2017.04.23-01.51.31:407][307]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.04.23-01.51.31:408][307]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.04.23-01.51.31:408][307]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.04.23-01.51.31:408][307]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.04.23-01.51.31:408][307]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.04.23-01.51.31:408][307]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.04.23-01.51.31:536][307]LogEditorBuildUtils: Build time 0:04
-[2017.04.23-01.52.02:121][750]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.02:121][750]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.07:119][765]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.07:119][765]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.14:452][787]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.14:452][787]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.14:791][788]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.14:791][788]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.16:455][793]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.52.16:790][794]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.16:790][794]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.16:790][794]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.17:458][796]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.17:458][796]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.21:132][807]LightingResults:Warning: Warning BaseRoom_Ceiling_Textured Object has overlapping UVs.
-[2017.04.23-01.52.21:132][807]LightingResults: Info BaseRoom_Ceiling_Textured Lightmap UV are overlapping by 2.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.21:803][809]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.21:803][809]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.22:804][812]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.22:804][812]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.23:136][813]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.52.23:136][813]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.23:136][813]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.52.23:136][813]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.27:471][826]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.27:471][826]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.27:795][827]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.27:795][827]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.29:468][832]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.29:468][832]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.31:137][837]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.31:137][837]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.31:804][839]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.52.31:804][839]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.32:130][840]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.32:130][840]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.33:801][845]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.33:801][845]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.34:805][848]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.52.34:805][848]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.36:803][854]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.36:803][854]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.37:803][857]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.37:803][857]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.37:803][857]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.37:803][857]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.38:140][858]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.52.38:140][858]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.38:140][858]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.38:140][858]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.38:474][859]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.38:474][859]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.39:473][862]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.52.39:473][862]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.42:468][871]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.42:468][871]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.42:468][871]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.52.42:468][871]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.44:140][876]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.44:140][876]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.44:807][878]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.44:807][878]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.46:474][883]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.46:474][883]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.49:145][891]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.49:145][891]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.49:145][891]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.49:145][891]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.49:478][892]LightingResults:Warning: Warning ClosedRoom_W Object has overlapping UVs.
-[2017.04.23-01.52.49:478][892]LightingResults: Info ClosedRoom_W Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.49:811][893]LightingResults:Warning: Warning Door Object has overlapping UVs.
-[2017.04.23-01.52.49:811][893]LightingResults: Info Door Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.50:477][895]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.52.50:477][895]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.52:814][902]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.52.52:814][902]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.55:471][910]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.52.55:808][911]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.56:480][913]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.52.56:480][913]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.57:472][916]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.52.57:472][916]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.58:807][920]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.52.58:808][920]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.59:480][922]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.52.59:480][922]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.52.59:808][923]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.52.59:808][923]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.00:144][924]LightingResults:Warning: Warning Sconce Object has overlapping UVs.
-[2017.04.23-01.53.00:144][924]LightingResults: Info Sconce Lightmap UV are overlapping by 20.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.00:144][924]LightingResults:Warning: Warning RockHorse Object has overlapping UVs.
-[2017.04.23-01.53.00:144][924]LightingResults: Info RockHorse Lightmap UV are overlapping by 21.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.00:481][925]LightingResults:Warning: Warning RockHorse Object has overlapping UVs.
-[2017.04.23-01.53.00:481][925]LightingResults: Info RockHorse Lightmap UV are overlapping by 21.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.01:805][929]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.53.01:805][929]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.02:146][930]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.53.02:146][930]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.03:479][934]LightingResults:Warning: Warning CandyJar_M_01 Object has overlapping UVs.
-[2017.04.23-01.53.03:479][934]LightingResults: Info CandyJar_M_01 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.03:812][935]LightingResults:Warning: Warning Chandelier Object has overlapping UVs.
-[2017.04.23-01.53.03:812][935]LightingResults: Info Chandelier Lightmap UV are overlapping by 24.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.04:474][937]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.53.04:474][937]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.10:143][954]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.53.10:143][954]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.12:476][961]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.53.12:476][961]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.53.12:476][961]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.15:149][969]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.53.15:149][969]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.16:477][973]LightingResults:Warning: Warning CandyJar_S_02 Object has overlapping UVs.
-[2017.04.23-01.53.16:477][973]LightingResults: Info CandyJar_S_02 Lightmap UV are overlapping by 2.1%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.18:144][978]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.53.18:144][978]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.19:481][982]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.53.19:481][982]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.22:151][990]LightingResults:Warning: Warning Table Object has overlapping UVs.
-[2017.04.23-01.53.22:151][990]LightingResults: Info Table Lightmap UV are overlapping by 44.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.23:149][993]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.53.23:149][993]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.29:821][ 13]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.53.29:821][ 13]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.35:159][ 29]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.53.35:159][ 29]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.35:496][ 30]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.53.35:496][ 30]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.36:499][ 33]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.53.36:499][ 33]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.41:164][ 47]LightingResults:Warning: Warning CandyJar_S_01 Object has overlapping UVs.
-[2017.04.23-01.53.41:164][ 47]LightingResults: Info CandyJar_S_01 Lightmap UV are overlapping by 12.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.45:171][ 59]LightingResults:Warning: Warning CandyJar_L Object has overlapping UVs.
-[2017.04.23-01.53.45:171][ 59]LightingResults: Info CandyJar_L Lightmap UV are overlapping by 1.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.46:497][ 63]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.53.46:497][ 63]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.47:836][ 67]LightingResults:Warning: Warning CandyJar_S_03 Object has overlapping UVs.
-[2017.04.23-01.53.47:836][ 67]LightingResults: Info CandyJar_S_03 Lightmap UV are overlapping by 99.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.48:170][ 68]LightingResults:Warning: Warning CandyJar_M_03 Object has overlapping UVs.
-[2017.04.23-01.53.48:170][ 68]LightingResults: Info CandyJar_M_03 Lightmap UV are overlapping by 2.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.48:838][ 70]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.53.48:838][ 70]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:163][ 71]LightingResults:Warning: Warning SillyDoll Object has overlapping UVs.
-[2017.04.23-01.53.49:163][ 71]LightingResults: Info SillyDoll Lightmap UV are overlapping by 2.3%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:163][ 71]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.53.49:163][ 71]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.53.49:163][ 71]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:497][ 72]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.49:497][ 72]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:497][ 72]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.49:497][ 72]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:497][ 72]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.53.49:497][ 72]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:497][ 72]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.49:832][ 73]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:832][ 73]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.49:832][ 73]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:832][ 73]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.53.49:832][ 73]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:832][ 73]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.53.49:832][ 73]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.49:832][ 73]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.49:832][ 73]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.50:170][ 74]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.50:170][ 74]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.50:170][ 74]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.50:170][ 74]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.50:170][ 74]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.50:170][ 74]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.50:170][ 74]LightingResults:Warning: Warning ToyPlane Object has overlapping UVs.
-[2017.04.23-01.53.50:170][ 74]LightingResults: Info ToyPlane Lightmap UV are overlapping by 82.6%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.51:169][ 77]LightingResults:Warning: Warning Stool_Textured Object has overlapping UVs.
-[2017.04.23-01.53.51:169][ 77]LightingResults: Info Stool_Textured Lightmap UV are overlapping by 93.9%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.51:169][ 77]LightingResults:Warning: Warning Candle_Textured Object has overlapping UVs.
-[2017.04.23-01.53.51:169][ 77]LightingResults: Info Candle_Textured Lightmap UV are overlapping by 60.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.51:504][ 78]LightingResults:Warning: Warning CandyJar_S_04 Object has overlapping UVs.
-[2017.04.23-01.53.51:504][ 78]LightingResults: Info CandyJar_S_04 Lightmap UV are overlapping by 95.8%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.51:840][ 79]LightingResults:Warning: Warning Fireplace_Textured Object has overlapping UVs.
-[2017.04.23-01.53.51:840][ 79]LightingResults: Info Fireplace_Textured Lightmap UV are overlapping by 95.5%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.53.58:831][100]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.53.58:831][100]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.53.58:831][100]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.54.01:176][107]LightingResults:Warning: Warning Box_01 Object has wrapping UVs.
-[2017.04.23-01.54.01:176][107]LightingResults:Warning: Warning Box_01 Object has overlapping UVs.
-[2017.04.23-01.54.01:176][107]LightingResults: Info Box_01 Lightmap UV are overlapping by 100.0%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.54.03:497][114]Job is a success!
-[2017.04.23-01.54.03:504][114]LightingResults:Warning: Warning CandyJar_M_02 Object has overlapping UVs.
-[2017.04.23-01.54.03:504][114]LightingResults: Info CandyJar_M_02 Lightmap UV are overlapping by 9.7%. Please adjust content - Enable Error Coloring to visualize.
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2017.04.23-01.54.05:416][115]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2017.04.23-01.54.06:061][115]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2017.04.23-01.54.06:061][115]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
-[2017.04.23-01.54.06:061][115]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
-[2017.04.23-01.54.06:096][115]Lightmass on OWNER-PC: 2:34 min total, 3.43 sec importing, 13.8 sec setup, 6.18 sec photons, 2:10 min processing, 0 ms extra exporting [191/191 mappings]. Threads: 15:13 min total, 11:50 min processing.
-[2017.04.23-01.54.06:122][115]LogStaticLightingSystem: Illumination: 2:38 min (1.30 sec encoding lightmaps, 662 ms encoding shadowmaps)
-[2017.04.23-01.54.06:122][115]LogStaticLightingSystem: Lightmap texture memory:  6.5 MB (6.0 MB streaming, 0.5 MB non-streaming), 8 textures
-[2017.04.23-01.54.06:123][115]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (13.3 MB streaming, 0.7 MB non-streaming), 3 textures
-[2017.04.23-01.54.06:485][115]DumpUnbuiltLightIteractions
-[2017.04.23-01.54.06:485][115]Lights with unbuilt interactions: 0
-[2017.04.23-01.54.06:485][115]
-[2017.04.23-01.54.06:485][115]Primitives with unbuilt interactions: 0
-[2017.04.23-01.54.06:503][116]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.04.23-01.54.06:503][116]MapCheck: New page: Labyrinth - Apr 22, 2017, 1:54:06 PM
-[2017.04.23-01.54.06:641][116]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.371ms to complete.
-[2017.04.23-01.55.38:694][360]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Creature_Animation/Creature_MB_Animation_seq_05.Creature_MB_Animation_seq_05
-[2017.04.23-01.58.45:352][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.04.23-01.58.45:437][709]LogSavePackage: Save=66.67ms
-[2017.04.23-01.58.45:437][709]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Labyrinth_Auto1FEB0767D411FC3313C033D861599DE9A.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap'
-[2017.04.23-01.58.45:441][709]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Autosaves/Game/Labyrinth_Auto1.umap
-[2017.04.23-01.58.45:454][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth_BuiltData" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset" SILENT=true
-[2017.04.23-01.58.45:505][709]LogSavePackage: Save=24.95ms
-[2017.04.23-01.58.45:505][709]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Labyrinth_BuiltData0AD1340E43319103C9CF34AF6F8C04C4.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset'
-[2017.04.23-01.58.45:508][709]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth_BuiltData.uasset
-[2017.04.23-01.58.45:511][709]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Labyrinth' took 0.167
-[2017.04.23-01.58.45:511][709]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
-[2017.04.23-02.08.36:050][ 40]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Creature)
-[2017.04.23-02.10.05:581][368]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
-[2017.04.23-02.11.48:511][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.04.23-02.11.48:605][796]LogSavePackage: Save=72.53ms
-[2017.04.23-02.11.48:605][796]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Labyrinth674BB24948BF6FF243CF1FADD0C46912.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap'
-[2017.04.23-02.11.48:607][796]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Labyrinth.umap
-[2017.04.23-02.11.48:645][796]LogFileHelpers: Saving map 'Labyrinth' took 0.232
-[2017.04.23-02.11.48:647][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
-[2017.04.23-02.11.48:713][796]LogSavePackage: Save=62.79ms
-[2017.04.23-02.11.48:713][796]LogSavePackage: Moving 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/CameraSequence71AE111442F4EFCBCDFA289025B8ECEF.tmp' to 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
-[2017.04.23-02.11.48:715][796]LogSavePackage:Display: Finished SavePackage E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/CameraSequence.uasset
-[2017.04.23-02.11.52:418][210]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.04.23-02.11.52:631][211]Cmd: QUIT_EDITOR
-[2017.04.23-02.11.52:699][211]LogExit: Preparing to exit.
-[2017.04.23-02.11.54:168][211]LogExit: Editor shut down
-[2017.04.23-02.11.54:168][211]LogExit: Transaction tracking system shut down
-[2017.04.23-02.11.54:339][211]LogObj: Freed 0b from 0 cluster array pools.
-[2017.04.23-02.11.54:339][211]LogExit: Object subsystem successfully closed.
-[2017.04.23-02.11.54:361][211]LogD3D11RHI: Shutdown
-[2017.04.23-02.11.54:361][211]LogD3D11RHI: CleanupD3DDevice
-[2017.04.23-02.11.54:447][211]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.04.23-02.11.54:475][211]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.04.23-02.11.54:475][211]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF19CA4FA-406A-A5D4-D4FB-00902B0BAAFD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=bdeadc2844342af8662eeeb2c69f118a%7Cbc5dc06faf204c648ee85842723692b2%7Cd8207d6b-389f-430b-8fbe-e9378aeda4ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module SequencerWidgets (244)
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
-[2017.04.23-02.11.54:494][211]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
-[2017.04.23-02.11.54:494][211]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
-[2017.04.23-02.11.54:495][211]LogDirectoryWatcher: A directory notification for 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Collections/' was aborted.
-[2017.04.23-02.11.54:495][211]LogDirectoryWatcher: A directory notification for 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/Developers/Tristan/Collections/' was aborted.
-[2017.04.23-02.11.54:495][211]LogDirectoryWatcher: A directory notification for 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module BspMode (228)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module Media (217)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module SessionServices (210)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
-[2017.04.23-02.11.54:495][211]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
-[2017.04.23-02.11.55:439][211]LogModuleManager: Shutting down and abandoning module MergeActors (195)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module SizeMap (194)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module TreeMap (193)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module XmlParser (185)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module Blutility (184)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
-[2017.04.23-02.11.55:440][211]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module AutomationController (174)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module Layers (172)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
-[2017.04.23-02.11.55:494][211]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module Persona (167)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module Kismet (166)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module Toolbox (163)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module OutputLog (160)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module GammaUI (159)
-[2017.04.23-02.11.55:495][211]LogModuleManager: Shutting down and abandoning module Documentation (158)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module Niagara (157)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module PortalServices (154)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module AIModule (149)
-[2017.04.23-02.11.55:496][211]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module SteamVR (143)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module OculusInput (139)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module CableComponent (136)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
-[2017.04.23-02.11.55:564][211]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module SourceControl (116)
-[2017.04.23-02.11.55:565][211]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
-[2017.04.23-02.11.55:566][211]LogModuleManager: Shutting down and abandoning module HotReload (109)
-[2017.04.23-02.11.55:568][211]LogModuleManager: Shutting down and abandoning module MainFrame (108)
-[2017.04.23-02.11.55:568][211]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
-[2017.04.23-02.11.55:570][211]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
-[2017.04.23-02.11.55:572][211]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
-[2017.04.23-02.11.55:572][211]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
-[2017.04.23-02.11.55:674][211]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.04.23-02.11.55:774][211]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.04.23-02.11.55:775][211]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.04.23-02.11.55:790][211]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.04.23-02.11.55:790][211]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.04.23-02.11.55:790][211]LogDirectoryWatcher: A directory notification for 'E:/Users/Tristan/Documents/GitHub/Repos/WhiteBox/Labyrinth/Content/' was aborted.
-[2017.04.23-02.11.55:791][211]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.04.23-02.11.55:793][211]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.04.23-02.11.56:036][211]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.04.23-02.11.56:037][211]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.04.23-02.11.56:037][211]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.04.23-02.11.56:121][211]LogDerivedDataCache: Shutdown
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.04.23-02.11.56:121][211]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.04.23-02.11.56:122][211]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.04.23-02.11.56:123][211]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.04.23-02.11.56:123][211]LogOnline:Display: Unloading online subsystem: NULL
-[2017.04.23-02.11.56:124][211]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.04.23-02.11.56:129][211]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.04.23-02.11.56:134][211]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.04.23-02.11.56:139][211]LogExit: Exiting.
-[2017.04.23-02.11.56:178][211]Log file closed, 04/22/17 20:11:56
+[2017.04.23-03.44.12:523][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.23-03.44.12:524][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.23-03.44.12:584][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 60.804ms to complete.
+[2017.04.23-03.44.12:592][  0]LogFileHelpers: Loading map 'Labyrinth' took 2.106
+[2017.04.23-03.44.12:712][  0]LogCollectionManager: Loaded 0 collections in 0.001506 seconds
+[2017.04.23-03.44.12:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' took 0.01s
+[2017.04.23-03.44.12:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' took 0.01s
+[2017.04.23-03.44.12:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' took 0.00s
+[2017.04.23-03.44.12:777][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.23-03.44.12:784][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2204 classes and 434 folders.
+[2017.04.23-03.44.12:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.23-03.44.12:864][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.23-03.44.12:865][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.04.23-03.44.12:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.04.23-03.44.13:072][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.23-03.44.13:270][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.23-03.44.13:363][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.23-03.44.13:367][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.23-03.44.13:670][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.23-03.44.13:671][  0]LogLoad: (Engine Initialization) Total time: 14.26 seconds
+[2017.04.23-03.44.13:671][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.04.23-03.44.13:671][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.23-03.44.13:950][  0]LogOcInput: OculusInput pre-init called
+[2017.04.23-03.44.13:967][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.23-03.44.14:651][  0]LogRenderer: Reallocating scene render targets to support 1160x608 NumSamples 1 (Frame:2).
+[2017.04.23-03.44.14:737][  1]LogAssetRegistry: Asset discovery search completed in 10.2609 seconds
+[2017.04.23-03.44.14:737][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.04.23-03.44.14:737][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.04.23-03.45.36:698][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Carpet_Textured)
+[2017.04.23-03.45.38:062][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SillyDoll)
+[2017.04.23-03.46.32:153][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Labyrinth" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.23-03.46.32:247][204]LogSavePackage: Save=67.02ms
+[2017.04.23-03.46.32:247][204]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Labyrinth6AC7697C4DAC5B9B64ABD1B433EC7CBC.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap'
+[2017.04.23-03.46.32:249][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Labyrinth.umap
+[2017.04.23-03.46.32:278][204]LogFileHelpers: Saving map 'Labyrinth' took 0.180
+[2017.04.23-03.46.32:280][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CameraSequence" FILE="../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset" SILENT=true
+[2017.04.23-03.46.32:353][204]LogSavePackage: Save=69.28ms
+[2017.04.23-03.46.32:353][204]LogSavePackage: Moving '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/CameraSequence17E381EE4F0167D0BE98E58BF379673F.tmp' to '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset'
+[2017.04.23-03.46.32:355][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/CameraSequence.uasset
+[2017.04.23-03.46.48:311][644]Cmd: QUIT_EDITOR
+[2017.04.23-03.46.48:389][644]LogExit: Preparing to exit.
+[2017.04.23-03.46.49:009][644]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' was aborted.
+[2017.04.23-03.46.49:030][644]LogExit: Editor shut down
+[2017.04.23-03.46.49:030][644]LogExit: Transaction tracking system shut down
+[2017.04.23-03.46.49:164][644]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.23-03.46.49:164][644]LogExit: Object subsystem successfully closed.
+[2017.04.23-03.46.49:185][644]LogD3D11RHI: Shutdown
+[2017.04.23-03.46.49:185][644]LogD3D11RHI: CleanupD3DDevice
+[2017.04.23-03.46.49:288][644]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.23-03.46.49:298][644]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.23-03.46.49:298][644]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5DF3FDEB-4B62-379A-6FE4-189B656789CA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=6470690345ac5613c2d7d6a976c3ee96%7C57685272a24a474889bdd810f0e25195%7C9a0d61a1-8400-4668-bc1f-9ffa6f3e88bd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module SequencerWidgets (244)
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
+[2017.04.23-03.46.49:305][644]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
+[2017.04.23-03.46.49:305][644]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.04.23-03.46.49:306][644]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
+[2017.04.23-03.46.49:306][644]LogModuleManager: Shutting down and abandoning module EditorWidgets (237)
+[2017.04.23-03.46.49:306][644]LogModuleManager: Shutting down and abandoning module CollectionManager (236)
+[2017.04.23-03.46.49:306][644]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Collections/' was aborted.
+[2017.04.23-03.46.49:306][644]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/Developers/Bacchus/Collections/' was aborted.
+[2017.04.23-03.46.49:306][644]LogDirectoryWatcher: A directory notification for 'C:/Users/Bacchus/Documents/WhiteBox/Labyrinth/Saved/Collections/' was aborted.
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module BspMode (228)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module Media (217)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module SessionServices (210)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
+[2017.04.23-03.46.49:307][644]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
+[2017.04.23-03.46.50:253][644]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module MergeActors (195)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module SizeMap (194)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module TreeMap (193)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module XmlParser (185)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module Blutility (184)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
+[2017.04.23-03.46.50:254][644]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AutomationController (174)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Layers (172)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Persona (167)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Kismet (166)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Toolbox (163)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module OutputLog (160)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module GammaUI (159)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Documentation (158)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module Niagara (157)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module PortalServices (154)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2017.04.23-03.46.50:294][644]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.04.23-03.46.50:517][644]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.04.23-03.46.50:518][644]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.04.23-03.46.50:519][644]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.04.23-03.46.50:519][644]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.04.23-03.46.50:519][644]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.04.23-03.46.50:619][644]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.04.23-03.46.50:719][644]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.04.23-03.46.50:721][644]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.04.23-03.46.50:721][644]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.23-03.46.50:721][644]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Bacchus/Documents/WhiteBox/Labyrinth/Content/' was aborted.
+[2017.04.23-03.46.50:721][644]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.23-03.46.50:722][644]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.04.23-03.46.50:832][644]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.04.23-03.46.50:921][644]LogDerivedDataCache: Shutdown
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.04.23-03.46.50:921][644]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.04.23-03.46.50:922][644]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.23-03.46.50:922][644]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.23-03.46.50:923][644]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.23-03.46.50:925][644]LogExit: Exiting.
+[2017.04.23-03.46.50:926][644]Log file closed, 04/22/17 21:46:50
